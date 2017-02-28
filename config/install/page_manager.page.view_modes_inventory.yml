@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: view_modes_inventory
+label: view_modes_inventory
+description: 'view modes inventory demo'
+use_admin_theme: false
+path: /view_modes_inventory
+access_logic: and
+access_conditions: {  }
+parameters: {  }

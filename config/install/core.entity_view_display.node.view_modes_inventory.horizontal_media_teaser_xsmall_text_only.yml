@@ -1,0 +1,49 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.horizontal_media_teaser_xsmall_text_only
+    - field.field.node.view_modes_inventory.body
+    - field.field.node.view_modes_inventory.field_image
+    - node.type.view_modes_inventory
+  module:
+    - ds
+    - panelizer
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: horizontal_media_teaser_xsmall_text_only
+      path: modules/varbase_view_modes
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      main:
+        - node_title
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h4
+          class: ''
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.view_modes_inventory.horizontal_media_teaser_xsmall_text_only
+targetEntityType: node
+bundle: view_modes_inventory
+mode: horizontal_media_teaser_xsmall_text_only
+content: {  }
+hidden:
+  body: true
+  field_image: true
+  langcode: true
+  links: true

@@ -1,0 +1,1 @@
+# varbase_view_modes_inventory_demo

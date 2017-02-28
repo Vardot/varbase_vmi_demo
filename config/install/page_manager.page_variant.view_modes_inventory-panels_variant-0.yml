@@ -1,0 +1,156 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.view_modes_inventory
+    - views.view.view_modes_inventory
+  module:
+    - panels
+    - views
+id: view_modes_inventory-panels_variant-0
+label: 'View Modes Inventory Demo Page'
+variant: panels_variant
+variant_settings:
+  blocks:
+    8e6fae49-51c1-4ff9-9c60-4284d97cc22b:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_large_block'
+      label: 'View Modes Inventory: Horizontal media teaser - large - Block'
+      provider: views
+      label_display: visible
+      views_label: 'View Modes Inventory: Horizontal media teaser - large - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: 8e6fae49-51c1-4ff9-9c60-4284d97cc22b
+      weight: 1
+    2235a63c-45ee-4300-b215-696adccad1ff:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_large_text_only_block'
+      label: 'View Modes Inventory: Horizontal media teaser - large - text only - Block'
+      provider: views
+      label_display: visible
+      views_label: 'View Modes Inventory: Horizontal media teaser - large - text only - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: 2235a63c-45ee-4300-b215-696adccad1ff
+      weight: 2
+    ec1e8ce9-5715-4824-915d-4477a631536a:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_xlarge_block'
+      label: 'View Modes Inventory: Horizontal media teaser - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'View Modes Inventory: Horizontal media teaser - xlarge - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: ec1e8ce9-5715-4824-915d-4477a631536a
+      weight: 3
+    4c657c0c-ddce-4984-896d-34c1b4e93514:
+      id: 'views_block:view_modes_inventory-tout_large_block'
+      label: 'View Modes Inventory: Tout - large - Block'
+      provider: views
+      label_display: visible
+      views_label: 'View Modes Inventory: Tout - large - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: 4c657c0c-ddce-4984-896d-34c1b4e93514
+      weight: 5
+    48501afb-77ed-4ae7-835d-f8bb2f301797:
+      id: 'views_block:view_modes_inventory-tout_medium_block'
+      label: 'View Modes Inventory: Tout - medium - Block'
+      provider: views
+      label_display: visible
+      views_label: 'View Modes Inventory: Tout - medium - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: 48501afb-77ed-4ae7-835d-f8bb2f301797
+      weight: 6
+    d7da9243-98ea-4fd5-bc6c-5aa67820562b:
+      id: 'views_block:view_modes_inventory-tout_xlarge_block'
+      label: 'View Modes Inventory: Tout - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'View Modes Inventory: Tout - xlarge - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: d7da9243-98ea-4fd5-bc6c-5aa67820562b
+      weight: 4
+  id: panels_variant
+  uuid: 2c0b8fdf-e924-4ab2-b7b0-fe34f8af7a91
+  label: null
+  weight: 0
+  layout: bs_2col_stacked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      attributes: ''
+      add_layout_class: 1
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'View modes inventory demo page'
+  storage_type: page_manager
+  storage_id: view_modes_inventory-panels_variant-0
+  builder: ipe
+page: view_modes_inventory
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

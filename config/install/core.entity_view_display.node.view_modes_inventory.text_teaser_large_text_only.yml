@@ -1,0 +1,65 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.text_teaser_large_text_only
+    - field.field.node.view_modes_inventory.body
+    - field.field.node.view_modes_inventory.field_image
+    - node.type.view_modes_inventory
+  module:
+    - ds
+    - panelizer
+    - smart_trim
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: text_teaser_large_text_only
+      path: modules/varbase_view_modes
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      main:
+        - node_title
+        - body
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h2
+          class: ''
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.view_modes_inventory.text_teaser_large_text_only
+targetEntityType: node
+bundle: view_modes_inventory
+mode: text_teaser_large_text_only
+content:
+  body:
+    label: hidden
+    type: smart_trim
+    weight: 1
+    settings:
+      trim_length: '400'
+      trim_type: chars
+      trim_suffix: ''
+      more_link: '0'
+      more_text: More
+      summary_handler: trim
+      trim_options:
+        text: text
+      more_class: more-link
+    third_party_settings: {  }
+hidden:
+  field_image: true
+  langcode: true
+  links: true

@@ -1,0 +1,28 @@
+name: 'Varbase view modes inventory demo'
+description: 'Have a demo work for how to use view modes inventory in Varbase.'
+type: module
+core: 8.x
+dependencies:
+  - content_translation
+  - ds
+  - view_modes_inventory
+  - entity_browser
+  - field
+  - image
+  - language
+  - media_entity
+  - menu_ui
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - slick_views
+  - smart_trim
+  - text
+  - user
+  - varbase_media
+  - views
+  - views_bootstrap
+version: 8.x-1.0
+package: Varbase

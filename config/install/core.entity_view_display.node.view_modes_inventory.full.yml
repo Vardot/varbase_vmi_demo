@@ -1,0 +1,69 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.view_modes_inventory.body
+    - field.field.node.view_modes_inventory.field_image
+    - image.style.d12
+    - node.type.view_modes_inventory
+  module:
+    - ds
+    - media_entity
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      path: profiles/varbase/modules/contrib/bootstrap_layouts
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          attributes: ''
+          add_layout_class: 1
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_image
+        - body
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.view_modes_inventory.full
+targetEntityType: node
+bundle: view_modes_inventory
+mode: full
+content:
+  body:
+    type: text_trimmed
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_image:
+    type: media_thumbnail
+    weight: 0
+    label: hidden
+    settings:
+      image_style: d12
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  links: true
