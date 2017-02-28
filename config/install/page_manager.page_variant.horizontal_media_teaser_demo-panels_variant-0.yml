@@ -1,0 +1,428 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.horizontal_media_teaser_demo
+    - views.view.view_modes_inventory
+  module:
+    - panels
+    - views
+id: horizontal_media_teaser_demo-panels_variant-0
+label: 'View modes inventory - Horizontal media teaser demo'
+variant: panels_variant
+variant_settings:
+  blocks:
+    6eb39853-ff65-4464-ba58-6e1a9edef3a8:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_large_block'
+      label: 'VMI: Horizontal media teaser - large - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - large - Block'
+      items_per_page: '3'
+      region: top
+      weight: 2
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      uuid: 6eb39853-ff65-4464-ba58-6e1a9edef3a8
+    c5951b46-b8c0-428f-814c-52658109dad8:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_large_block'
+      label: 'VMI: Horizontal media teaser - large - Block ( Do not use )'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - large - Block ( Do not use )'
+      items_per_page: '3'
+      region: left
+      weight: 1
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      uuid: c5951b46-b8c0-428f-814c-52658109dad8
+    18ea4dc2-6819-4795-a435-eaf3bc46537b:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_large_text_only_block'
+      label: 'VMI: Horizontal media teaser - large - text only - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - large - text only - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: 18ea4dc2-6819-4795-a435-eaf3bc46537b
+      weight: 3
+    3407b792-2ea3-47e3-b22f-5a6715bc1bc5:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_large_text_only_block'
+      label: 'VMI: Horizontal media teaser - large - text only - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - large - text only - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: left
+      uuid: 3407b792-2ea3-47e3-b22f-5a6715bc1bc5
+      weight: 2
+    e2a09857-3989-49ce-b784-1c8c63afc9c9:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_medium_2_in_row_block'
+      label: 'VMI: Horizontal media teaser - medium - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - medium - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: e2a09857-3989-49ce-b784-1c8c63afc9c9
+      weight: 4
+    a667bc63-2e7a-42a0-9ed5-5ae1883b9968:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_medium_1_in_row_block'
+      label: 'VMI: Horizontal media teaser - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - medium - 1 in row - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: left
+      uuid: a667bc63-2e7a-42a0-9ed5-5ae1883b9968
+      weight: 3
+    4af63d91-0549-43dc-8b41-eba9b59a07d5:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_medium_2_in_row_block'
+      label: 'VMI: Horizontal media teaser - medium - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - medium - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: left
+      uuid: 4af63d91-0549-43dc-8b41-eba9b59a07d5
+      weight: 4
+    add5b4e2-265a-4384-ad01-2aaca9fbcc11:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_medium_text_only_1_in_row_block'
+      label: 'VMI: Horizontal media teaser - medium - text only - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - medium - text only - 1 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: left
+      uuid: add5b4e2-265a-4384-ad01-2aaca9fbcc11
+      weight: 5
+    b8a786ed-a5d0-4588-a577-4851da79c0fc:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_medium_text_only_2_in_row_block'
+      label: 'VMI: Horizontal media teaser - medium - text only - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - medium - text only - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: left
+      uuid: b8a786ed-a5d0-4588-a577-4851da79c0fc
+      weight: 6
+    8bb723e4-b9fa-41f8-8fea-1106132c5d0f:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_xsmall_text_only_block'
+      label: 'VMI: Horizontal media teaser - xsmall - text only - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - xsmall - text only - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: right
+      uuid: 8bb723e4-b9fa-41f8-8fea-1106132c5d0f
+      weight: 2
+    91edd8f9-4d39-4fff-8c74-ec5f6e93a893:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_xsmall_block'
+      label: 'VMI: Horizontal media teaser - xsmall - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - xsmall - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: right
+      uuid: 91edd8f9-4d39-4fff-8c74-ec5f6e93a893
+      weight: 1
+    ea5f0eb9-15ba-4c7c-8b20-a30b95549a9c:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_xlarge_block'
+      label: 'VMI: Horizontal media teaser - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - xlarge - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: ea5f0eb9-15ba-4c7c-8b20-a30b95549a9c
+      weight: 1
+    44c74a34-3292-45f1-ae0c-2ab5e27f3387:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_1_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - 1 in row - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: right
+      uuid: 44c74a34-3292-45f1-ae0c-2ab5e27f3387
+      weight: 3
+    4dfe66f4-c7ef-4e18-a045-d5c8408aaa00:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_2_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: left
+      uuid: 4dfe66f4-c7ef-4e18-a045-d5c8408aaa00
+      weight: 7
+    7bef0c60-5ccd-469e-8b73-44bfee560d9a:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_3_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: bottom
+      uuid: 7bef0c60-5ccd-469e-8b73-44bfee560d9a
+      weight: 1
+    f242c1d7-c038-4d5c-94b1-da7bdd1a9518:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_4_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: bottom
+      uuid: f242c1d7-c038-4d5c-94b1-da7bdd1a9518
+      weight: 2
+    93ce189b-172b-40e2-8c66-e0a56afea74d:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_text_only_1_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - text only - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - text only - 1 in row - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: right
+      uuid: 93ce189b-172b-40e2-8c66-e0a56afea74d
+      weight: 4
+    e3fc51ac-79df-4f2a-940c-dba541587bef:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_text_only_2_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - text only - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - text only - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: right
+      uuid: e3fc51ac-79df-4f2a-940c-dba541587bef
+      weight: 5
+    aab08df0-f4dd-4d7c-b800-3616499342c8:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_text_only_2_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - text only - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - text only - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: left
+      uuid: aab08df0-f4dd-4d7c-b800-3616499342c8
+      weight: 8
+    f23a1f4e-1f14-4221-bc06-12f0330c923e:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_text_only_3_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - text only - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - text only - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: left
+      uuid: f23a1f4e-1f14-4221-bc06-12f0330c923e
+      weight: 9
+    a45ceae1-c935-41be-9109-65cdbb128b43:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_text_only_3_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - text only - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - text only - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: bottom
+      uuid: a45ceae1-c935-41be-9109-65cdbb128b43
+      weight: 3
+    642db785-a103-4e35-b26f-57d5aee9622b:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_text_only_4_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - text only - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - text only - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: left
+      uuid: 642db785-a103-4e35-b26f-57d5aee9622b
+      weight: 10
+    0a22eb9a-7302-424b-ac53-6fbf5f0d04a0:
+      id: 'views_block:view_modes_inventory-horizontal_media_teaser_small_text_only_4_in_row_block'
+      label: 'VMI: Horizontal media teaser - small - text only - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Horizontal media teaser - small - text only - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: bottom
+      uuid: 0a22eb9a-7302-424b-ac53-6fbf5f0d04a0
+      weight: 4
+  id: panels_variant
+  uuid: 862b2e69-07cd-45be-852b-7fd1f91047cc
+  label: null
+  weight: 0
+  layout: bs_2col_stacked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      attributes: ''
+      add_layout_class: 1
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'View modes inventory - Horizontal media teaser demo'
+  storage_type: page_manager
+  storage_id: horizontal_media_teaser_demo-panels_variant-0
+  builder: ipe
+page: horizontal_media_teaser_demo
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

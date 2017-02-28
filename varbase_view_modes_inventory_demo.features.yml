@@ -1,5 +1,2 @@
 bundle: varbase
-excluded:
-  - page_manager.page.view_modes_inventory_text_teaser_demo
-  - page_manager.page_variant.view_modes_inventory_text_teaser_demo-panels_variant-0
 required: true
