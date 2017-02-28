@@ -5,7 +5,6 @@ core: 8.x
 dependencies:
   - content_translation
   - ds
-  - view_modes_inventory
   - entity_browser
   - field
   - image
@@ -22,6 +21,7 @@ dependencies:
   - text
   - user
   - varbase_media
+  - view_modes_inventory
   - views
   - views_bootstrap
 version: 8.x-1.0

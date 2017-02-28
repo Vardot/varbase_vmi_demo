@@ -16,8 +16,8 @@ third_party_settings:
   ds:
     layout:
       id: tout_medium
-      path: modules/varbase_view_modes
-      library: varbase_view_modes/tout_medium
+      path: modules/view_modes_inventory
+      library: view_modes_inventory/tout_medium
       disable_css: false
       entity_classes: all_classes
       settings: {  }

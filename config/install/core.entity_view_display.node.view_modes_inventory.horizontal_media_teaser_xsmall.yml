@@ -16,7 +16,7 @@ third_party_settings:
   ds:
     layout:
       id: horizontal_media_teaser_xsmall
-      path: modules/varbase_view_modes
+      path: modules/view_modes_inventory
       library: ''
       disable_css: false
       entity_classes: all_classes
@@ -34,7 +34,7 @@ third_party_settings:
         formatter: default
         settings:
           link: true
-          wrapper: h4
+          wrapper: h3
           class: ''
   panelizer:
     enable: false

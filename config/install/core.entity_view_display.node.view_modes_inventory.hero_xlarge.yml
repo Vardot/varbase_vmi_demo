@@ -16,7 +16,7 @@ third_party_settings:
   ds:
     layout:
       id: hero_xlarge
-      path: modules/varbase_view_modes
+      path: modules/view_modes_inventory
       library: ''
       disable_css: false
       entity_classes: all_classes
@@ -24,6 +24,17 @@ third_party_settings:
     regions:
       main:
         - field_image
+        - node_title
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: ''
   panelizer:
     enable: false
     custom: false

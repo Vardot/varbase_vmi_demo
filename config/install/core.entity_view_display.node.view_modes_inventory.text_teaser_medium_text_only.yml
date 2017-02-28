@@ -15,8 +15,8 @@ third_party_settings:
   ds:
     layout:
       id: text_teaser_medium_text_only
-      path: modules/varbase_view_modes
-      library: ''
+      path: modules/view_modes_inventory
+      library: view_modes_inventory/text_teaser_medium_text_only
       disable_css: false
       entity_classes: all_classes
       settings: {  }
@@ -49,12 +49,12 @@ content:
     type: smart_trim
     weight: 1
     settings:
-      trim_length: '300'
-      trim_type: chars
-      trim_suffix: ''
+      trim_length: '30'
+      trim_type: words
+      trim_suffix: ...
       more_link: '0'
       more_text: More
-      summary_handler: trim
+      summary_handler: full
       trim_options:
         text: text
       more_class: more-link
