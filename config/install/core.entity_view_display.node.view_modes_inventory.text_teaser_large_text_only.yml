@@ -51,7 +51,7 @@ content:
     settings:
       trim_length: '60'
       trim_type: words
-      trim_suffix: ...
+      trim_suffix: ' ...'
       more_link: '0'
       more_text: More
       summary_handler: full
