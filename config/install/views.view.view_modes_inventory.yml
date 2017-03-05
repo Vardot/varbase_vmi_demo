@@ -2895,14 +2895,148 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  vertical_media_teaser_medium_block:
+  vertical_media_teaser_medium_1_in_row_block:
     display_plugin: block
-    id: vertical_media_teaser_medium_block
-    display_title: 'Vertical media teaser - medium - Block'
+    id: vertical_media_teaser_medium_1_in_row_block
+    display_title: 'Vertical media teaser - medium - 1 in row - Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      display_description: 'Vertical media teaser - medium - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_2_in_row_block
+    display_title: 'Vertical media teaser - medium - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_3_in_row_block
+    display_title: 'Vertical media teaser - medium - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - 3 in row - Block'
       style:
         type: views_bootstrap_grid
         options:
@@ -2962,14 +3096,148 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  vertical_media_teaser_medium_text_only_block:
+  vertical_media_teaser_medium_text_only_1_in_row_block:
     display_plugin: block
-    id: vertical_media_teaser_medium_text_only_block
-    display_title: 'Vertical media teaser - medium - text only - Block'
+    id: vertical_media_teaser_medium_text_only_1_in_row_block
+    display_title: 'Vertical media teaser - medium - text only - 1 in row - Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      display_description: 'Vertical media teaser - medium - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_text_only_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_text_only_2_in_row_block
+    display_title: 'Vertical media teaser - medium - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_text_only_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_text_only_3_in_row_block
+    display_title: 'Vertical media teaser - medium - text only - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - text only - 3 in row - Block'
       style:
         type: views_bootstrap_grid
         options:
@@ -3029,14 +3297,215 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  vertical_media_teaser_small_block:
+  vertical_media_teaser_small_1_in_row_block:
     display_plugin: block
-    id: vertical_media_teaser_small_block
-    display_title: 'Vertical media teaser - small - Block'
+    id: vertical_media_teaser_small_1_in_row_block
+    display_title: 'Vertical media teaser - small - 1 in row - Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      display_description: 'Vertical media teaser - small - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_2_in_row_block
+    display_title: 'Vertical media teaser - small - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_3_in_row_block
+    display_title: 'Vertical media teaser - small - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_4_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_4_in_row_block
+    display_title: 'Vertical media teaser - small - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - 4 in row - Block'
       style:
         type: views_bootstrap_grid
         options:
@@ -3045,7 +3514,7 @@ display:
           uses_fields: false
           alignment: horizontal
           columns: '4'
-          col_xs: col-xs-12
+          col_xs: col-xs-6
           col_sm: col-sm-3
           col_md: col-md-3
           col_lg: col-lg-3
@@ -3096,14 +3565,215 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  vertical_media_teaser_small_text_only_block:
+  vertical_media_teaser_small_text_only_1_in_row_block:
     display_plugin: block
-    id: vertical_media_teaser_small_text_only_block
-    display_title: 'Vertical media teaser - small - text only - Block'
+    id: vertical_media_teaser_small_text_only_1_in_row_block
+    display_title: 'Vertical media teaser - small - text only - 1 in row - Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      display_description: 'Vertical media teaser - small - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_text_only_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_text_only_2_in_row_block
+    display_title: 'Vertical media teaser - small - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_text_only_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_text_only_3_in_row_block
+    display_title: 'Vertical media teaser - small - text only - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - text only - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_text_only_4_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_text_only_4_in_row_block
+    display_title: 'Vertical media teaser - small - text only - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - text only - 4 in row - Block'
       style:
         type: views_bootstrap_grid
         options:
@@ -3112,7 +3782,7 @@ display:
           uses_fields: false
           alignment: horizontal
           columns: '4'
-          col_xs: col-xs-12
+          col_xs: col-xs-6
           col_sm: col-sm-3
           col_md: col-md-3
           col_lg: col-lg-3
@@ -3297,14 +3967,215 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  vertical_media_teaser_xsmall_block:
+  vertical_media_teaser_xsmall_1_in_row_block:
     display_plugin: block
-    id: vertical_media_teaser_xsmall_block
-    display_title: 'Vertical media teaser - xsmall - Block'
+    id: vertical_media_teaser_xsmall_1_in_row_block
+    display_title: 'Vertical media teaser - xsmall - 1 in row Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      display_description: 'Vertical media teaser - xsmall - 1 in row Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_2_in_row_block
+    display_title: 'Vertical media teaser - xsmall - 2 in row Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - 2 in row Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_4_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_4_in_row_block
+    display_title: 'Vertical media teaser - xsmall - 4 in row Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - 4 in row Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_6_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_6_in_row_block
+    display_title: 'Vertical media teaser - xsmall - 6 in row Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - 6 in row Block'
       style:
         type: views_bootstrap_grid
         options:
@@ -3314,7 +4185,7 @@ display:
           alignment: horizontal
           columns: '6'
           col_xs: col-xs-12
-          col_sm: col-sm-4
+          col_sm: col-sm-2
           col_md: col-md-2
           col_lg: col-lg-2
       defaults:
@@ -3364,14 +4235,282 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  vertical_media_teaser_xsmall_text_only_block:
+  vertical_media_teaser_xsmall_text_only_1_in_row_block:
     display_plugin: block
-    id: vertical_media_teaser_xsmall_text_only_block
-    display_title: 'Vertical media teaser - xsmall - text only - Block'
+    id: vertical_media_teaser_xsmall_text_only_1_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 1 in row - Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      display_description: 'Vertical media teaser - xsmall - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_text_only_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_text_only_2_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_text_only_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_text_only_3_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - text only - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_text_only_4_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_text_only_4_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - text only - 4 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: Inventory
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_text_only_6_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_text_only_6_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 6 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - text only - 6 in row - Block'
       style:
         type: views_bootstrap_grid
         options:
@@ -3381,7 +4520,7 @@ display:
           alignment: horizontal
           columns: '6'
           col_xs: col-xs-12
-          col_sm: col-sm-4
+          col_sm: col-sm-2
           col_md: col-md-2
           col_lg: col-lg-2
       defaults:
