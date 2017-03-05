@@ -5,7 +5,7 @@ dependencies:
     - core.entity_view_mode.node.horizontal_media_teaser_small
     - field.field.node.view_modes_inventory.body
     - field.field.node.view_modes_inventory.field_image
-    - image.style.d3
+    - image.style.d3_standard
     - node.type.view_modes_inventory
   module:
     - ds
@@ -51,7 +51,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: d3
+      image_style: d3_standard
       image_link: content
     third_party_settings: {  }
 hidden:

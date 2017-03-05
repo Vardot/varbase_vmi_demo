@@ -5,7 +5,7 @@ dependencies:
     - core.entity_view_mode.node.text_teaser_medium
     - field.field.node.view_modes_inventory.body
     - field.field.node.view_modes_inventory.field_image
-    - image.style.d6
+    - image.style.d6_standard
     - node.type.view_modes_inventory
   module:
     - ds
@@ -66,7 +66,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: d6
+      image_style: d6_standard
       image_link: content
     third_party_settings: {  }
     type: media_thumbnail
