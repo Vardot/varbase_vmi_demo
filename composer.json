@@ -1,0 +1,30 @@
+{
+  "name": "vardot/varbase_view_modes_inventory_demo",
+  "description": "Varbase view modes inventory demo feature",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+      "drupal/layout_plugin": "^1.0-alpha23"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammed J. Razem",
+      "homepage": "https://github.com/moerazem",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Rajab Natshah",
+      "homepage": "https://github.com/Natshah",
+      "role": "Maintainer"
+    }
+  ]
+}
