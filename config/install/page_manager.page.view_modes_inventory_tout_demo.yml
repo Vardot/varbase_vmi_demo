@@ -1,6 +1,9 @@
+uuid: 002d380c-2f9f-4924-aa91-c050d164c943
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: liSmMr7fnS61aONfKBZ1t0wQ-f0kpXsQKshHBJHxgiI
 id: view_modes_inventory_tout_demo
 label: 'view modes inventory tout demo'
 description: ''

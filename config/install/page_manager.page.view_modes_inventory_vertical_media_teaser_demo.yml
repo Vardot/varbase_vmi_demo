@@ -1,6 +1,9 @@
+uuid: 9fbac73a-5812-4c98-b67f-073eb3f99c1b
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: yVO_robZU_RAFlHcv8WDtlpUuIK7YTfmYtYXToC3BZo
 id: view_modes_inventory_vertical_media_teaser_demo
 label: 'view modes inventory - vertical media teaser demo'
 description: ''

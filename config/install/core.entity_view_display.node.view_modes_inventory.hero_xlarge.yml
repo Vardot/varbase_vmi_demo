@@ -1,3 +1,4 @@
+uuid: aa2e2c01-2031-443a-9e51-0be7e80f5853
 langcode: en
 status: true
 dependencies:
@@ -5,11 +6,9 @@ dependencies:
     - core.entity_view_mode.node.hero_xlarge
     - field.field.node.view_modes_inventory.body
     - field.field.node.view_modes_inventory.field_image
-    - image.style.d12_standard
     - node.type.view_modes_inventory
   module:
     - ds
-    - media_entity
     - panelizer
     - user
 third_party_settings:
@@ -40,18 +39,20 @@ third_party_settings:
     custom: false
     allow: false
     default: default
+_core:
+  default_config_hash: XW6K6mD38OQSYctA-MmK_hLcyzqL4yqpcnJvmAudvjU
 id: node.view_modes_inventory.hero_xlarge
 targetEntityType: node
 bundle: view_modes_inventory
 mode: hero_xlarge
 content:
   field_image:
-    type: media_thumbnail
+    type: entity_reference_entity_view
     weight: 0
     label: hidden
     settings:
-      image_style: d12_standard
-      image_link: content
+      view_mode: full
+      link: false
     third_party_settings: {  }
 hidden:
   body: true

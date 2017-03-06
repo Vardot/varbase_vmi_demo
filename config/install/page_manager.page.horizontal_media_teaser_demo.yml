@@ -1,6 +1,9 @@
+uuid: 2d1ff784-9dc4-47e1-b871-e7a4dad54523
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: yqcSaMr0svUq9HBvz2AXs4QgK07BkG6ZJT7uOE3YbSc
 id: horizontal_media_teaser_demo
 label: 'Horizontal media teaser demo'
 description: ''

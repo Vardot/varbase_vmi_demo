@@ -1,3 +1,4 @@
+uuid: 78211a94-96d4-40f4-b9d5-e6b60e649071
 langcode: en
 status: true
 dependencies:
@@ -7,43 +8,13 @@ dependencies:
   module:
     - panels
     - views
+_core:
+  default_config_hash: sCCn1_lOBZ7C9fCt0G9gIMuEDq3uDTrEyjtmGqte9TA
 id: view_modes_inventory_vertical_media_teaser_demo-panels_variant-0
 label: 'View modes inventory vertical media teaser demo'
 variant: panels_variant
 variant_settings:
   blocks:
-    d20e4474-08f3-41e2-acf8-5402e21de37e:
-      id: 'views_block:view_modes_inventory-vertical_media_teaser_large_block'
-      label: 'VMI: Vertical media teaser - large - Block'
-      provider: views
-      label_display: visible
-      views_label: 'VMI: Vertical media teaser - large - Block'
-      items_per_page: '3'
-      pager: some
-      pager_offset: '0'
-      fields:
-        title:
-          weight: '0'
-      context_mapping: {  }
-      region: top_left
-      uuid: d20e4474-08f3-41e2-acf8-5402e21de37e
-      weight: 1
-    77edada9-b71f-4f00-bcc8-d664d99bf926:
-      id: 'views_block:view_modes_inventory-vertical_media_teaser_large_text_only_block'
-      label: 'VMI: Vertical media teaser - large - text only - Block'
-      provider: views
-      label_display: visible
-      views_label: 'VMI: Vertical media teaser - large - text only - Block'
-      items_per_page: '3'
-      pager: some
-      pager_offset: '0'
-      fields:
-        title:
-          weight: '0'
-      context_mapping: {  }
-      region: top_left
-      uuid: 77edada9-b71f-4f00-bcc8-d664d99bf926
-      weight: 2
     c919b786-0086-4bef-9ac9-94ede65063bc:
       id: 'views_block:view_modes_inventory-vertical_media_teaser_xlarge_block'
       label: 'VMI: Vertical media teaser - xlarge - Block'
@@ -57,7 +28,7 @@ variant_settings:
         title:
           weight: '0'
       context_mapping: {  }
-      region: bottom
+      region: top_left
       uuid: c919b786-0086-4bef-9ac9-94ede65063bc
       weight: 1
     739416d5-139e-41d2-a502-8910cac103c2:
@@ -73,7 +44,7 @@ variant_settings:
         title:
           weight: '0'
       context_mapping: {  }
-      region: bottom
+      region: top_left
       uuid: 739416d5-139e-41d2-a502-8910cac103c2
       weight: 2
     f5ba8f49-6553-475b-aafe-214afba45ba4:
@@ -491,7 +462,7 @@ variant_settings:
       context_mapping: {  }
       region: top_left
       uuid: 001db142-b309-43ea-91b0-610ae723f026
-      weight: 9
+      weight: 10
     55d8f3df-7f5d-4fa5-ab60-40ad4502fdb9:
       id: 'views_block:view_modes_inventory-vertical_media_teaser_xsmall_text_only_4_in_row_block'
       label: 'VMI: Vertical media teaser - xsmall - text only - 4 in row - Block'
@@ -523,7 +494,7 @@ variant_settings:
       context_mapping: {  }
       region: top_left
       uuid: 98de15d4-6f20-4125-ac5e-51a651fd9055
-      weight: 10
+      weight: 9
     92fbae45-27c5-4598-a820-651e1d6dc998:
       id: 'views_block:view_modes_inventory-vertical_media_teaser_xsmall_text_only_3_in_row_block'
       label: 'VMI: Vertical media teaser - xsmall - text only - 3 in row - Block'
@@ -604,6 +575,38 @@ variant_settings:
       region: bottom_left
       uuid: 040ab198-7246-4be9-9bcf-eeef57507c5a
       weight: 4
+    32c3959b-9350-40f7-a449-32a8e2f50a2d:
+      id: 'views_block:view_modes_inventory-vertical_media_teaser_large_2_in_row_block'
+      label: 'VMI: Vertical media teaser - large - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Vertical media teaser - large - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: middle
+      uuid: 32c3959b-9350-40f7-a449-32a8e2f50a2d
+      weight: 1
+    8cb36af2-70e3-4236-b685-e3fdd15ada7c:
+      id: 'views_block:view_modes_inventory-vertical_media_teaser_large_text_only_2_in_row_block'
+      label: 'VMI: Vertical media teaser - large - text only - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Vertical media teaser - large - text only - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: middle
+      uuid: 8cb36af2-70e3-4236-b685-e3fdd15ada7c
+      weight: 2
   id: panels_variant
   uuid: d8cdde84-70cd-46c2-9597-a745ce4820e4
   label: null

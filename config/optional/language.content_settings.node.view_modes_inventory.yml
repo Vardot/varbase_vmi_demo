@@ -1,3 +1,4 @@
+uuid: 06eb44ba-f5c4-4e7b-9f33-d91ec6f75316
 langcode: en
 status: true
 dependencies:
@@ -8,6 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: true
+_core:
+  default_config_hash: g_q9Qiw6nCaliqo7gTLalPIi76C6NWD3Oh6EO8aGCTQ
 id: node.view_modes_inventory
 target_entity_type_id: node
 target_bundle: view_modes_inventory

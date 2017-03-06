@@ -1,3 +1,4 @@
+uuid: 751bcc5f-4ea2-442f-ac28-fd1d737bfb5e
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.view_modes_inventory
   module:
     - text
+_core:
+  default_config_hash: bY4PYYsEAvN_92qsrkVpSQhtzij4MFgEAIQUV64T8jw
 id: node.view_modes_inventory.body
 field_name: body
 entity_type: node

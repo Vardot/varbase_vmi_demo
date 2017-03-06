@@ -1,3 +1,4 @@
+uuid: 6e4b2e03-5be6-445b-bfe1-57f3c5f1f392
 langcode: en
 status: true
 dependencies:
@@ -38,6 +39,8 @@ dependencies:
     - slick_views
     - user
     - views_bootstrap
+_core:
+  default_config_hash: WTbKqQkvZTyYOxlizw5yBQjPhN1FzY5JlrDPjriLmKk
 id: view_modes_inventory
 label: VMI
 module: views
@@ -317,7 +320,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Hero'
       pager:
         type: some
         options:
@@ -430,7 +433,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
       pager:
         type: full
         options:
@@ -518,7 +521,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -585,7 +588,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -652,7 +655,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -719,7 +722,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -786,7 +789,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -853,7 +856,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -920,7 +923,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -987,7 +990,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1054,7 +1057,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1121,7 +1124,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1188,7 +1191,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1255,7 +1258,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1322,7 +1325,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1389,7 +1392,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1456,7 +1459,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1523,7 +1526,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1590,7 +1593,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1657,7 +1660,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1667,14 +1670,14 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  text_teaser_medium_block:
+  text_teaser_medium_1_in_row_block:
     display_plugin: block
-    id: text_teaser_medium_block
-    display_title: 'Text teaser - medium - Block'
+    id: text_teaser_medium_1_in_row_block
+    display_title: 'Text teaser - medium - 1 in row - Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      display_description: 'Text teaser - medium - 1 in row - Block'
       style:
         type: views_bootstrap_grid
         options:
@@ -1682,11 +1685,11 @@ display:
           default_row_class: true
           uses_fields: false
           alignment: horizontal
-          columns: '2'
+          columns: '1'
           col_xs: col-xs-12
-          col_sm: col-sm-6
-          col_md: col-md-6
-          col_lg: col-lg-6
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
       defaults:
         style: false
         row: false
@@ -1724,7 +1727,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1791,7 +1794,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1858,7 +1861,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1925,7 +1928,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1992,7 +1995,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2059,7 +2062,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2126,7 +2129,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2193,7 +2196,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2260,7 +2263,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2327,7 +2330,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2394,7 +2397,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2461,7 +2464,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2528,7 +2531,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2595,7 +2598,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2662,7 +2665,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2729,7 +2732,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2739,14 +2742,14 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  vertical_media_teaser_large_block:
+  vertical_media_teaser_large_1_in_row_block:
     display_plugin: block
-    id: vertical_media_teaser_large_block
-    display_title: 'Vertical media teaser - large - Block'
+    id: vertical_media_teaser_large_1_in_row_block
+    display_title: 'Vertical media teaser - large - 1 in row - Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      display_description: 'Vertical media teaser - large - 1 in row - Block'
       style:
         type: views_bootstrap_grid
         options:
@@ -2797,7 +2800,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
       pager:
         type: full
         options:
@@ -2828,14 +2831,103 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  vertical_media_teaser_large_text_only_block:
+  vertical_media_teaser_large_2_in_row_block:
     display_plugin: block
-    id: vertical_media_teaser_large_text_only_block
-    display_title: 'Vertical media teaser - large - text only - Block'
+    id: vertical_media_teaser_large_2_in_row_block
+    display_title: 'Vertical media teaser - large - 2 in row - Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: ''
+      display_description: 'Vertical media teaser - large - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+        pager: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_large
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+      pager:
+        type: full
+        options:
+          items_per_page: 10
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_large_text_only_1_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_large_text_only_1_in_row_block
+    display_title: 'Vertical media teaser - large - text only - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - large - text only - 1 in row - Block'
       style:
         type: views_bootstrap_grid
         options:
@@ -2885,7 +2977,74 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_large_text_only_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_large_text_only_2_in_row_block
+    display_title: 'Vertical media teaser - large - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - large - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_large_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2952,7 +3111,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3019,7 +3178,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3086,7 +3245,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3153,7 +3312,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3220,7 +3379,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3287,7 +3446,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3354,7 +3513,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3421,7 +3580,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3488,7 +3647,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3555,7 +3714,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3622,7 +3781,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3689,7 +3848,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3756,7 +3915,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3823,7 +3982,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3890,7 +4049,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3957,7 +4116,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -4024,7 +4183,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -4091,7 +4250,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -4158,7 +4317,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -4225,7 +4384,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -4292,7 +4451,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -4359,7 +4518,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -4426,7 +4585,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -4493,7 +4652,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -4560,7 +4719,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: Inventory
+      block_category: 'Demo VMI Vertical media'
     cache_metadata:
       max-age: -1
       contexts:

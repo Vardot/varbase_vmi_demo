@@ -1,3 +1,4 @@
+uuid: 7bafed89-4d9a-4fe7-bd91-a6d13ee4f3cd
 langcode: en
 status: true
 dependencies:
@@ -10,6 +11,8 @@ dependencies:
     - entity_browser
     - path
     - text
+_core:
+  default_config_hash: ym10wGuEoyIJvDQ7k9HTEqyhxJxAGC1ZVxwhjSJJbwo
 id: node.view_modes_inventory.default
 targetEntityType: node
 bundle: view_modes_inventory

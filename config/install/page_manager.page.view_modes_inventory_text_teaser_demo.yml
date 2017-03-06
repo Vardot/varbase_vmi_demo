@@ -1,6 +1,9 @@
+uuid: c3a2efa2-6312-4549-944c-8d8ab3bb9a21
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: eRffavyg5cqfeN3AjKjaYOC0jTxgjzZuThKM4Eqe3vI
 id: view_modes_inventory_text_teaser_demo
 label: 'view modes inventory text teaser demo'
 description: ''

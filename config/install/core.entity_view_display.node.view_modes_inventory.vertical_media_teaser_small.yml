@@ -1,3 +1,4 @@
+uuid: 6efd9117-b5a2-4ea9-a825-4eed89471aa4
 langcode: en
 status: true
 dependencies:
@@ -5,11 +6,9 @@ dependencies:
     - core.entity_view_mode.node.vertical_media_teaser_small
     - field.field.node.view_modes_inventory.body
     - field.field.node.view_modes_inventory.field_image
-    - image.style.d3_standard
     - node.type.view_modes_inventory
   module:
     - ds
-    - media_entity
     - panelizer
     - smart_trim
     - user
@@ -42,6 +41,8 @@ third_party_settings:
     custom: false
     allow: false
     default: default
+_core:
+  default_config_hash: manPgaPORF3YF_LxjpH5Fw_2EqlQk_HuZat09AXfDw8
 id: node.view_modes_inventory.vertical_media_teaser_small
 targetEntityType: node
 bundle: view_modes_inventory
@@ -66,10 +67,10 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: d3_standard
-      image_link: content
+      view_mode: small
+      link: false
     third_party_settings: {  }
-    type: media_thumbnail
+    type: entity_reference_entity_view
 hidden:
   langcode: true
   links: true

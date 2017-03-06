@@ -1,3 +1,4 @@
+uuid: c495e216-248b-480b-bc0a-dbd2756e8959
 langcode: en
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
   module:
     - panels
     - views
+_core:
+  default_config_hash: o7LtTczIwEwXnwHl7JS2h1cYOQ88XreaC7SxqfFn-p8
 id: view_modes_inventory_tout_demo-panels_variant-0
 label: 'View modes inventory tout demo'
 variant: panels_variant
