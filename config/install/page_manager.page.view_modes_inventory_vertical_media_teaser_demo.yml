@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: view_modes_inventory_vertical_media_teaser_demo
+label: 'view modes inventory - vertical media teaser demo'
+description: ''
+use_admin_theme: false
+path: /view_modes_inventory_vertical_media_teaser_demo
+access_logic: and
+access_conditions: {  }
+parameters: {  }
