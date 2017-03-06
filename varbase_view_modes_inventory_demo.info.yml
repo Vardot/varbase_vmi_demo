@@ -16,7 +16,6 @@ dependencies:
   - panelizer
   - panels
   - path
-  - slick_views
   - smart_trim
   - text
   - user

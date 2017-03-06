@@ -36,7 +36,6 @@ dependencies:
   module:
     - ds
     - node
-    - slick_views
     - user
     - views_bootstrap
 _core:
@@ -331,42 +330,11 @@ display:
         style: false
         row: false
       style:
-        type: slick
+        type: default
         options:
-          vanilla: true
-          optionset: varbase_slick
-          skin: fullwidth
-          layout: ''
-          caption:
-            title: '0'
-          optionset_thumbnail: ''
-          skin_thumbnail: ''
-          thumbnail_caption: ''
-          grid_header: ''
-          grid: 1
-          grid_medium: 1
-          grid_small: 1
-          visible_items: 1
-          preserve_keys: true
-          image: ''
-          thumbnail: ''
-          overlay: ''
-          title: ''
-          link: ''
-          class: ''
-          id: ''
-          override: false
-          overridables:
-            arrows: '0'
-            autoplay: '0'
-            dots: '0'
-            draggable: '0'
-            infinite: '0'
-            mouseWheel: '0'
-            randomize: '0'
-            variableWidth: '0'
-          cache: 0
-          current_view_mode: hero_xlarge_block
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
       row:
         type: 'ds_entity:node'
         options:
