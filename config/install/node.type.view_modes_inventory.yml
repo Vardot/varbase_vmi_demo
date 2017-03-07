@@ -1,4 +1,3 @@
-uuid: a904a013-2792-4a27-9788-a5c86995c85f
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-_core:
-  default_config_hash: B7SswQRPmXUkCmasE7QjFjV5fmu3sTDsajtgQFnD_Zg
 name: 'View modes inventory'
 type: view_modes_inventory
 description: ''

@@ -1,4 +1,3 @@
-uuid: aa2e2c01-2031-443a-9e51-0be7e80f5853
 langcode: en
 status: true
 dependencies:
@@ -39,8 +38,6 @@ third_party_settings:
     custom: false
     allow: false
     default: default
-_core:
-  default_config_hash: XW6K6mD38OQSYctA-MmK_hLcyzqL4yqpcnJvmAudvjU
 id: node.view_modes_inventory.hero_xlarge
 targetEntityType: node
 bundle: view_modes_inventory

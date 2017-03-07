@@ -1,4 +1,3 @@
-uuid: c495e216-248b-480b-bc0a-dbd2756e8959
 langcode: en
 status: true
 dependencies:
@@ -8,45 +7,11 @@ dependencies:
   module:
     - panels
     - views
-_core:
-  default_config_hash: o7LtTczIwEwXnwHl7JS2h1cYOQ88XreaC7SxqfFn-p8
 id: view_modes_inventory_tout_demo-panels_variant-0
 label: 'View modes inventory tout demo'
 variant: panels_variant
 variant_settings:
   blocks:
-    6cb75bc3-5850-4d4b-b810-791989d873b5:
-      id: 'views_block:view_modes_inventory-tout_large_block'
-      label: 'VMI: Tout - large - Block'
-      provider: views
-      label_display: visible
-      views_label: 'VMI: Tout - large - Block'
-      items_per_page: '4'
-      region: top
-      weight: 1
-      uuid: 6cb75bc3-5850-4d4b-b810-791989d873b5
-      pager: some
-      pager_offset: '0'
-      fields:
-        title:
-          weight: '0'
-      context_mapping: {  }
-    6a5cf8ce-d65c-474b-827f-2c8bdf1caa30:
-      id: 'views_block:view_modes_inventory-tout_large_block'
-      label: 'VMI: Tout - large - Block ( Do not use ) medium'
-      provider: views
-      label_display: visible
-      views_label: 'VMI: Tout - large - Block ( Do not use ) medium'
-      items_per_page: '4'
-      region: left
-      weight: 2
-      uuid: 6a5cf8ce-d65c-474b-827f-2c8bdf1caa30
-      pager: some
-      pager_offset: '0'
-      fields:
-        title:
-          weight: '0'
-      context_mapping: {  }
     3d9c163a-241a-4a66-bd93-022bc7270e8a:
       id: 'views_block:view_modes_inventory-tout_xlarge_block'
       label: 'VMI: Tout - xlarge - Block'
@@ -54,25 +19,9 @@ variant_settings:
       label_display: visible
       views_label: 'VMI: Tout - xlarge - Block'
       items_per_page: '2'
-      region: bottom
+      region: top
       weight: 1
       uuid: 3d9c163a-241a-4a66-bd93-022bc7270e8a
-      pager: some
-      pager_offset: '0'
-      fields:
-        title:
-          weight: '0'
-      context_mapping: {  }
-    00cef0c5-836d-497f-b60b-0c6a8a614c7f:
-      id: 'views_block:view_modes_inventory-tout_xlarge_block'
-      label: 'VMI: Tout - xlarge - Block'
-      provider: views
-      label_display: visible
-      views_label: 'VMI: Tout - xlarge - Block'
-      items_per_page: '2'
-      region: left
-      weight: 1
-      uuid: 00cef0c5-836d-497f-b60b-0c6a8a614c7f
       pager: some
       pager_offset: '0'
       fields:
@@ -86,7 +35,7 @@ variant_settings:
       label_display: visible
       views_label: 'VMI: Tout - medium - 1 in row - Block'
       items_per_page: '6'
-      region: right
+      region: top_right
       weight: 1
       uuid: de84d9e5-5004-4171-9ba1-380069752859
       pager: some
@@ -102,8 +51,8 @@ variant_settings:
       label_display: visible
       views_label: 'VMI: Tout - medium - 2 in row Block'
       items_per_page: '4'
-      region: left
-      weight: 3
+      region: top_left
+      weight: 1
       uuid: f9639195-5afe-4e61-89d7-435d5bd63e54
       pager: some
       pager_offset: '0'
@@ -119,19 +68,83 @@ variant_settings:
       views_label: 'VMI: Tout - medium - 3 in row Block'
       items_per_page: '6'
       region: top
-      weight: 2
+      weight: 3
       uuid: 7c0f8bb8-60d7-417e-a337-1b588c1f2ac0
-      pager: view
+      pager: some
       pager_offset: '0'
       fields:
         title:
           weight: '0'
       context_mapping: {  }
+    142e19f2-f31c-4dfb-9518-2e21643fe9a1:
+      id: 'views_block:view_modes_inventory-tout_large_1_in_row_block'
+      label: 'VMI: Tout - large - 1 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Tout - large - 1 in row Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: bottom_left
+      uuid: 142e19f2-f31c-4dfb-9518-2e21643fe9a1
+      weight: 1
+    dddd064a-b255-40ba-b65e-f56e6238c910:
+      id: 'views_block:view_modes_inventory-tout_large_2_in_row_block'
+      label: 'VMI: Tout - large - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Tout - large - 2 in row Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top
+      uuid: dddd064a-b255-40ba-b65e-f56e6238c910
+      weight: 2
+    94da1e8c-5cb9-423f-9d3f-d8cca402bc8a:
+      id: 'views_block:view_modes_inventory-tout_medium_2_in_row_block'
+      label: 'VMI: Tout - medium - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Tout - medium - 2 in row Block'
+      items_per_page: '12'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: bottom_right
+      uuid: 94da1e8c-5cb9-423f-9d3f-d8cca402bc8a
+      weight: 1
+    0e8db687-25da-493f-b239-742cbc3c0c7b:
+      id: 'views_block:view_modes_inventory-tout_xlarge_block'
+      label: 'VMI: Tout - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Tout - xlarge - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: '0'
+      fields:
+        title:
+          weight: '0'
+      context_mapping: {  }
+      region: top_left
+      uuid: 0e8db687-25da-493f-b239-742cbc3c0c7b
+      weight: 2
   id: panels_variant
   uuid: 86c18526-24fa-4c5b-a5b3-994a53399219
   label: null
   weight: 0
-  layout: bs_2col_stacked
+  layout: bs_2col_bricked
   layout_settings:
     layout:
       wrapper: div
@@ -146,16 +159,34 @@ variant_settings:
           col-sm-12: col-sm-12
         add_region_classes: 1
         attributes: ''
-      left:
+      top_left:
         wrapper: div
         classes:
           col-sm-8: col-sm-8
         add_region_classes: 1
         attributes: ''
-      right:
+      top_right:
         wrapper: div
         classes:
           col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
         add_region_classes: 1
         attributes: ''
       bottom:

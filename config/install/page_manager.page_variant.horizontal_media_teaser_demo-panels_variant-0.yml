@@ -1,4 +1,3 @@
-uuid: 916813cb-c273-4ac2-a95b-b375be1531b3
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ dependencies:
   module:
     - panels
     - views
-_core:
-  default_config_hash: SrWf-ZPHlnI2TgWAtffUUseIbb7x__VmDZsXYEwMiAA
 id: horizontal_media_teaser_demo-panels_variant-0
 label: 'View modes inventory - Horizontal media teaser demo'
 variant: panels_variant

@@ -1,4 +1,3 @@
-uuid: 231b3c5a-7e84-4a09-b43a-3845e0ab46f3
 langcode: en
 status: true
 dependencies:
@@ -41,8 +40,6 @@ third_party_settings:
     custom: false
     allow: false
     default: default
-_core:
-  default_config_hash: S3AWMhz5hp7o042bNuWeptr4wFJ-rrXyFvwYMBrxeNQ
 id: node.view_modes_inventory.vertical_media_teaser_xlarge
 targetEntityType: node
 bundle: view_modes_inventory

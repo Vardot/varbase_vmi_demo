@@ -1,4 +1,3 @@
-uuid: 0922f0f8-6569-4e77-97c4-4399dffeee1b
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,6 @@ dependencies:
     - node.type.view_modes_inventory
   module:
     - user
-_core:
-  default_config_hash: FVdfLZ9KD1EvxHxUjsn4o7TbWYbR4RBV1g5d2t3tTs4
 id: node.view_modes_inventory.teaser
 targetEntityType: node
 bundle: view_modes_inventory

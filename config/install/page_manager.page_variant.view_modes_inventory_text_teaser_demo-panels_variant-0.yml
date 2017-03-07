@@ -1,4 +1,3 @@
-uuid: e81f9e0f-7481-4852-9e21-15ce4610053c
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ dependencies:
   module:
     - panels
     - views
-_core:
-  default_config_hash: bUdGv6jQZBdFUMsud7mKXDn9nCShkVAuto4FvJjArMk
 id: view_modes_inventory_text_teaser_demo-panels_variant-0
 label: 'View modes inventory text teaser demo'
 variant: panels_variant
@@ -60,9 +57,9 @@ variant_settings:
         title:
           weight: '0'
       context_mapping: {  }
-      region: bottom
+      region: top
       uuid: 51a00d9c-579d-40df-a5ca-c4750969e5d3
-      weight: 2
+      weight: 1
     15cec9b1-cd17-473e-8b84-653b0c7595d7:
       id: 'views_block:view_modes_inventory-text_teaser_small_text_only_2_in_row_block'
       label: 'VMI: Text teaser - small - text only - 2 in row - Block'
@@ -97,10 +94,10 @@ variant_settings:
       weight: 4
     d76ed612-3879-4e11-bf54-4424ba5d5630:
       id: 'views_block:view_modes_inventory-text_teaser_small_text_only_4_in_row_block'
-      label: 'VMI: Text teaser - small - text only - 4 in row - Bloc'
+      label: 'VMI: Text teaser - small - text only - 4 in row - Block'
       provider: views
       label_display: visible
-      views_label: 'VMI: Text teaser - small - text only - 4 in row - Bloc'
+      views_label: 'VMI: Text teaser - small - text only - 4 in row - Block'
       items_per_page: '8'
       pager: some
       pager_offset: '0'
@@ -108,9 +105,9 @@ variant_settings:
         title:
           weight: '0'
       context_mapping: {  }
-      region: bottom
+      region: top
       uuid: d76ed612-3879-4e11-bf54-4424ba5d5630
-      weight: 3
+      weight: 2
     6de2a6c3-6b3c-424e-983e-7cffcf8bdcdb:
       id: 'views_block:view_modes_inventory-text_teaser_small_text_only_2_in_row_block'
       label: 'VMI: Text teaser - small - text only - 2 in row - Block'
@@ -126,7 +123,7 @@ variant_settings:
       context_mapping: {  }
       region: bottom
       uuid: 6de2a6c3-6b3c-424e-983e-7cffcf8bdcdb
-      weight: 4
+      weight: 2
     1039e990-6c4c-498f-b8ba-d9c9161ddbab:
       id: 'views_block:view_modes_inventory-text_teaser_medium_text_only_2_in_row_block'
       label: 'VMI: Text teaser - medium - text only - 2 in row - Block'
@@ -190,7 +187,7 @@ variant_settings:
       context_mapping: {  }
       region: bottom
       uuid: 072b7911-6303-4eca-995c-48e9385425e8
-      weight: 5
+      weight: 3
     208f737c-082a-44a2-a1e0-b09f1c7394b4:
       id: 'views_block:view_modes_inventory-text_teaser_large_text_only_2_in_row_block'
       label: 'VMI: Text teaser - large - text only - 2 in row - Block'
@@ -206,7 +203,7 @@ variant_settings:
       context_mapping: {  }
       region: bottom
       uuid: 208f737c-082a-44a2-a1e0-b09f1c7394b4
-      weight: 6
+      weight: 4
     291887e4-8dc6-4fdd-9600-ef952a3a1e38:
       id: 'views_block:view_modes_inventory-text_teaser_medium_3_in_row_block'
       label: 'VMI: Text teaser - medium - 3 in row - Block'
@@ -222,7 +219,7 @@ variant_settings:
       context_mapping: {  }
       region: bottom
       uuid: 291887e4-8dc6-4fdd-9600-ef952a3a1e38
-      weight: 7
+      weight: 5
     42cbd75c-d89e-448a-bcde-65c0ccbd6cf5:
       id: 'views_block:view_modes_inventory-text_teaser_medium_text_only_2_in_row_block'
       label: 'VMI: Text teaser - medium - text only - 2 in row - Block'
@@ -238,7 +235,7 @@ variant_settings:
       context_mapping: {  }
       region: bottom
       uuid: 42cbd75c-d89e-448a-bcde-65c0ccbd6cf5
-      weight: 8
+      weight: 6
     0453b36c-1484-4e95-9c67-1d93df552608:
       id: 'views_block:view_modes_inventory-text_teaser_medium_2_in_row_block'
       label: 'VMI: Text teaser - medium - 2 in row - Block'

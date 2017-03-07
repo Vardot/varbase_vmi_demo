@@ -1,4 +1,3 @@
-uuid: 69f4d98c-7abd-422e-8a27-b2e0ea9fee17
 langcode: en
 status: true
 dependencies:
@@ -39,8 +38,6 @@ third_party_settings:
           link: true
           wrapper: h3
           class: ''
-_core:
-  default_config_hash: nQmXEpLf_VMTFb13XsvEsY6bZh6tunLgPtwiCZ1XgWQ
 id: node.view_modes_inventory.tout_large
 targetEntityType: node
 bundle: view_modes_inventory
