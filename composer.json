@@ -15,7 +15,6 @@
       "drupal/layout_plugin": "^1.0-alpha23",
       "vardot/view_modes_inventory": "8.x-dev"
   },
-  "license": "MIT",
   "authors": [
     {
       "name": "Mohammed J. Razem",
