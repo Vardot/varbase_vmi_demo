@@ -15,7 +15,7 @@ third_party_settings:
     layout:
       id: hero_xlarge
       path: modules/view_modes_inventory
-      library: ''
+      library: view_modes_inventory/hero_xlarge
       disable_css: false
       entity_classes: all_classes
       settings: {  }
@@ -48,7 +48,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      view_mode: full
+      view_mode: cropped_full
       link: false
     third_party_settings: {  }
 hidden:

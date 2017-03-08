@@ -16,7 +16,7 @@ third_party_settings:
     layout:
       id: horizontal_media_teaser_medium
       path: modules/view_modes_inventory
-      library: ''
+      library: view_modes_inventory/horizontal_media_teaser_medium
       disable_css: false
       entity_classes: all_classes
       settings: {  }
@@ -66,7 +66,7 @@ content:
     weight: 8
     label: hidden
     settings:
-      view_mode: medium
+      view_mode: cropped_medium
       link: false
     third_party_settings: {  }
 hidden:
