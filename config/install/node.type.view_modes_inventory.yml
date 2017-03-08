@@ -9,7 +9,7 @@ third_party_settings:
     parent: ''
 name: 'View modes inventory'
 type: view_modes_inventory
-description: ''
+description: 'Use <em>View modes inventory</em> to add Demo content to see how View modes inventory works.'
 help: ''
 new_revision: false
 preview_mode: 1

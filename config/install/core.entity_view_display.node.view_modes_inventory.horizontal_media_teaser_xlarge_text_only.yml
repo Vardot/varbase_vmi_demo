@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.horizontal_media_teaser_large
+    - core.entity_view_mode.node.horizontal_media_teaser_xlarge_text_only
     - field.field.node.view_modes_inventory.body
     - field.field.node.view_modes_inventory.field_image
     - node.type.view_modes_inventory
@@ -12,46 +12,44 @@ dependencies:
     - smart_trim
     - user
 third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
   ds:
     layout:
-      id: horizontal_media_teaser_large
+      id: horizontal_media_teaser_xlarge_text_only
       path: modules/view_modes_inventory
-      library: view_modes_inventory/horizontal_media_teaser_large
+      library: view_modes_inventory/horizontal_media_teaser_xlarge_text_only
       disable_css: false
       entity_classes: all_classes
       settings: {  }
     regions:
-      left:
-        - field_image
-      right:
+      main:
         - node_title
         - body
     fields:
       node_title:
         plugin_id: node_title
-        weight: 1
+        weight: 0
         label: hidden
         formatter: default
         settings:
           link: true
           wrapper: h3
           class: ''
-  panelizer:
-    enable: false
-    custom: false
-    allow: false
-    default: default
-id: node.view_modes_inventory.horizontal_media_teaser_large
+id: node.view_modes_inventory.horizontal_media_teaser_xlarge_text_only
 targetEntityType: node
 bundle: view_modes_inventory
-mode: horizontal_media_teaser_large
+mode: horizontal_media_teaser_xlarge_text_only
 content:
   body:
     type: smart_trim
-    weight: 2
+    weight: 1
     label: hidden
     settings:
-      trim_length: '30'
+      trim_length: '120'
       trim_type: words
       trim_suffix: ' ...'
       more_link: '0'
@@ -61,14 +59,7 @@ content:
         text: text
       more_class: more-link
     third_party_settings: {  }
-  field_image:
-    type: entity_reference_entity_view
-    weight: 0
-    label: hidden
-    settings:
-      view_mode: large
-      link: false
-    third_party_settings: {  }
 hidden:
+  field_image: true
   langcode: true
   links: true
