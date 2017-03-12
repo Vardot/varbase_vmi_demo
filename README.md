@@ -1,10 +1,12 @@
-# varbase_view_modes_inventory_demo
+# varbase view modes inventory demo
 
 Have a demo work for how to use view modes inventory in Varbase.
 
 
 ## Requirements
+
   layout_plugin module.
+
   view_modes_inventory module.
 
 ## Installation
