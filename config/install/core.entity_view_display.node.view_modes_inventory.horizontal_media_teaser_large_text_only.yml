@@ -15,8 +15,8 @@ third_party_settings:
   ds:
     layout:
       id: horizontal_media_teaser_large_text_only
-      path: modules/view_modes_inventory
-      library: ''
+      path: modules/custom/view_modes_inventory
+      library: view_modes_inventory/horizontal_media_teaser_large_text_only
       disable_css: false
       entity_classes: all_classes
       settings: {  }
@@ -49,7 +49,7 @@ content:
     weight: 1
     label: hidden
     settings:
-      trim_length: '30'
+      trim_length: '90'
       trim_type: words
       trim_suffix: ' ...'
       more_link: '0'
