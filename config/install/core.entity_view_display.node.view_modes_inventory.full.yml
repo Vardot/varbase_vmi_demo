@@ -16,8 +16,8 @@ dependencies:
 third_party_settings:
   ds:
     layout:
-      id: bs_1col
-      path: profiles/varbase/modules/contrib/bootstrap_layouts
+      id: ds_1col_wrapper
+      path: modules/contrib/ds
       library: ''
       disable_css: false
       entity_classes: all_classes
@@ -36,7 +36,7 @@ third_party_settings:
             add_region_classes: 1
             attributes: ''
     regions:
-      main:
+      ds_content:
         - field_image
         - body
   panelizer:
@@ -64,6 +64,16 @@ content:
       image_style: d12
       image_link: ''
     third_party_settings: {  }
-hidden:
-  langcode: true
-  links: true
+  langcode:
+    type: language
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
