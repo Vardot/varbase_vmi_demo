@@ -1,0 +1,5233 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.hero_xlarge
+    - core.entity_view_mode.node.horizontal_media_teaser_large
+    - core.entity_view_mode.node.horizontal_media_teaser_large_text_only
+    - core.entity_view_mode.node.horizontal_media_teaser_medium
+    - core.entity_view_mode.node.horizontal_media_teaser_medium_text_only
+    - core.entity_view_mode.node.horizontal_media_teaser_small
+    - core.entity_view_mode.node.horizontal_media_teaser_small_text_only
+    - core.entity_view_mode.node.horizontal_media_teaser_xlarge
+    - core.entity_view_mode.node.horizontal_media_teaser_xlarge_text_only
+    - core.entity_view_mode.node.horizontal_media_teaser_xsmall
+    - core.entity_view_mode.node.horizontal_media_teaser_xsmall_text_only
+    - core.entity_view_mode.node.text_teaser_large
+    - core.entity_view_mode.node.text_teaser_large_text_only
+    - core.entity_view_mode.node.text_teaser_medium
+    - core.entity_view_mode.node.text_teaser_medium_text_only
+    - core.entity_view_mode.node.text_teaser_small
+    - core.entity_view_mode.node.text_teaser_small_text_only
+    - core.entity_view_mode.node.tout_large
+    - core.entity_view_mode.node.tout_medium
+    - core.entity_view_mode.node.tout_xlarge
+    - core.entity_view_mode.node.vertical_media_teaser_large
+    - core.entity_view_mode.node.vertical_media_teaser_large_text_only
+    - core.entity_view_mode.node.vertical_media_teaser_medium
+    - core.entity_view_mode.node.vertical_media_teaser_medium_text_only
+    - core.entity_view_mode.node.vertical_media_teaser_small
+    - core.entity_view_mode.node.vertical_media_teaser_small_text_only
+    - core.entity_view_mode.node.vertical_media_teaser_xlarge
+    - core.entity_view_mode.node.vertical_media_teaser_xlarge_text_only
+    - core.entity_view_mode.node.vertical_media_teaser_xsmall
+    - core.entity_view_mode.node.vertical_media_teaser_xsmall_text_only
+    - node.type.vmi
+  module:
+    - ds
+    - node
+    - user
+    - views_bootstrap
+id: vmi
+label: VMI
+module: views
+description: 'View Modes Inventory demo'
+tag: ''
+base_table: node_field_data
+base_field: nid
+core: 8.x
+display:
+  default:
+    display_plugin: default
+    id: default
+    display_title: Master
+    position: 0
+    display_options:
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      query:
+        type: views_query
+        options:
+          disable_sql_rewrite: false
+          distinct: false
+          replica: false
+          query_comment: ''
+          query_tags: {  }
+      exposed_form:
+        type: basic
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        type: full
+        options:
+          items_per_page: 10
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+      style:
+        type: default
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_large
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          entity_type: node
+          entity_field: title
+          label: ''
+          alter:
+            alter_text: false
+            make_link: false
+            absolute: false
+            trim: false
+            word_boundary: false
+            ellipsis: false
+            strip_tags: false
+            html: false
+          hide_empty: false
+          empty_zero: false
+          settings:
+            link_to_entity: true
+          plugin_id: field
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exclude: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            vmi: vmi
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+        langcode:
+          id: langcode
+          table: node_field_data
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            '***LANGUAGE_language_interface***': '***LANGUAGE_language_interface***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: langcode
+          plugin_id: language
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: DESC
+          exposed: false
+          expose:
+            label: ''
+          granularity: second
+          entity_type: node
+          entity_field: created
+          plugin_id: date
+      header: {  }
+      footer: {  }
+      empty: {  }
+      relationships: {  }
+      arguments: {  }
+      display_extenders: {  }
+      title: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  hero_xlarge_block:
+    display_plugin: block
+    id: hero_xlarge_block
+    display_title: 'Hero - xlarge - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Hero'
+      pager:
+        type: some
+        options:
+          items_per_page: 5
+          offset: 0
+      defaults:
+        pager: false
+        style: false
+        row: false
+      style:
+        type: default
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: hero_xlarge
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_large_block:
+    display_plugin: block
+    id: horizontal_media_teaser_large_block
+    display_title: 'Horizontal media teaser - large - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+        pager: false
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_large
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+      pager:
+        type: full
+        options:
+          items_per_page: 10
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_large_text_only_block:
+    display_plugin: block
+    id: horizontal_media_teaser_large_text_only_block
+    display_title: 'Horizontal media teaser - large - text only - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_large_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_medium_1_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_medium_1_in_row_block
+    display_title: 'Horizontal media teaser - medium - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - medium - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_medium_2_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_medium_2_in_row_block
+    display_title: 'Horizontal media teaser - medium - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - medium - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_medium_text_only_1_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_medium_text_only_1_in_row_block
+    display_title: 'Horizontal media teaser - medium - text only - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - medium - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_medium_text_only_2_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_medium_text_only_2_in_row_block
+    display_title: 'Horizontal media teaser - medium - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - medium - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_small_1_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_small_1_in_row_block
+    display_title: 'Horizontal media teaser - small - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - small - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_small_2_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_small_2_in_row_block
+    display_title: 'Horizontal media teaser - small - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - small - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_small_3_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_small_3_in_row_block
+    display_title: 'Horizontal media teaser - small - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - small - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_small_4_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_small_4_in_row_block
+    display_title: 'Horizontal media teaser - small - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - small - 4 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_small_text_only_1_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_small_text_only_1_in_row_block
+    display_title: 'Horizontal media teaser - small - text only - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - small - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_small_text_only_2_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_small_text_only_2_in_row_block
+    display_title: 'Horizontal media teaser - small - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - small - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-6
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_small_text_only_3_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_small_text_only_3_in_row_block
+    display_title: 'Horizontal media teaser - small - text only - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - small - text only - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_small_text_only_4_in_row_block:
+    display_plugin: block
+    id: horizontal_media_teaser_small_text_only_4_in_row_block
+    display_title: 'Horizontal media teaser - small - text only - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - small - text only - 4 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_xlarge_block:
+    display_plugin: block
+    id: horizontal_media_teaser_xlarge_block
+    display_title: 'Horizontal media teaser - xlarge - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_xlarge
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_xlarge_text_only_block:
+    display_plugin: block
+    id: horizontal_media_teaser_xlarge_text_only_block
+    display_title: 'Horizontal media teaser - xlarge - text only - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Horizontal media teaser - xlarge - text only - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_xlarge_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_xsmall_block:
+    display_plugin: block
+    id: horizontal_media_teaser_xsmall_block
+    display_title: 'Horizontal media teaser - xsmall - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_xsmall
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  horizontal_media_teaser_xsmall_text_only_block:
+    display_plugin: block
+    id: horizontal_media_teaser_xsmall_text_only_block
+    display_title: 'Horizontal media teaser - xsmall - text only - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: horizontal_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Horizontal media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_large_1_in_row_block:
+    display_plugin: block
+    id: text_teaser_large_1_in_row_block
+    display_title: 'Text teaser - large - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - large - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_large
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_large_2_in_row_block:
+    display_plugin: block
+    id: text_teaser_large_2_in_row_block
+    display_title: 'Text teaser - large - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - large - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_large
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_large_text_only_1_in_row_block:
+    display_plugin: block
+    id: text_teaser_large_text_only_1_in_row_block
+    display_title: 'Text teaser - large - text only - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - large - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_large_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_large_text_only_2_in_row_block:
+    display_plugin: block
+    id: text_teaser_large_text_only_2_in_row_block
+    display_title: 'Text teaser - large - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - large - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_large_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_medium_1_in_row_block:
+    display_plugin: block
+    id: text_teaser_medium_1_in_row_block
+    display_title: 'Text teaser - medium - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - medium - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_medium_2_in_row_block:
+    display_plugin: block
+    id: text_teaser_medium_2_in_row_block
+    display_title: 'Text teaser - medium - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - medium - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_medium_3_in_row_block:
+    display_plugin: block
+    id: text_teaser_medium_3_in_row_block
+    display_title: 'Text teaser - medium - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - medium - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_medium_4_in_row_block:
+    display_plugin: block
+    id: text_teaser_medium_4_in_row_block
+    display_title: 'Text teaser - medium - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - medium - 4 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-12
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_medium_text_only_1_in_row_block:
+    display_plugin: block
+    id: text_teaser_medium_text_only_1_in_row_block
+    display_title: 'Text teaser - medium - text only - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - medium - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_medium_text_only_2_in_row_block:
+    display_plugin: block
+    id: text_teaser_medium_text_only_2_in_row_block
+    display_title: 'Text teaser - medium - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - medium - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_medium_text_only_4_in_row_block:
+    display_plugin: block
+    id: text_teaser_medium_text_only_4_in_row_block
+    display_title: 'Text teaser - medium - text only - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - medium - text only - 4 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-12
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_small_1_in_row_block:
+    display_plugin: block
+    id: text_teaser_small_1_in_row_block
+    display_title: 'Text teaser - small - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - small - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_small_2_in_row_block:
+    display_plugin: block
+    id: text_teaser_small_2_in_row_block
+    display_title: 'Text teaser - small - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - small - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-6
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_small_3_in_row_block:
+    display_plugin: block
+    id: text_teaser_small_3_in_row_block
+    display_title: 'Text teaser - small - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - small - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_small_4_in_row_block:
+    display_plugin: block
+    id: text_teaser_small_4_in_row_block
+    display_title: 'Text teaser - small - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - small - 4 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_small_text_only_1_in_row_block:
+    display_plugin: block
+    id: text_teaser_small_text_only_1_in_row_block
+    display_title: 'Text teaser - small - text only - 1 in row - Block '
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - small - text only - 1 in row - Block '
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_small_text_only_2_in_row_block:
+    display_plugin: block
+    id: text_teaser_small_text_only_2_in_row_block
+    display_title: 'Text teaser - small - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - small - text only - 2 in row - Block '
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-6
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_small_text_only_3_in_row_block:
+    display_plugin: block
+    id: text_teaser_small_text_only_3_in_row_block
+    display_title: 'Text teaser - small - text only - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - small - text only - 3 in row - Block '
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  text_teaser_small_text_only_4_in_row_block:
+    display_plugin: block
+    id: text_teaser_small_text_only_4_in_row_block
+    display_title: 'Text teaser - small - text only - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Text teaser - small - text only - 4 in row - Block '
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: text_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Text teaser'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  tout_large_1_in_row_block:
+    display_plugin: block
+    id: tout_large_1_in_row_block
+    display_title: 'Tout - large - 1 in row  Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Tout - large - 1 in row  Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: tout_large
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Tout'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  tout_large_2_in_row_block:
+    display_plugin: block
+    id: tout_large_2_in_row_block
+    display_title: 'Tout - large - 2 in row  Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Tout - large - 2 in row  Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: tout_large
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Tout'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  tout_medium_1_in_row_block:
+    display_plugin: block
+    id: tout_medium_1_in_row_block
+    display_title: 'Tout - medium - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Tout - medium - 1 in a row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: tout_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Tout'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  tout_medium_2_in_row_block:
+    display_plugin: block
+    id: tout_medium_2_in_row_block
+    display_title: 'Tout - medium - 2 in row Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Tout - medium - 2 in row Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: tout_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Tout'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  tout_medium_3_in_row_block:
+    display_plugin: block
+    id: tout_medium_3_in_row_block
+    display_title: 'Tout - medium - 3 in row Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Tout - medium - 3 in row Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: tout_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Tout'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  tout_xlarge_block:
+    display_plugin: block
+    id: tout_xlarge_block
+    display_title: 'Tout - xlarge - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: tout_xlarge
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Tout'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_large_1_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_large_1_in_row_block
+    display_title: 'Vertical media teaser - large - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - large - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+        pager: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_large
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+      pager:
+        type: full
+        options:
+          items_per_page: 10
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_large_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_large_2_in_row_block
+    display_title: 'Vertical media teaser - large - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - large - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+        pager: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_large
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+      pager:
+        type: full
+        options:
+          items_per_page: 10
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_large_text_only_1_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_large_text_only_1_in_row_block
+    display_title: 'Vertical media teaser - large - text only - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - large - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_large_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_large_text_only_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_large_text_only_2_in_row_block
+    display_title: 'Vertical media teaser - large - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - large - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_large_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_1_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_1_in_row_block
+    display_title: 'Vertical media teaser - medium - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_2_in_row_block
+    display_title: 'Vertical media teaser - medium - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_3_in_row_block
+    display_title: 'Vertical media teaser - medium - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_text_only_1_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_text_only_1_in_row_block
+    display_title: 'Vertical media teaser - medium - text only - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_text_only_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_text_only_2_in_row_block
+    display_title: 'Vertical media teaser - medium - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_medium_text_only_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_medium_text_only_3_in_row_block
+    display_title: 'Vertical media teaser - medium - text only - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - medium - text only - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_medium_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_1_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_1_in_row_block
+    display_title: 'Vertical media teaser - small - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_2_in_row_block
+    display_title: 'Vertical media teaser - small - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_3_in_row_block
+    display_title: 'Vertical media teaser - small - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_4_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_4_in_row_block
+    display_title: 'Vertical media teaser - small - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - 4 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_text_only_1_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_text_only_1_in_row_block
+    display_title: 'Vertical media teaser - small - text only - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_text_only_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_text_only_2_in_row_block
+    display_title: 'Vertical media teaser - small - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_text_only_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_text_only_3_in_row_block
+    display_title: 'Vertical media teaser - small - text only - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - text only - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_small_text_only_4_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_small_text_only_4_in_row_block
+    display_title: 'Vertical media teaser - small - text only - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - small - text only - 4 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_small_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xlarge_block:
+    display_plugin: block
+    id: vertical_media_teaser_xlarge_block
+    display_title: 'Vertical media teaser - xlarge - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xlarge
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xlarge_text_only_block:
+    display_plugin: block
+    id: vertical_media_teaser_xlarge_text_only_block
+    display_title: 'Vertical media teaser - xlarge - text only - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xlarge_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_1_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_1_in_row_block
+    display_title: 'Vertical media teaser - xsmall - 1 in row Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - 1 in row Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_2_in_row_block
+    display_title: 'Vertical media teaser - xsmall - 2 in row Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - 2 in row Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_4_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_4_in_row_block
+    display_title: 'Vertical media teaser - xsmall - 4 in row Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - 4 in row Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_6_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_6_in_row_block
+    display_title: 'Vertical media teaser - xsmall - 6 in row Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - 6 in row Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '6'
+          col_xs: col-xs-12
+          col_sm: col-sm-2
+          col_md: col-md-2
+          col_lg: col-lg-2
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_text_only_1_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_text_only_1_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 1 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - text only - 1 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '1'
+          col_xs: col-xs-12
+          col_sm: col-sm-12
+          col_md: col-md-12
+          col_lg: col-lg-12
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_text_only_2_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_text_only_2_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 2 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - text only - 2 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '2'
+          col_xs: col-xs-12
+          col_sm: col-sm-6
+          col_md: col-md-6
+          col_lg: col-lg-6
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_text_only_3_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_text_only_3_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 3 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - text only - 3 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '3'
+          col_xs: col-xs-12
+          col_sm: col-sm-4
+          col_md: col-md-4
+          col_lg: col-lg-4
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_text_only_4_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_text_only_4_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 4 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - text only - 4 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-3
+          col_md: col-md-3
+          col_lg: col-lg-3
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  vertical_media_teaser_xsmall_text_only_6_in_row_block:
+    display_plugin: block
+    id: vertical_media_teaser_xsmall_text_only_6_in_row_block
+    display_title: 'Vertical media teaser - xsmall - text only - 6 in row - Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      display_description: 'Vertical media teaser - xsmall - text only - 6 in row - Block'
+      style:
+        type: views_bootstrap_grid
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          alignment: horizontal
+          columns: '6'
+          col_xs: col-xs-12
+          col_sm: col-sm-2
+          col_md: col-md-2
+          col_lg: col-lg-2
+      defaults:
+        style: false
+        row: false
+        title: false
+      row:
+        type: 'ds_entity:node'
+        options:
+          relationship: none
+          view_mode: vertical_media_teaser_xsmall_text_only
+          alternating_fieldset:
+            alternating: false
+            allpages: false
+            item_0: teaser
+            item_1: teaser
+            item_2: teaser
+            item_3: teaser
+            item_4: teaser
+            item_5: teaser
+            item_6: teaser
+            item_7: teaser
+            item_8: teaser
+            item_9: teaser
+          grouping_fieldset:
+            group: false
+            group_field: node_field_data|created
+            group_field_function: ''
+          advanced_fieldset:
+            advanced: false
+      title: ''
+      allow:
+        items_per_page: true
+        offset: offset
+        pager: pager
+        sort_fields: sort_fields
+        disable_filters: disable_filters
+        configure_sorts: configure_sorts
+        hide_fields: '0'
+      block_category: 'Demo VMI Vertical media'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }

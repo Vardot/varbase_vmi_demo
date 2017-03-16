@@ -1,6 +1,6 @@
 {
-  "name": "vardot/varbase_view_modes_inventory_demo",
-  "description": "Varbase view modes inventory demo feature",
+  "name": "vardot/varbase_vmi_demo",
+  "description": "Varbase vmi demo feature",
   "type": "drupal-module",
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
@@ -13,7 +13,7 @@
   ],
   "require": {
       "drupal/layout_plugin": "^1.0-alpha23",
-      "vardot/view_modes_inventory": "8.x-dev"
+      "vardot/vmi": "8.x-dev"
   },
   "authors": [
     {

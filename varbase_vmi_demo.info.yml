@@ -1,0 +1,28 @@
+name: 'Varbase vmi demo'
+description: 'Have a demo work for how to use vmi in Varbase.'
+type: module
+core: 8.x
+dependencies:
+  - content_translation
+  - ds
+  - entity_browser
+  - field
+  - field_group
+  - image
+  - language
+  - media_entity
+  - menu_ui
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - smart_trim
+  - text
+  - user
+  - varbase_media
+  - vmi
+  - views
+  - views_bootstrap
+version: 8.x-1.0
+package: Varbase

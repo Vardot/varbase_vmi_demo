@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'View modes inventory'
+type: vmi
+description: 'Use <em>View modes inventory</em> to add Demo content to see how View modes inventory works.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

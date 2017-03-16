@@ -1,11 +1,11 @@
 langcode: en
 status: true
 dependencies: {  }
-id: horizontal_media_teaser_demo
-label: 'Horizontal media teaser demo'
+id: vmi_hero
+label: 'View modes inventory - Hero'
 description: ''
 use_admin_theme: false
-path: /vmi_horizontal_media_teaser_demo
+path: /vmi_hero
 access_logic: and
 access_conditions: {  }
 parameters: {  }

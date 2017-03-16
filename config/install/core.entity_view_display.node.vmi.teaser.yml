@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vmi.body
+    - field.field.node.vmi.field_image
+    - node.type.vmi
+  module:
+    - user
+id: node.vmi.teaser
+targetEntityType: node
+bundle: vmi
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_image: true
+  langcode: true
