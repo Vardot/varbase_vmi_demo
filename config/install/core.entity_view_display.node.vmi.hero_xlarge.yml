@@ -15,7 +15,7 @@ third_party_settings:
   ds:
     layout:
       id: hero_xlarge
-      path: modules/custom/vmi
+      path: modules/vmi
       library: vmi/hero_xlarge
       disable_css: false
       entity_classes: all_classes

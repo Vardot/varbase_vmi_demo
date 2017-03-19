@@ -21,8 +21,8 @@ dependencies:
   - text
   - user
   - varbase_media
-  - vmi
   - views
   - views_bootstrap
+  - vmi
 version: 8.x-1.0
 package: Varbase

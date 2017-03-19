@@ -15,7 +15,7 @@ third_party_settings:
   ds:
     layout:
       id: horizontal_media_teaser_large
-      path: modules/custom/vmi
+      path: modules/vmi
       library: vmi/horizontal_media_teaser_large
       disable_css: false
       entity_classes: all_classes
