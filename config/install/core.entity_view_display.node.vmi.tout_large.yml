@@ -20,7 +20,7 @@ third_party_settings:
   ds:
     layout:
       id: tout_large
-      path: modules/custom/vmi
+      path: modules/vmi
       library: vmi/tout_large
       disable_css: false
       entity_classes: all_classes

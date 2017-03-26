@@ -15,7 +15,7 @@ third_party_settings:
     layout:
       id: vertical_media_teaser_xsmall_text_only
       path: modules/vmi
-      library: ''
+      library: vmi/vertical_media_teaser_xsmall_text_only
       disable_css: false
       entity_classes: all_classes
       settings:

@@ -7,9 +7,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-name: 'View modes inventory'
+name: 'VMI  demo content'
 type: vmi
-description: 'Use <em>View modes inventory</em> to add Demo content to see how View modes inventory works.'
+description: 'Use <em>VMI  demo content</em> to add Demo content to see how View modes inventory works.'
 help: ''
 new_revision: false
 preview_mode: 1
