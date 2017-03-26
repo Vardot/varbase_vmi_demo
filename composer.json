@@ -13,7 +13,7 @@
   ],
   "require": {
       "drupal/layout_plugin": "^1.0-alpha23",
-      "vardot/vmi": "8.x-dev"
+      "drupal/vmi": "1.x-dev#594dc1dd4a6dec7c5d40cacb284a1381d7902d78"
   },
   "authors": [
     {
