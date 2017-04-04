@@ -11,10 +11,7 @@
       "url": "https://packages.drupal.org/8"
     }
   ],
-  "require": {
-      "drupal/layout_plugin": "^1.0-alpha23",
-      "drupal/vmi": "1.x-dev#594dc1dd4a6dec7c5d40cacb284a1381d7902d78"
-  },
+  "require": { },
   "authors": [
     {
       "name": "Mohammed J. Razem",

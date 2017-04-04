@@ -1,16 +1,18 @@
-# varbase vmi demo
+# Varbase VMI Demo
 
-Have a demo work for how to use vmi in Varbase.
+Have a demo work for how to use VMI (View Modes Inventory) in Varbase.
 
 
 ## Requirements
+ Bootstrap theme
+ https://www.drupal.org/project/bootstrap
 
-  layout_plugin module.
-
-  vmi module.
+ The View Modes Inventory module.
+ https://www.drupal.org/project/vmi
 
 ## Installation
-
+- Install vim module.
+- Install varbase_vim_demo module.
 
 ## Configuration
 
