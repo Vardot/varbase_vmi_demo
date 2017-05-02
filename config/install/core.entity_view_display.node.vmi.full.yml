@@ -48,6 +48,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_image:
     type: entity_reference_entity_view
     weight: 0
@@ -56,6 +57,7 @@ content:
       view_mode: full
       link: false
     third_party_settings: {  }
+    region: content
 hidden:
   langcode: true
   links: true
