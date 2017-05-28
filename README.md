@@ -14,6 +14,8 @@ Have a demo work for how to use VMI (View Modes Inventory) in Varbase.
 - Install vim module.
 - Install varbase_vim_demo module.
 
+composer require vardot/varbase_vmi_demo
+
 ## Configuration
 
 

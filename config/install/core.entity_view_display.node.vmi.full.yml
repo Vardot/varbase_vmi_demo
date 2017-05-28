@@ -15,8 +15,7 @@ third_party_settings:
   ds:
     layout:
       id: ds_1col_wrapper
-      path: modules/contrib/ds
-      library: ''
+      library: null
       disable_css: false
       entity_classes: all_classes
       settings:
@@ -48,16 +47,16 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    region: content
+    region: ds_content
   field_image:
     type: entity_reference_entity_view
     weight: 0
     label: hidden
     settings:
-      view_mode: full
+      view_mode: se2e
       link: false
     third_party_settings: {  }
-    region: content
+    region: ds_content
 hidden:
   langcode: true
   links: true
