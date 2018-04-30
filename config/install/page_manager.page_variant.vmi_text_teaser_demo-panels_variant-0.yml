@@ -8,7 +8,7 @@ dependencies:
     - panels
     - views
 id: vmi_text_teaser_demo-panels_variant-0
-label: 'View modes inventory text teaser demo'
+label: 'VMI - Text Teaser Demo'
 variant: panels_variant
 variant_settings:
   blocks:

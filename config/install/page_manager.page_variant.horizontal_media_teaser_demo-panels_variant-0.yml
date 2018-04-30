@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - page_manager.page.horizontal_media_teaser_demo
+    - page_manager.page.vmi_horizontal_media_teaser_demo
     - views.view.vmi
   module:
     - panels
     - views
-id: horizontal_media_teaser_demo-panels_variant-0
-label: 'View modes inventory - Horizontal media teaser demo'
+id: vmi_horizontal_media_teaser_demo-panels_variant-0
+label: 'VMI - Horizontal Media Teaser Demo'
 variant: panels_variant
 variant_settings:
   blocks:
@@ -227,9 +227,9 @@ variant_settings:
         attributes: ''
   page_title: 'View modes inventory - Horizontal media teaser demo'
   storage_type: page_manager
-  storage_id: horizontal_media_teaser_demo-panels_variant-0
+  storage_id: vmi_horizontal_media_teaser_demo-panels_variant-0
   builder: ipe
-page: horizontal_media_teaser_demo
+page: vmi_horizontal_media_teaser_demo
 weight: 0
 selection_criteria: {  }
 selection_logic: and

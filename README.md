@@ -16,16 +16,17 @@ Have a demo work for how to use
 * Install the VMI module.
 * Install the Varbase VMI Demo module.
 * Generate number of content for the VMI demo content type.
-* Go to:
-(your demo site)/vmi_hero
-(your demo site)/vmi_tout_demo
-(your demo site)/vmi_horizontal_media_teaser_demo
-(your demo site)/vmi_vertical_media_teaser_demo
-(your demo site)/vmi_text_teaser_demo
+* Go to your home page you will see the following links in the Main menu:
+
+** Hero
+** Tout
+** Vertical Media
+** Horizontal Media
+** Text
 
 ### Install Varbase VMI demo latest stable release.
 ```
-composer require vardot/varbase_vmi_demo:8.5.0-alpha3
+composer require vardot/varbase_vmi_demo:8.5.0-alpha4
 ```
 
 ### Install Varbasee VMI Demo the progress Development.

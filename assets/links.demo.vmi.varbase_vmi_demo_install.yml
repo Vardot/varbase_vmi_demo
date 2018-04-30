@@ -1,0 +1,35 @@
+hero:
+  title: 'Hero'
+  link:
+    uri: 'internal:/vmi_hero_demo'
+  menu_name: 'main'
+  weight: 1
+  parent: null
+tout:
+  title: 'Tout'
+  link:
+    uri: 'internal:/vmi_tout_demo'
+  menu_name: 'main'
+  weight: 2
+  parent: null
+vertical_media:
+  title: 'Vertical Media'
+  link:
+    uri: 'internal:/vmi_vertical_media_teaser_demo'
+  menu_name: 'main'
+  weight: 3
+  parent: null
+horizontal_media:
+  title: 'Horizontal Media'
+  link:
+    uri: 'internal:/vmi_horizontal_media_teaser_demo'
+  menu_name: 'main'
+  weight: 4
+  parent: null
+text:
+  title: 'Text'
+  link:
+    uri: 'internal:/vmi_text_teaser_demo'
+  menu_name: 'main'
+  weight: 5
+  parent: null

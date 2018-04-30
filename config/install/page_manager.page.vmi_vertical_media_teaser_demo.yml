@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: vmi_vertical_media_teaser_demo
-label: 'vmi - vertical media teaser demo'
+label: 'VMI - Vertical Media Teaser Demo'
 description: ''
 use_admin_theme: false
 path: /vmi_vertical_media_teaser_demo

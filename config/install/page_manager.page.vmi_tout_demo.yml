@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: vmi_tout_demo
-label: 'vmi tout demo'
+label: 'VMI - Tout Teaser Demo'
 description: ''
 use_admin_theme: false
 path: /vmi_tout_demo
