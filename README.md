@@ -25,7 +25,7 @@ Have a demo work for how to use
 
 ### Install Varbase VMI demo latest stable release.
 ```
-composer require vardot/varbase_vmi_demo:8.5.0-alpha2
+composer require vardot/varbase_vmi_demo:8.5.0-alpha3
 ```
 
 ### Install Varbasee VMI Demo the progress Development.
