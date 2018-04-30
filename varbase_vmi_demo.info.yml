@@ -1,28 +1,10 @@
 name: 'Varbase vmi demo'
-description: 'Have a demo work for how to use vmi in Varbase.'
+description: 'Have a demo work for how to use View Modes Inventory (VMI) module in Varbase.'
 type: module
 core: 8.x
 dependencies:
-  - content_translation
-  - ds
-  - entity_browser
-  - field
-  - field_group
-  - image
-  - language
-  - media_entity
-  - menu_ui
-  - node
-  - page_manager
-  - panelizer
-  - panels
-  - path
-  - smart_trim
-  - text
-  - user
+  - varbase_core
   - varbase_media
-  - views
-  - views_bootstrap
   - vmi
-version: 8.x-1.x-dev
+version: 8.x-4.x-dev
 package: Varbase

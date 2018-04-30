@@ -1,8 +1,8 @@
 {
   "name": "vardot/varbase_vmi_demo",
-  "description": "Varbase vmi demo feature",
+  "description": "Have a demo work for how to use View Modes Inventory (VMI) module in Varbase.",
   "type": "drupal-module",
-  "homepage": "https://www.drupal.org/project/vmi",
+  "homepage": "https://github.com/Vardot/varbase_vmi_demo",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
   "authors": [
@@ -13,8 +13,8 @@
     }
   ],
   "support": {
-    "issues": "https://www.drupal.org/project/issues/vmi",
-    "source": "http://cgit.drupalcode.org/vmi"
+    "issues": "https://github.com/Vardot/varbase_vmi_demo",
+    "source": "https://github.com/Vardot/varbase_vmi_demo/issues"
   },
   "repositories": [
     {
@@ -23,11 +23,8 @@
     }
   ],
   "require": {
-    "drupal/vmi": "1.*"  
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-8.x-4.x": "8.4.x-dev"
-    }
+    "drupal/varbase_core": "4.*",
+    "drupal/varbase_media": "4.*",
+    "drupal/vmi": "1.*"
   }
 }
