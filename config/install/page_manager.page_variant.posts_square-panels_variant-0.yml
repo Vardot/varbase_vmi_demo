@@ -1,0 +1,94 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_square
+  content:
+    - 'block_content:basic:3fecbee3-b579-4a55-a6df-d76f265cc590'
+    - 'block_content:basic:96eaad14-ca68-442e-b0d7-e3e35aaf8304'
+    - 'block_content:basic:9da51fd7-44ed-4b2c-8057-49f00ee90161'
+    - 'block_content:basic:ae5fa4e4-0463-498b-b3ae-7b3ac270db6f'
+    - 'block_content:basic:cceabb65-5fb3-404e-a4ea-f0ffb89231b8'
+  module:
+    - block_content
+    - panels
+id: posts_square-panels_variant-0
+label: 'VMI - Square 1:1 - Posts'
+variant: panels_variant
+variant_settings:
+  blocks:
+    73d4639b-6759-421c-a5a5-846d80c0e83f:
+      id: 'block_content:ae5fa4e4-0463-498b-b3ae-7b3ac270db6f'
+      label: 'VMI - Square 1:1 - Posts - Hero'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: first_above
+      uuid: 73d4639b-6759-421c-a5a5-846d80c0e83f
+      weight: 1
+    bfaca91b-e8fa-4ad5-a594-81a2af32a0da:
+      id: 'block_content:9da51fd7-44ed-4b2c-8057-49f00ee90161'
+      label: 'VMI - Square 1:1 - Posts - Tout'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: second_above
+      uuid: bfaca91b-e8fa-4ad5-a594-81a2af32a0da
+      weight: 1
+    3ae50cc6-9302-4371-967d-b11cf758290c:
+      id: 'block_content:cceabb65-5fb3-404e-a4ea-f0ffb89231b8'
+      label: 'VMI - Square 1:1 - Posts - Vertical Media'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: first_below
+      uuid: 3ae50cc6-9302-4371-967d-b11cf758290c
+      weight: 1
+    368979a6-6b1e-46ae-a27d-1ebbe8471232:
+      id: 'block_content:96eaad14-ca68-442e-b0d7-e3e35aaf8304'
+      label: 'VMI - Square 1:1 - Posts - Horizontal Media'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: second_below
+      uuid: 368979a6-6b1e-46ae-a27d-1ebbe8471232
+      weight: 1
+    ad122fbf-e7e1-4d0b-8658-fe9e1695f342:
+      id: 'block_content:3fecbee3-b579-4a55-a6df-d76f265cc590'
+      label: 'VMI - Square 1:1 - Posts - Text'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      context_mapping: {  }
+      region: bottom
+      uuid: ad122fbf-e7e1-4d0b-8658-fe9e1695f342
+      weight: 1
+  id: panels_variant
+  uuid: 9b62919e-fe26-4ed2-903e-3014894b9ad8
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Square 1:1 - Posts'
+  storage_type: page_manager
+  storage_id: posts_square-panels_variant-0
+  builder: ipe
+page: posts_square
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

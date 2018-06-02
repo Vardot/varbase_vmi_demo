@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: posts_auto_text
+label: 'VMI - Auto - Postes - Text'
+description: ''
+use_admin_theme: false
+path: /vmi/auto/posts/text
+access_logic: and
+access_conditions: {  }
+parameters: {  }

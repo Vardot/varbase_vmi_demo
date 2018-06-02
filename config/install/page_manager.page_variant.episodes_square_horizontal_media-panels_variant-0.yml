@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_square_horizontal_media
+  module:
+    - panels
+id: episodes_square_horizontal_media-panels_variant-0
+label: 'VMI - Square 1:1 - Episode - Horizontal Media'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: d10e0dc6-6160-4260-9892-4cf8ef7e3e5d
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Square 1:1 - Episode - Horizontal Media'
+  storage_type: page_manager
+  storage_id: episodes_square_horizontal_media-panels_variant-0
+  builder: ipe
+page: episodes_square_horizontal_media
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

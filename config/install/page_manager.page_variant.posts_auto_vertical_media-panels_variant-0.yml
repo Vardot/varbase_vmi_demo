@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_auto_vertical_media
+  module:
+    - panels
+id: posts_auto_vertical_media-panels_variant-0
+label: 'VMI - Auto - Posts - Vertical Media'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: bc4c2de1-c3bf-49c8-ac8e-29a361f4786e
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Auto - Posts - Vertical Media'
+  storage_type: page_manager
+  storage_id: posts_auto_vertical_media-panels_variant-0
+  builder: ipe
+page: posts_auto_vertical_media
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

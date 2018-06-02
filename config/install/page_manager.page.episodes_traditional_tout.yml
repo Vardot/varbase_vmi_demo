@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_traditional_tout
+label: 'VMI - Traditional 4:3 - Episodes - Tout'
+description: ''
+use_admin_theme: false
+path: /vmi/traditional/episodes/tout
+access_logic: and
+access_conditions: {  }
+parameters: {  }

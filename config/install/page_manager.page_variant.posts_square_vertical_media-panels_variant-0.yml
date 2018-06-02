@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_square_vertical_media
+  module:
+    - panels
+id: posts_square_vertical_media-panels_variant-0
+label: 'VMI - Square 1:1 - Posts - Vertical Media'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 4b34c830-e965-4aea-899f-a281a7b7eb69
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Square 1:1 - Posts - Vertical Media'
+  storage_type: page_manager
+  storage_id: posts_square_vertical_media-panels_variant-0
+  builder: ipe
+page: posts_square_vertical_media
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

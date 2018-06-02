@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_standard_vertical_media
+label: 'VMI - Standard 16:9 - Episodes - Vertical Media'
+description: ''
+use_admin_theme: false
+path: /vmi/standard/episodes/vertical_media
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: posts_traditional_tout
+label: 'VMI - Traditional 4:3 - Postes - Tout'
+description: ''
+use_admin_theme: false
+path: /vmi/traditional/posts/tout
+access_logic: and
+access_conditions: {  }
+parameters: {  }

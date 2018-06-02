@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_traditional_hero
+label: 'VMI - Traditional 4:3 - Episodes - Hero'
+description: ''
+use_admin_theme: false
+path: /vmi/traditional/episodes/hero
+access_logic: and
+access_conditions: {  }
+parameters: {  }

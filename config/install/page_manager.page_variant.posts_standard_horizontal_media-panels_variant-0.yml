@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_standard_horizontal_media
+  module:
+    - panels
+id: posts_standard_horizontal_media-panels_variant-0
+label: 'VMI - Standard 16:9 - Posts - Horizontal Media'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 8be6a15e-2e75-4ddb-affa-20f1a4a26aaf
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Standard 16:9 - Posts - Horizontal Media'
+  storage_type: page_manager
+  storage_id: posts_standard_horizontal_media-panels_variant-0
+  builder: ipe
+page: posts_standard_horizontal_media
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

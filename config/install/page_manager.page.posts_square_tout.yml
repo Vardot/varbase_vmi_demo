@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: posts_square_tout
+label: 'VMI - Square 1:1 - Postes - Tout'
+description: ''
+use_admin_theme: false
+path: /vmi/square/posts/tout
+access_logic: and
+access_conditions: {  }
+parameters: {  }

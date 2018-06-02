@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_standard_hero
+  module:
+    - panels
+id: posts_standard_hero-panels_variant-0
+label: 'VMI - Standard 16:9 - Posts - hero'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: b84cb392-b12a-4d50-83e3-0c408e10fd14
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Standard 16:9 - Posts - Hero'
+  storage_type: page_manager
+  storage_id: posts_standard_hero-panels_variant-0
+  builder: ipe
+page: posts_standard_hero
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

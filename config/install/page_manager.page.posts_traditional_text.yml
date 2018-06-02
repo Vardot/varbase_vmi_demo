@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: vposts_traditional_text
+label: 'VMI - Traditional 4:3 - Postes - Text'
+description: ''
+use_admin_theme: false
+path: /vmi/traditional/posts/text
+access_logic: and
+access_conditions: {  }
+parameters: {  }

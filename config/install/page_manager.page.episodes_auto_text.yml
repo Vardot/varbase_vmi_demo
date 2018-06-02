@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_auto_text
+label: 'VMI - Auto - Episodes - Text'
+description: ''
+use_admin_theme: false
+path: /vmi/auto/episodes/text
+access_logic: and
+access_conditions: {  }
+parameters: {  }

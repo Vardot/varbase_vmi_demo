@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: posts_traditional_horizontal_media
+label: 'VMI - Traditional 4:3 - Postes - Horizontal Media'
+description: ''
+use_admin_theme: false
+path: /vmi/traditional/posts/horizontal_media
+access_logic: and
+access_conditions: {  }
+parameters: {  }

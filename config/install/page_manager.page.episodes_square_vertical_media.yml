@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_square_vertical_media
+label: 'VMI - Square 1:1 - Episodes - Vertical Media'
+description: ''
+use_admin_theme: false
+path: /vmi/square/episodes/vertical_media
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_standard_tout
+  module:
+    - panels
+id: episodes_standard_tout-panels_variant-0
+label: 'VMI - Standard 16:9 - Episode - Tout'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 73d8ade1-c8d7-43ec-b6ff-320ddca28c92
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Standard 16:9 - Episode - Tout'
+  storage_type: page_manager
+  storage_id: episodes_standard_tout-panels_variant-0
+  builder: ipe
+page: episodes_standard_tout
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

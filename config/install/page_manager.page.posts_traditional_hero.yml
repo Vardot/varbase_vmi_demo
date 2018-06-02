@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: posts_traditional_hero
+label: 'VMI - Traditional 4:3 - Postes - Hero'
+description: ''
+use_admin_theme: false
+path: /vmi/traditional/posts/hero
+access_logic: and
+access_conditions: {  }
+parameters: {  }

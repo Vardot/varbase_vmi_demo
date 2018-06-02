@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_traditional_hero
+  module:
+    - panels
+id: episodes_traditional_hero-panels_variant-0
+label: 'VMI - Traditional 4:3 - Episode - Hero'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 0764ed47-08b3-409c-ae9e-ce03001a96d8
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Traditional 4:3 - Episode - Hero'
+  storage_type: page_manager
+  storage_id: episodes_traditional_hero-panels_variant-0
+  builder: ipe
+page: episodes_traditional_hero
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

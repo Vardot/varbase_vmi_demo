@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_square_hero
+  module:
+    - panels
+id: posts_square_hero-panels_variant-0
+label: 'VMI - Square 1:1 - Posts - Hero'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: dff8fff4-a3a2-44cd-8b43-b79b50e6e3f4
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Square 1:1 - Posts - Hero'
+  storage_type: page_manager
+  storage_id: posts_square_hero-panels_variant-0
+  builder: ipe
+page: posts_square_hero
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

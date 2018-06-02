@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_standard_tout
+label: 'VMI - Standard 16:9 - Episodes - Tout'
+description: ''
+use_admin_theme: false
+path: /vmi/standard/episodes/tout
+access_logic: and
+access_conditions: {  }
+parameters: {  }

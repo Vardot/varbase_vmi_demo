@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_square_tout
+  module:
+    - panels
+id: episodes_square_tout-panels_variant-0
+label: 'VMI - Square 1:1 - Episode - Tout'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: fb220fc9-41dd-49d3-b892-7c18aff2d471
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Square 1:1 - Episode - Tout'
+  storage_type: page_manager
+  storage_id: episodes_square_tout-panels_variant-0
+  builder: ipe
+page: episodes_square_tout
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_square_tout
+label: 'VMI - Square 1:1 - Episodes - Tout'
+description: ''
+use_admin_theme: false
+path: /vmi/square/episodes/tout
+access_logic: and
+access_conditions: {  }
+parameters: {  }

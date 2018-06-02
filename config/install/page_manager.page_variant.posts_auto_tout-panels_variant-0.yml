@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_auto_tout
+  module:
+    - panels
+id: posts_auto_tout-panels_variant-0
+label: 'VMI - Auto - Posts - Tout'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: c4b98827-8bcc-479f-8526-abecd71bdc17
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Auto - Posts - Tout'
+  storage_type: page_manager
+  storage_id: posts_auto_tout-panels_variant-0
+  builder: ipe
+page: posts_auto_tout
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

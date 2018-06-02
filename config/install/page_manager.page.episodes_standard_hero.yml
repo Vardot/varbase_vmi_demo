@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_standard_hero
+label: 'VMI - Standard 16:9 - Episodes - Hero'
+description: ''
+use_admin_theme: false
+path: /vmi/standard/episodes/hero
+access_logic: and
+access_conditions: {  }
+parameters: {  }

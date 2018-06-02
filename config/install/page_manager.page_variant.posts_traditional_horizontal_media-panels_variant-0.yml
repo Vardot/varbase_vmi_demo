@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_traditional_horizontal_media
+  module:
+    - panels
+id: posts_traditional_horizontal_media-panels_variant-0
+label: 'VMI - Traditional 4:3 - Posts - Horizontal Media'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 1f141281-aa16-43e0-b518-85b45228df47
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Traditional 4:3 - Posts - Horizontal Media'
+  storage_type: page_manager
+  storage_id: posts_traditional_horizontal_media-panels_variant-0
+  builder: ipe
+page: posts_traditional_horizontal_media
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

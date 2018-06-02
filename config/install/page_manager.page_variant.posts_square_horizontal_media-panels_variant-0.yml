@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_square_horizontal_media
+  module:
+    - panels
+id: posts_square_horizontal_media-panels_variant-0
+label: 'VMI - Square 1:1 - Posts - Horizontal Media'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: e97c9615-a784-49da-9702-3abb01461dc1
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Square 1:1 - Posts - Horizontal Media'
+  storage_type: page_manager
+  storage_id: posts_square_horizontal_media-panels_variant-0
+  builder: ipe
+page: posts_square_horizontal_media
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

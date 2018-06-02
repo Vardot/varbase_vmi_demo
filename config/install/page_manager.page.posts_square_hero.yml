@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: posts_square_hero
+label: 'VMI - Square 1:1 - Postes - Hero'
+description: ''
+use_admin_theme: false
+path: /vmi/square/posts/hero
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_traditional_text
+label: 'VMI - Traditional 4:3 - Episodes - Text'
+description: ''
+use_admin_theme: false
+path: /vmi/traditional/episodes/text
+access_logic: and
+access_conditions: {  }
+parameters: {  }
