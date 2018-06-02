@@ -16,67 +16,7 @@ id: posts_traditional-panels_variant-0
 label: 'VMI - Traditional 4:3 - Posts'
 variant: panels_variant
 variant_settings:
-  blocks:
-    eee3e115-4c33-4df5-988b-bb818827fd85:
-      id: 'block_content:70d364f8-87a8-4a1e-a13e-d1059afe0fba'
-      label: 'VMI - Traditional 4:3 - Posts - Hero'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_above
-      uuid: eee3e115-4c33-4df5-988b-bb818827fd85
-      weight: 1
-    08a75948-75ca-474f-b82d-e5b390e376cc:
-      id: 'block_content:404970b2-7ef6-406f-a662-a9a0e280cbc1'
-      label: 'VMI - Traditional 4:3 - Posts - Tout'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_above
-      uuid: 08a75948-75ca-474f-b82d-e5b390e376cc
-      weight: 1
-    5b4ca760-f758-4ecb-a313-cead3caf7fd7:
-      id: 'block_content:2e7209a4-46e2-4310-b8fc-01981dfba4f8'
-      label: 'VMI - Traditional 4:3 - Posts - Vertical Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_below
-      uuid: 5b4ca760-f758-4ecb-a313-cead3caf7fd7
-      weight: 1
-    0f3020eb-92c9-42a0-b911-207dab663c29:
-      id: 'block_content:f69a7018-3454-4065-9073-99c81f08c0d7'
-      label: 'VMI - Traditional 4:3 - Posts - Horizontal Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_below
-      uuid: 0f3020eb-92c9-42a0-b911-207dab663c29
-      weight: 1
-    eed14e6b-791e-4a37-9038-b81f9b26032b:
-      id: 'block_content:92d3828f-0e43-47dc-9088-e3e49c6d2c00'
-      label: 'VMI - Traditional 4:3 - Posts - Text'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: bottom
-      uuid: eed14e6b-791e-4a37-9038-b81f9b26032b
-      weight: 1
+  blocks: { }
   id: panels_variant
   uuid: 4a939f18-e5ab-46b8-8b6e-688fabc25f09
   label: null

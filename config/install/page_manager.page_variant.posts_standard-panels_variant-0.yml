@@ -16,67 +16,7 @@ id: posts_standard-panels_variant-0
 label: 'VMI - Standard 16:9 - Posts'
 variant: panels_variant
 variant_settings:
-  blocks:
-    c0d260f6-943d-4de1-8488-b6b59124bad9:
-      id: 'block_content:434f8022-9db7-4f82-8f3b-f80daa45e4ab'
-      label: 'VMI - Standard 16:9 - Posts - Hero'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_above
-      uuid: c0d260f6-943d-4de1-8488-b6b59124bad9
-      weight: 1
-    3c02f016-d29e-486d-b2bd-f5f357bdfdac:
-      id: 'block_content:cf777efd-7027-4569-aae2-c94063964b1a'
-      label: 'VMI - Standard 16:9 - Posts - Tout'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_above
-      uuid: 3c02f016-d29e-486d-b2bd-f5f357bdfdac
-      weight: 1
-    60f822fa-4a89-4bf0-be19-12af45f8d883:
-      id: 'block_content:a04155be-8767-4716-9f4e-98aeaf8e5325'
-      label: 'VMI - Standard 16:9 - Posts - Vertical Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_below
-      uuid: 60f822fa-4a89-4bf0-be19-12af45f8d883
-      weight: 1
-    ea662de4-1344-41ad-9b49-63746cb29ba6:
-      id: 'block_content:fe520651-7bc4-479a-a3d2-361878328af6'
-      label: 'VMI - Standard 16:9 - Posts - Horizontal Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_below
-      uuid: ea662de4-1344-41ad-9b49-63746cb29ba6
-      weight: 1
-    29eea8cf-1238-4461-9ab8-1c0506022469:
-      id: 'block_content:9d9f4198-2885-40ca-824b-40271f06183b'
-      label: 'VMI - Standard 16:9 - Posts - Text'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: bottom
-      uuid: 29eea8cf-1238-4461-9ab8-1c0506022469
-      weight: 1
+  blocks: { }
   id: panels_variant
   uuid: 6cda314b-3ef8-4e84-9283-e8f49afd3a82
   label: null

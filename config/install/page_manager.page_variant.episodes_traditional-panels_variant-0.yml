@@ -16,67 +16,7 @@ id: episodes_traditional-panels_variant-0
 label: 'VMI - Traditional 4:3 - Episode'
 variant: panels_variant
 variant_settings:
-  blocks:
-    834bae07-fe18-44eb-87d0-473825d3e30b:
-      id: 'block_content:256b0253-332b-4042-a3ed-4635f54d956a'
-      label: 'VMI - Traditional 4:3 - Episode - Hero'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_above
-      uuid: 834bae07-fe18-44eb-87d0-473825d3e30b
-      weight: 1
-    59a4e013-c878-449f-9fe9-b700c3137219:
-      id: 'block_content:bb538262-04fe-4117-8b7b-b783b6afacf7'
-      label: 'VMI - Traditional 4:3 - Episode - Tout'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_above
-      uuid: 59a4e013-c878-449f-9fe9-b700c3137219
-      weight: 1
-    4cd9aed1-f1eb-4609-8a36-83e92d422d4d:
-      id: 'block_content:71849ee1-ef94-4600-8761-f8f52942cb19'
-      label: 'VMI - Traditional 4:3 - Episode - Vertical Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_below
-      uuid: 4cd9aed1-f1eb-4609-8a36-83e92d422d4d
-      weight: 1
-    ae3f973c-7d5e-45a6-8d1f-0cec8a6aaa33:
-      id: 'block_content:404c21a4-3272-4474-9a2d-3978c4e740d7'
-      label: 'VMI - Traditional 4:3 - Episode - Horizontal Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_below
-      uuid: ae3f973c-7d5e-45a6-8d1f-0cec8a6aaa33
-      weight: 1
-    dd43d112-ed3b-4b88-99f7-d0e4eb6819b9:
-      id: 'block_content:56fb36ab-81c8-4621-9a5d-9b78765e6dab'
-      label: 'VMI - Traditional 4:3 - Episode - Text'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: bottom
-      uuid: dd43d112-ed3b-4b88-99f7-d0e4eb6819b9
-      weight: 1
+  blocks: { }
   id: panels_variant
   uuid: fd8f4e16-228f-4671-a0b5-4ec8139b89c1
   label: null

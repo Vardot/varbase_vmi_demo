@@ -16,67 +16,7 @@ id: posts_auto-panels_variant-0
 label: 'VMI - Auto - Posts'
 variant: panels_variant
 variant_settings:
-  blocks:
-    56d13fbb-5d7b-42f4-ad6f-2c18e76e2d46:
-      id: 'block_content:e855e4b5-96bb-4d0a-95f7-00a3e70ef56a'
-      label: 'VMI - Auto - Posts - Hero'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_above
-      uuid: 56d13fbb-5d7b-42f4-ad6f-2c18e76e2d46
-      weight: 1
-    9323265f-52e1-4aa3-9623-544caeeb5c84:
-      id: 'block_content:8b1ff383-3f56-4fcb-af1d-022b540862be'
-      label: 'VMI - Auto - Posts - Tout'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_above
-      uuid: 9323265f-52e1-4aa3-9623-544caeeb5c84
-      weight: 1
-    58229c28-fbf8-40a8-b610-96113c990166:
-      id: 'block_content:2129152d-8fc6-453f-8ec1-87e91ec67f07'
-      label: 'VMI - Auto - Posts - Vertical Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_below
-      uuid: 58229c28-fbf8-40a8-b610-96113c990166
-      weight: 1
-    c568c27c-daa3-428a-bf89-244b05be020e:
-      id: 'block_content:3bfdd53c-55f9-4057-b5c7-667afe934ea4'
-      label: 'VMI - Auto - Posts - Horizontal Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_below
-      uuid: c568c27c-daa3-428a-bf89-244b05be020e
-      weight: 1
-    ea196e8e-f813-49a9-9e48-33985d456474:
-      id: 'block_content:2be6c6e2-ff57-4300-8799-d17c6c6440be'
-      label: 'VMI - Auto - Posts - Text'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: bottom
-      uuid: ea196e8e-f813-49a9-9e48-33985d456474
-      weight: 1
+  blocks: { }
   id: panels_variant
   uuid: 531c5895-d318-4d62-85cc-54f7dd6e740c
   label: null

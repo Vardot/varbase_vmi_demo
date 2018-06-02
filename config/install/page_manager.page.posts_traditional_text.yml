@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-id: vposts_traditional_text
+id: posts_traditional_text
 label: 'VMI - Traditional 4:3 - Postes - Text'
 description: ''
 use_admin_theme: false

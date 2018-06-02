@@ -16,67 +16,7 @@ id: episodes_square-panels_variant-0
 label: 'VMI - Square 1:1 - Episode'
 variant: panels_variant
 variant_settings:
-  blocks:
-    541bb555-f7f0-4568-b068-e245c3241330:
-      id: 'block_content:180b979c-d762-4a71-bb26-664f4bf7fc89'
-      label: 'VMI - Square 1:1 - Episode - Hero'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_above
-      uuid: 541bb555-f7f0-4568-b068-e245c3241330
-      weight: 1
-    4211994b-d871-4ac6-b7c1-879d00f2c415:
-      id: 'block_content:e18beef3-0233-43dd-a2f3-4da4ab2a0059'
-      label: 'VMI - Square 1:1 - Episode - Tout'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_above
-      uuid: 4211994b-d871-4ac6-b7c1-879d00f2c415
-      weight: 1
-    3daeb0bd-599e-4bf4-8393-684142eb27dc:
-      id: 'block_content:a1f14c6b-2b02-4cce-bb5e-6fbd0feae008'
-      label: 'VMI - Square 1:1 - Episode - Vertical Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: first_below
-      uuid: 3daeb0bd-599e-4bf4-8393-684142eb27dc
-      weight: 1
-    7f0e3d9c-725d-4f34-ba23-f2f4f26bdc10:
-      id: 'block_content:52d8db95-3a6b-4e7a-889b-1c3bf3ddf0b6'
-      label: 'VMI - Square 1:1 - Episode - Horizontal Media'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: second_below
-      uuid: 7f0e3d9c-725d-4f34-ba23-f2f4f26bdc10
-      weight: 1
-    ecef3b7d-8a26-40ee-a385-61903fdd54fe:
-      id: 'block_content:df7b8510-c450-40b3-9c54-384435f9decd'
-      label: 'VMI - Square 1:1 - Episode - Text'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      context_mapping: {  }
-      region: bottom
-      uuid: ecef3b7d-8a26-40ee-a385-61903fdd54fe
-      weight: 1
+  blocks: { }
   id: panels_variant
   uuid: 7cf1d7e3-5fd5-4d3e-a9b1-2e632a28ffc8
   label: null
