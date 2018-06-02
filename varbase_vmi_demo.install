@@ -22,7 +22,7 @@ function varbase_vmi_demo_install() {
   ];
 
   foreach ($links_to_menus as $links_to_menu) {
-    $assets_demo_links_path = $module_path . '/assets/' .$links_to_menu;
+    $assets_demo_links_path = $module_path . '/assets/' . $links_to_menu;
     $assets_demo_links_content = file_get_contents($assets_demo_links_path);
     $assets_demo_links_data = (array) Yaml::parse($assets_demo_links_content);
 
