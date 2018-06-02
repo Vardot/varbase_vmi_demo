@@ -4,6 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.episode.body
+    - field.field.node.episode.field_video
     - node.type.episode
   module:
     - text
@@ -25,4 +26,5 @@ content:
     weight: 100
     region: content
 hidden:
+  field_video: true
   langcode: true

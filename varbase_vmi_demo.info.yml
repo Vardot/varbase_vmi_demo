@@ -3,8 +3,23 @@ description: 'Have a demo work for how to use View Modes Inventory (VMI) module 
 type: module
 core: 8.x
 dependencies:
+  - content_translation
+  - ds
+  - entity_browser
+  - field
+  - language
+  - menu_ui
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - text
+  - user
   - varbase_core
   - varbase_media
+  - views
+  - views_bootstrap
   - vmi
 version: 8.x-5.x-dev
 package: Varbase

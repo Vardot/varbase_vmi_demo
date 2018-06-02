@@ -3,20 +3,13 @@ status: true
 dependencies:
   config:
     - page_manager.page.episodes_square
-  content:
-    - 'block_content:basic:180b979c-d762-4a71-bb26-664f4bf7fc89'
-    - 'block_content:basic:52d8db95-3a6b-4e7a-889b-1c3bf3ddf0b6'
-    - 'block_content:basic:a1f14c6b-2b02-4cce-bb5e-6fbd0feae008'
-    - 'block_content:basic:df7b8510-c450-40b3-9c54-384435f9decd'
-    - 'block_content:basic:e18beef3-0233-43dd-a2f3-4da4ab2a0059'
   module:
-    - block_content
     - panels
 id: episodes_square-panels_variant-0
 label: 'VMI - Square 1:1 - Episode'
 variant: panels_variant
 variant_settings:
-  blocks: { }
+  blocks: {  }
   id: panels_variant
   uuid: 7cf1d7e3-5fd5-4d3e-a9b1-2e632a28ffc8
   label: null

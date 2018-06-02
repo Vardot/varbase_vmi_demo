@@ -3,20 +3,13 @@ status: true
 dependencies:
   config:
     - page_manager.page.posts_square
-  content:
-    - 'block_content:basic:3fecbee3-b579-4a55-a6df-d76f265cc590'
-    - 'block_content:basic:96eaad14-ca68-442e-b0d7-e3e35aaf8304'
-    - 'block_content:basic:9da51fd7-44ed-4b2c-8057-49f00ee90161'
-    - 'block_content:basic:ae5fa4e4-0463-498b-b3ae-7b3ac270db6f'
-    - 'block_content:basic:cceabb65-5fb3-404e-a4ea-f0ffb89231b8'
   module:
-    - block_content
     - panels
 id: posts_square-panels_variant-0
 label: 'VMI - Square 1:1 - Posts'
 variant: panels_variant
 variant_settings:
-  blocks: { }
+  blocks: {  }
   id: panels_variant
   uuid: 9b62919e-fe26-4ed2-903e-3014894b9ad8
   label: null

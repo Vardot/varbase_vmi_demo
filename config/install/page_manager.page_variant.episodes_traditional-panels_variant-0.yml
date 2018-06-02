@@ -3,20 +3,13 @@ status: true
 dependencies:
   config:
     - page_manager.page.episodes_traditional
-  content:
-    - 'block_content:basic:256b0253-332b-4042-a3ed-4635f54d956a'
-    - 'block_content:basic:404c21a4-3272-4474-9a2d-3978c4e740d7'
-    - 'block_content:basic:56fb36ab-81c8-4621-9a5d-9b78765e6dab'
-    - 'block_content:basic:71849ee1-ef94-4600-8761-f8f52942cb19'
-    - 'block_content:basic:bb538262-04fe-4117-8b7b-b783b6afacf7'
   module:
-    - block_content
     - panels
 id: episodes_traditional-panels_variant-0
 label: 'VMI - Traditional 4:3 - Episode'
 variant: panels_variant
 variant_settings:
-  blocks: { }
+  blocks: {  }
   id: panels_variant
   uuid: fd8f4e16-228f-4671-a0b5-4ec8139b89c1
   label: null

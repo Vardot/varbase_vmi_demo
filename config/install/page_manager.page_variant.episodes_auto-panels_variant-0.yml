@@ -3,20 +3,13 @@ status: true
 dependencies:
   config:
     - page_manager.page.episodes_auto
-  content:
-    - 'block_content:basic:1de16eef-0a80-4004-b8fb-ae6170084103'
-    - 'block_content:basic:6aa69ee2-b918-42c7-9b64-cd0ab33f6e80'
-    - 'block_content:basic:8032ac7b-d1c8-4e6a-a509-6bb7cc065f2c'
-    - 'block_content:basic:9c985b46-c32b-4cd3-950d-8c18af3cf9f2'
-    - 'block_content:basic:aa898cf4-7de5-4625-a2ea-997ea13bf974'
   module:
-    - block_content
     - panels
 id: episodes_auto-panels_variant-0
 label: 'VMI - Auto - Episode'
 variant: panels_variant
 variant_settings:
-  blocks: { }
+  blocks: {  }
   id: panels_variant
   uuid: 223b4d16-ae9d-4a1d-aa54-d820e169a039
   label: null

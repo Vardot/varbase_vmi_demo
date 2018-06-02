@@ -2,23 +2,23 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.traditional_hero_xlarge
-    - core.entity_view_mode.node.traditional_horizontal_media_teaser_large
-    - core.entity_view_mode.node.traditional_horizontal_media_teaser_medium
-    - core.entity_view_mode.node.traditional_horizontal_media_teaser_small
-    - core.entity_view_mode.node.traditional_horizontal_media_teaser_xlarge
-    - core.entity_view_mode.node.traditional_horizontal_media_teaser_xsmall
-    - core.entity_view_mode.node.traditional_text_teaser_large
-    - core.entity_view_mode.node.traditional_text_teaser_medium
-    - core.entity_view_mode.node.traditional_text_teaser_small
-    - core.entity_view_mode.node.traditional_tout_large
-    - core.entity_view_mode.node.traditional_tout_medium
-    - core.entity_view_mode.node.traditional_tout_xlarge
-    - core.entity_view_mode.node.traditional_vertical_media_teaser_large
-    - core.entity_view_mode.node.traditional_vertical_media_teaser_medium
-    - core.entity_view_mode.node.traditional_vertical_media_teaser_small
-    - core.entity_view_mode.node.traditional_vertical_media_teaser_xlarge
-    - core.entity_view_mode.node.traditional_vertical_media_teaser_xsmall
+    - core.entity_view_mode.node.hero_xlarge
+    - core.entity_view_mode.node.horizontal_media_teaser_large
+    - core.entity_view_mode.node.horizontal_media_teaser_medium
+    - core.entity_view_mode.node.horizontal_media_teaser_small
+    - core.entity_view_mode.node.horizontal_media_teaser_xlarge
+    - core.entity_view_mode.node.horizontal_media_teaser_xsmall
+    - core.entity_view_mode.node.text_teaser_large
+    - core.entity_view_mode.node.text_teaser_medium
+    - core.entity_view_mode.node.text_teaser_small
+    - core.entity_view_mode.node.tout_large
+    - core.entity_view_mode.node.tout_medium
+    - core.entity_view_mode.node.tout_xlarge
+    - core.entity_view_mode.node.vertical_media_teaser_large
+    - core.entity_view_mode.node.vertical_media_teaser_medium
+    - core.entity_view_mode.node.vertical_media_teaser_small
+    - core.entity_view_mode.node.vertical_media_teaser_xlarge
+    - core.entity_view_mode.node.vertical_media_teaser_xsmall
     - node.type.post
   module:
     - ds

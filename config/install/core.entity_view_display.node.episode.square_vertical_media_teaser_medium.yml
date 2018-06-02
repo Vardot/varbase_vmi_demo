@@ -1,0 +1,50 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.square_vertical_media_teaser_medium
+    - field.field.node.episode.body
+    - field.field.node.episode.field_video
+    - node.type.episode
+  module:
+    - ds
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.episode.square_vertical_media_teaser_medium
+targetEntityType: node
+bundle: episode
+mode: square_vertical_media_teaser_medium
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_video:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: se2e_standard
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true
+  links: true

@@ -3,7 +3,7 @@ status: true
 dependencies:
   module:
     - node
-id: node.horizontal_media_teaser_medium
+id: node.traditional_horizontal_media_teaser_medium
 label: 'Traditional - Horizontal media teaser - medium'
 targetEntityType: node
 cache: true

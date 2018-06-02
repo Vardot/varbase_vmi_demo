@@ -3,20 +3,13 @@ status: true
 dependencies:
   config:
     - page_manager.page.posts_auto
-  content:
-    - 'block_content:basic:2129152d-8fc6-453f-8ec1-87e91ec67f07'
-    - 'block_content:basic:2be6c6e2-ff57-4300-8799-d17c6c6440be'
-    - 'block_content:basic:3bfdd53c-55f9-4057-b5c7-667afe934ea4'
-    - 'block_content:basic:8b1ff383-3f56-4fcb-af1d-022b540862be'
-    - 'block_content:basic:e855e4b5-96bb-4d0a-95f7-00a3e70ef56a'
   module:
-    - block_content
     - panels
 id: posts_auto-panels_variant-0
 label: 'VMI - Auto - Posts'
 variant: panels_variant
 variant_settings:
-  blocks: { }
+  blocks: {  }
   id: panels_variant
   uuid: 531c5895-d318-4d62-85cc-54f7dd6e740c
   label: null

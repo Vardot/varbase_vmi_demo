@@ -3,20 +3,13 @@ status: true
 dependencies:
   config:
     - page_manager.page.posts_standard
-  content:
-    - 'block_content:basic:434f8022-9db7-4f82-8f3b-f80daa45e4ab'
-    - 'block_content:basic:9d9f4198-2885-40ca-824b-40271f06183b'
-    - 'block_content:basic:a04155be-8767-4716-9f4e-98aeaf8e5325'
-    - 'block_content:basic:cf777efd-7027-4569-aae2-c94063964b1a'
-    - 'block_content:basic:fe520651-7bc4-479a-a3d2-361878328af6'
   module:
-    - block_content
     - panels
 id: posts_standard-panels_variant-0
 label: 'VMI - Standard 16:9 - Posts'
 variant: panels_variant
 variant_settings:
-  blocks: { }
+  blocks: {  }
   id: panels_variant
   uuid: 6cda314b-3ef8-4e84-9283-e8f49afd3a82
   label: null
