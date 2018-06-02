@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.square_tout_medium
+label: 'Square - Tout - medium'
+targetEntityType: node
+cache: true

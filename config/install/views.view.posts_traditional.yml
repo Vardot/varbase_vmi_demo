@@ -2,33 +2,33 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.hero_xlarge
-    - core.entity_view_mode.node.horizontal_media_teaser_large
-    - core.entity_view_mode.node.horizontal_media_teaser_medium
-    - core.entity_view_mode.node.horizontal_media_teaser_small
-    - core.entity_view_mode.node.horizontal_media_teaser_xlarge
-    - core.entity_view_mode.node.horizontal_media_teaser_xsmall
-    - core.entity_view_mode.node.text_teaser_large
-    - core.entity_view_mode.node.text_teaser_medium
-    - core.entity_view_mode.node.text_teaser_small
-    - core.entity_view_mode.node.tout_large
-    - core.entity_view_mode.node.tout_medium
-    - core.entity_view_mode.node.tout_xlarge
-    - core.entity_view_mode.node.vertical_media_teaser_large
-    - core.entity_view_mode.node.vertical_media_teaser_medium
-    - core.entity_view_mode.node.vertical_media_teaser_small
-    - core.entity_view_mode.node.vertical_media_teaser_xlarge
-    - core.entity_view_mode.node.vertical_media_teaser_xsmall
+    - core.entity_view_mode.node.traditional_hero_xlarge
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_large
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_medium
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_small
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_xlarge
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_xsmall
+    - core.entity_view_mode.node.traditional_text_teaser_large
+    - core.entity_view_mode.node.traditional_text_teaser_medium
+    - core.entity_view_mode.node.traditional_text_teaser_small
+    - core.entity_view_mode.node.traditional_tout_large
+    - core.entity_view_mode.node.traditional_tout_medium
+    - core.entity_view_mode.node.traditional_tout_xlarge
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_large
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_medium
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_small
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_xlarge
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_xsmall
     - node.type.post
   module:
     - ds
     - node
     - user
     - views_bootstrap
-id: posts
-label: Posts
+id: posts_traditional
+label: 'Posts - Traditional'
 module: views
-description: 'List posts with an inventory of many displays.'
+description: 'List posts with a traditional view mode inventory of many displays.'
 tag: Posts
 base_table: node_field_data
 base_field: nid
@@ -305,7 +305,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Hero'
+      block_category: 'Posts - Traditional - Hero'
       pager:
         type: some
         options:
@@ -388,7 +388,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Horizontal media'
+      block_category: 'Posts - Traditional - Horizontal media'
       pager:
         type: full
         options:
@@ -477,7 +477,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Horizontal media'
+      block_category: 'Posts - Traditional - Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -545,7 +545,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Horizontal media'
+      block_category: 'Posts - Traditional - Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -613,7 +613,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Horizontal media'
+      block_category: 'Posts - Traditional - Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -681,7 +681,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Horizontal media'
+      block_category: 'Posts - Traditional - Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -749,7 +749,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Horizontal media'
+      block_category: 'Posts - Traditional - Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -817,7 +817,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Horizontal media'
+      block_category: 'Posts - Traditional - Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -885,7 +885,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Horizontal media'
+      block_category: 'Posts - Traditional - Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -953,7 +953,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Horizontal media'
+      block_category: 'Posts - Traditional - Horizontal media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1021,7 +1021,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1089,7 +1089,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1157,7 +1157,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1225,7 +1225,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1293,7 +1293,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1361,7 +1361,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1429,7 +1429,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1497,7 +1497,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1565,7 +1565,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1633,7 +1633,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Text teaser'
+      block_category: 'Posts - Traditional - Text teaser'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1701,7 +1701,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Tout'
+      block_category: 'Posts - Traditional - Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1769,7 +1769,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Tout'
+      block_category: 'Posts - Traditional - Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1837,7 +1837,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Tout'
+      block_category: 'Posts - Traditional - Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1905,7 +1905,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Tout'
+      block_category: 'Posts - Traditional - Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -1973,7 +1973,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Tout'
+      block_category: 'Posts - Traditional - Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2041,7 +2041,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Tout'
+      block_category: 'Posts - Traditional - Tout'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2110,7 +2110,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
       pager:
         type: full
         options:
@@ -2200,7 +2200,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
       pager:
         type: full
         options:
@@ -2289,7 +2289,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2357,7 +2357,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2425,7 +2425,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2493,7 +2493,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2561,7 +2561,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2629,7 +2629,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2697,7 +2697,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2765,7 +2765,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2833,7 +2833,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2901,7 +2901,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -2969,7 +2969,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:
@@ -3037,7 +3037,7 @@ display:
         disable_filters: disable_filters
         configure_sorts: configure_sorts
         hide_fields: '0'
-      block_category: 'Posts - Vertical media'
+      block_category: 'Posts - Traditional - Vertical media'
     cache_metadata:
       max-age: -1
       contexts:

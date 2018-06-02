@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.traditional_horizontal_media_teaser_large
+label: 'Traditional - Horizontal media teaser - large'
+targetEntityType: node
+cache: true

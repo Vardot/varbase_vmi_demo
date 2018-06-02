@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.traditional_tout_medium
+label: 'Traditional - Tout - medium'
+targetEntityType: node
+cache: true

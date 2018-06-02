@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.auto_tout_medium
+label: 'Auto - Tout - medium'
+targetEntityType: node
+cache: true

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.traditional_tout_xlarge
+label: 'Traditional - Tout - xlarge'
+targetEntityType: node
+cache: true

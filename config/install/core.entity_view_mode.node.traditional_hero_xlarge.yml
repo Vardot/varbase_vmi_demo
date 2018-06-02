@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.traditional_hero_xlarge
+label: 'Traditional - Hero - xlarge'
+targetEntityType: node
+cache: true
