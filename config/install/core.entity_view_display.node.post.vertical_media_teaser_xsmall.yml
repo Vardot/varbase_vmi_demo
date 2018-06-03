@@ -3,9 +3,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.vertical_media_teaser_xsmall
-    - field.field.node.vmi.body
-    - field.field.node.vmi.field_image
-    - node.type.vmi
+    - field.field.node.post.body
+    - field.field.node.post.field_image
+    - node.type.post
   module:
     - ds
     - panelizer
@@ -45,9 +45,9 @@ third_party_settings:
     custom: false
     allow: false
     default: default
-id: node.vmi.vertical_media_teaser_xsmall
+id: node.post.vertical_media_teaser_xsmall
 targetEntityType: node
-bundle: vmi
+bundle: post
 mode: vertical_media_teaser_xsmall
 content:
   field_image:
