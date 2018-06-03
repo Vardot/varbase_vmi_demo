@@ -33,7 +33,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      view_mode: se2e_square
+      view_mode: s02_square
       link: false
     third_party_settings:
       ds:

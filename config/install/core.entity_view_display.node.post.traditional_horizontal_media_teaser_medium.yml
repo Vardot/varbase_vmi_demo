@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.square_tout_medium
-    - field.field.node.episode.body
-    - field.field.node.episode.field_video
-    - node.type.episode
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_medium
+    - field.field.node.post.body
+    - field.field.node.post.field_image
+    - node.type.post
   module:
     - ds
     - panelizer
@@ -17,10 +17,10 @@ third_party_settings:
     custom: false
     allow: false
     default: default
-id: node.episode.square_tout_medium
+id: node.post.traditional_horizontal_media_teaser_medium
 targetEntityType: node
-bundle: episode
-mode: square_tout_medium
+bundle: post
+mode: traditional_horizontal_media_teaser_medium
 content:
   body:
     label: hidden
@@ -29,11 +29,11 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_video:
+  field_image:
     weight: 0
     label: hidden
     settings:
-      view_mode: s04_square
+      view_mode: s04_traditional
       link: false
     third_party_settings:
       ds:

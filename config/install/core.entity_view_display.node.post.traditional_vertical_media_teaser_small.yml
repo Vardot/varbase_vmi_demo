@@ -33,7 +33,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      view_mode: s12_traditional
+      view_mode: s03_traditional
       link: false
     third_party_settings:
       ds:
