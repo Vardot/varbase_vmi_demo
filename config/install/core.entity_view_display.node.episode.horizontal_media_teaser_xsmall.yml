@@ -52,43 +52,6 @@ targetEntityType: node
 bundle: episode
 mode: horizontal_media_teaser_xsmall
 content:
-  field_image:
-    type: entity_reference_entity_view
-    weight: 0
-    label: hidden
-    settings:
-      view_mode: s02_standard
-      link: false
-    third_party_settings:
-      ds:
-        ft:
-          id: expert
-          settings:
-            lb: ''
-            prefix: ''
-            lbw-el: ''
-            lbw-cl: ''
-            lbw-at: ''
-            ow: true
-            ow-el: a
-            ow-cl: ''
-            ow-at: 'href="[node:url]"'
-            ow-def-at: true
-            ow-def-cl: true
-            fis-el: ''
-            fis-cl: ''
-            fis-at: ''
-            fis-def-at: true
-            fi-el: ''
-            fi-cl: ''
-            fi-at: ''
-            fi-def-at: true
-            suffix: ''
-            lbw: false
-            lb-col: false
-            fis: false
-            fi: false
-    region: left
   field_video:
     type: entity_reference_entity_view
     weight: 0
