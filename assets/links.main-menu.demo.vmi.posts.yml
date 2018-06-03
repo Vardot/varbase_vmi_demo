@@ -11,165 +11,165 @@ posts_standard:
     uri: 'internal:/vmi/standard/posts'
   menu_name: 'main'
   weight: 1
-  parent: posts
+  parent: menu_link_content:posts
 posts_traditional:
   title: 'Posts'
   link:
     uri: 'internal:/vmi/traditional/posts'
   menu_name: 'main'
   weight: 2
-  parent: posts
+  parent: menu_link_content:posts
 posts_squar:
   title: 'Posts - Squar'
   link:
     uri: 'internal:/vmi/square/posts'
   menu_name: 'main'
   weight: 3
-  parent: posts
+  parent: menu_link_content:posts
 posts_auto:
   title: 'Posts - Auto'
   link:
     uri: 'internal:/vmi/auto/posts'
   menu_name: 'main'
   weight: 4
-  parent: posts
+  parent: menu_link_content:posts
 posts_standard_hero:
   title: 'Hero'
   link:
     uri: 'internal:/vmi/standard/posts/hero'
   menu_name: 'main'
   weight: 1
-  parent: posts_standard
+  parent: menu_link_content:posts_standard
 posts_standard_tout:
   title: 'Tout'
   link:
     uri: 'internal:/vmi/standard/posts/tout'
   menu_name: 'main'
   weight: 2
-  parent: posts_standard
+  parent: menu_link_content:posts_standard
 posts_standard_vertical_media:
   title: 'Vertical Media'
   link:
     uri: 'internal:/vmi/standard/posts/vertical_media'
   menu_name: 'main'
   weight: 3
-  parent: posts_standard
+  parent: menu_link_content:posts_standard
 posts_standard_horizontal_media:
   title: 'Horizontal Media'
   link:
     uri: 'internal:/vmi/standard/posts/horizontal_media'
   menu_name: 'main'
   weight: 4
-  parent: posts_standard
+  parent: menu_link_content:posts_standard
 posts_standard_text:
   title: 'Text'
   link:
     uri: 'internal:/vmi/standard/posts/text'
   menu_name: 'main'
   weight: 5
-  parent: posts_standard
+  parent: menu_link_content:posts_standard
 posts_traditional_hero:
   title: 'Posts - traditional - Hero'
   link:
     uri: 'internal:/vmi/traditional/posts/hero'
   menu_name: 'main'
   weight: 1
-  parent: posts_traditional
+  parent: menu_link_content:posts_traditional
 posts_traditional_tout:
   title: 'Posts - traditional - Tout'
   link:
     uri: 'internal:/vmi/traditional/posts/tout'
   menu_name: 'main'
   weight: 2
-  parent: posts_traditional
+  parent: menu_link_content:posts_traditional
 posts_traditional_vertical_media:
   title: 'Posts - traditional - Vertical Media'
   link:
     uri: 'internal:/vmi/traditional/posts/vertical_media'
   menu_name: 'main'
   weight: 3
-  parent: posts_traditional
+  parent: menu_link_content:posts_traditional
 posts_traditional_horizontal_media:
   title: 'Posts - traditional - Horizontal Media'
   link:
     uri: 'internal:/vmi/traditional/posts/horizontal_media'
   menu_name: 'main'
   weight: 4
-  parent: posts_traditional
+  parent: menu_link_content:posts_traditional
 posts_traditional_text:
   title: 'Posts - traditional - Text'
   link:
     uri: 'internal:/vmi/traditional/posts/text'
   menu_name: 'main'
   weight: 5
-  parent: posts_traditional
+  parent: menu_link_content:posts_traditional
 posts_square_hero:
   title: 'Posts - square - Hero'
   link:
     uri: 'internal:/vmi/square/posts/hero'
   menu_name: 'main'
   weight: 1
-  parent: posts_square
+  parent: menu_link_content:posts_square
 posts_square_tout:
   title: 'Posts - square - Tout'
   link:
     uri: 'internal:/vmi/square/posts/tout'
   menu_name: 'main'
   weight: 2
-  parent: posts_square
+  parent: menu_link_content:posts_square
 posts_square_vertical_media:
   title: 'Posts - square - Vertical Media'
   link:
     uri: 'internal:/vmi/square/posts/vertical_media'
   menu_name: 'main'
   weight: 3
-  parent: posts_square
+  parent: menu_link_content:posts_square
 posts_square_horizontal_media:
   title: 'Posts - square - Horizontal Media'
   link:
     uri: 'internal:/vmi/square/posts/horizontal_media'
   menu_name: 'main'
   weight: 4
-  parent: posts_square
+  parent: menu_link_content:posts_square
 posts_square_text:
   title: 'Posts - square - Text'
   link:
     uri: 'internal:/vmi/square/posts/text'
   menu_name: 'main'
   weight: 5
-  parent: posts_square
+  parent: menu_link_content:posts_square
 posts_auto_hero:
   title: 'Posts - Auto - Hero'
   link:
     uri: 'internal:/vmi/auto/posts/hero'
   menu_name: 'main'
   weight: 1
-  parent: posts_auto
+  parent: menu_link_content:posts_auto
 posts_auto_tout:
   title: 'Posts - Auto - Tout'
   link:
     uri: 'internal:/vmi/auto/posts/tout'
   menu_name: 'main'
   weight: 2
-  parent: posts_auto
+  parent: menu_link_content:posts_auto
 posts_auto_vertical_media:
   title: 'Posts - Auto - Vertical Media'
   link:
     uri: 'internal:/vmi/auto/posts/vertical_media'
   menu_name: 'main'
   weight: 3
-  parent: posts_auto
+  parent: menu_link_content:posts_auto
 posts_auto_horizontal_media:
   title: 'Posts - Auto - Horizontal Media'
   link:
     uri: 'internal:/vmi/auto/posts/horizontal_media'
   menu_name: 'main'
   weight: 4
-  parent: posts_auto
+  parent: menu_link_content:posts_auto
 posts_auto_text:
   title: 'Posts - Auto - Text'
   link:
     uri: 'internal:/vmi/auto/posts/text'
   menu_name: 'main'
   weight: 5
-  parent: posts_auto
+  parent: menu_link_content:posts_auto

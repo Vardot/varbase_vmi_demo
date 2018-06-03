@@ -9,13 +9,126 @@ id: posts_standard_hero-panels_variant-0
 label: 'VMI - Standard 16:9 - Posts - hero'
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    7f3aa14d-449d-4644-9cd9-8af57e6ae51b:
+      id: 'views_block:vmi-hero_xlarge_block'
+      label: 'VMI: Hero - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Hero - xlarge - Block'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 7f3aa14d-449d-4644-9cd9-8af57e6ae51b
+      weight: 1
+    c105466b-7f73-4939-b694-e9a55afca628:
+      id: 'views_block:vmi-hero_xlarge_block'
+      label: 'VMI: Hero - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Hero - xlarge - Block'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 1
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: c105466b-7f73-4939-b694-e9a55afca628
+      weight: 1
+    d1249c25-ab7a-40d4-92c1-f25077cfc9ab:
+      id: 'views_block:vmi-hero_xlarge_block'
+      label: 'VMI: Hero - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'VMI: Hero - xlarge - Block'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 3
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: d1249c25-ab7a-40d4-92c1-f25077cfc9ab
+      weight: 1
+    4959d6a1-48fa-44fe-8d3b-f79a33fe84c9:
+      id: 'views_block:vmi-hero_xlarge_block'
+      label: ' VMI: Hero - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: ' VMI: Hero - xlarge - Block'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 5
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom
+      uuid: 4959d6a1-48fa-44fe-8d3b-f79a33fe84c9
+      weight: 1
   id: panels_variant
-  uuid: b84cb392-b12a-4d50-83e3-0c408e10fd14
+  uuid: 25f0efa7-9080-416e-ab35-2f954003577b
   label: null
   weight: 0
-  layout: layout_twocol_bricks
-  layout_settings: {  }
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      attributes: ''
+      add_layout_class: 1
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-11: col-sm-11
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-1: col-sm-1
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-10: col-sm-10
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-2: col-sm-2
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-9: col-sm-9
+        add_region_classes: 1
+        attributes: ''
   page_title: 'VMI - Standard 16:9 - Posts - Hero'
   storage_type: page_manager
   storage_id: posts_standard_hero-panels_variant-0

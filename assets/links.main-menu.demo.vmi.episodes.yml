@@ -11,165 +11,165 @@ episodes_standard:
     uri: 'internal:/vmi/standard/episodes'
   menu_name: 'main'
   weight: 1
-  parent: episodes
+  parent: menu_link_content:episodes
 episodes_traditional:
   title: 'Episodes'
   link:
     uri: 'internal:/vmi/traditional/episodes'
   menu_name: 'main'
   weight: 2
-  parent: episodes
+  parent: menu_link_content:episodes
 episodes_squar:
   title: 'Episodes - Squar'
   link:
     uri: 'internal:/vmi/square/episodes'
   menu_name: 'main'
   weight: 3
-  parent: episodes
+  parent: menu_link_content:episodes
 episodes_auto:
   title: 'Episodes - Auto'
   link:
     uri: 'internal:/vmi/auto/episodes'
   menu_name: 'main'
   weight: 4
-  parent: episodes
+  parent: menu_link_content:episodes
 episodes_standard_hero:
   title: 'Hero'
   link:
     uri: 'internal:/vmi/standard/episodes/hero'
   menu_name: 'main'
   weight: 1
-  parent: episodes_standard
+  parent: menu_link_content:episodes_standard
 episodes_standard_tout:
   title: 'Tout'
   link:
     uri: 'internal:/vmi/standard/episodes/tout'
   menu_name: 'main'
   weight: 2
-  parent: episodes_standard
+  parent: menu_link_content:episodes_standard
 episodes_standard_vertical_media:
   title: 'Vertical Media'
   link:
     uri: 'internal:/vmi/standard/episodes/vertical_media'
   menu_name: 'main'
   weight: 3
-  parent: episodes_standard
+  parent: menu_link_content:episodes_standard
 episodes_standard_horizontal_media:
   title: 'Horizontal Media'
   link:
     uri: 'internal:/vmi/standard/episodes/horizontal_media'
   menu_name: 'main'
   weight: 4
-  parent: episodes_standard
+  parent: menu_link_content:episodes_standard
 episodes_standard_text:
   title: 'Text'
   link:
     uri: 'internal:/vmi/standard/episodes/text'
   menu_name: 'main'
   weight: 5
-  parent: episodes_standard
+  parent: menu_link_content:episodes_standard
 episodes_traditional_hero:
   title: 'Episodes - traditional - Hero'
   link:
     uri: 'internal:/vmi/traditional/episodes/hero'
   menu_name: 'main'
   weight: 1
-  parent: episodes_traditional
+  parent: menu_link_content:episodes_traditional
 episodes_traditional_tout:
   title: 'Episodes - traditional - Tout'
   link:
     uri: 'internal:/vmi/traditional/episodes/tout'
   menu_name: 'main'
   weight: 2
-  parent: episodes_traditional
+  parent: menu_link_content:episodes_traditional
 episodes_traditional_vertical_media:
   title: 'Episodes - traditional - Vertical Media'
   link:
     uri: 'internal:/vmi/traditional/episodes/vertical_media'
   menu_name: 'main'
   weight: 3
-  parent: episodes_traditional
+  parent: menu_link_content:episodes_traditional
 episodes_traditional_horizontal_media:
   title: 'Episodes - traditional - Horizontal Media'
   link:
     uri: 'internal:/vmi/traditional/episodes/horizontal_media'
   menu_name: 'main'
   weight: 4
-  parent: episodes_traditional
+  parent: menu_link_content:episodes_traditional
 episodes_traditional_text:
   title: 'Episodes - traditional - Text'
   link:
     uri: 'internal:/vmi/traditional/episodes/text'
   menu_name: 'main'
   weight: 5
-  parent: episodes_traditional
+  parent: menu_link_content:episodes_traditional
 episodes_square_hero:
   title: 'Episodes - square - Hero'
   link:
     uri: 'internal:/vmi/square/episodes/hero'
   menu_name: 'main'
   weight: 1
-  parent: episodes_square
+  parent: menu_link_content:episodes_square
 episodes_square_tout:
   title: 'Episodes - square - Tout'
   link:
     uri: 'internal:/vmi/square/episodes/tout'
   menu_name: 'main'
   weight: 2
-  parent: episodes_square
+  parent: menu_link_content:episodes_square
 episodes_square_vertical_media:
   title: 'Episodes - square - Vertical Media'
   link:
     uri: 'internal:/vmi/square/episodes/vertical_media'
   menu_name: 'main'
   weight: 3
-  parent: episodes_square
+  parent: menu_link_content:episodes_square
 episodes_square_horizontal_media:
   title: 'Episodes - square - Horizontal Media'
   link:
     uri: 'internal:/vmi/square/episodes/horizontal_media'
   menu_name: 'main'
   weight: 4
-  parent: episodes_square
+  parent: menu_link_content:episodes_square
 episodes_square_text:
   title: 'Episodes - square - Text'
   link:
     uri: 'internal:/vmi/square/episodes/text'
   menu_name: 'main'
   weight: 5
-  parent: episodes_square
+  parent: menu_link_content:episodes_square
 episodes_auto_hero:
   title: 'Episodes - Auto - Hero'
   link:
     uri: 'internal:/vmi/auto/episodes/hero'
   menu_name: 'main'
   weight: 1
-  parent: episodes_auto
+  parent: menu_link_content:episodes_auto
 episodes_auto_tout:
   title: 'Episodes - Auto - Tout'
   link:
     uri: 'internal:/vmi/auto/episodes/tout'
   menu_name: 'main'
   weight: 2
-  parent: episodes_auto
+  parent: menu_link_content:episodes_auto
 episodes_auto_vertical_media:
   title: 'Episodes - Auto - Vertical Media'
   link:
     uri: 'internal:/vmi/auto/episodes/vertical_media'
   menu_name: 'main'
   weight: 3
-  parent: episodes_auto
+  parent: menu_link_content:episodes_auto
 episodes_auto_horizontal_media:
   title: 'Episodes - Auto - Horizontal Media'
   link:
     uri: 'internal:/vmi/auto/episodes/horizontal_media'
   menu_name: 'main'
   weight: 4
-  parent: episodes_auto
+  parent: menu_link_content:episodes_auto
 episodes_auto_text:
   title: 'Episodes - Auto - Text'
   link:
     uri: 'internal:/vmi/auto/episodes/text'
   menu_name: 'main'
   weight: 5
-  parent: episodes_auto
+  parent: menu_link_content:episodes_auto
