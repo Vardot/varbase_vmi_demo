@@ -1,0 +1,42 @@
+episodes_standard:
+  title: 'Episodes - Standard 16:9'
+  link:
+    uri: 'internal:/vmi/standard/episodes'
+  menu_name: 'main'
+  weight: 120
+  parent: null
+episodes_standard_hero:
+  title: 'Episodes - Standard 16:9 - Hero'
+  link:
+    uri: 'internal:/vmi/standard/episodes/hero'
+  menu_name: 'main'
+  weight: 121
+  parent: episodes_standard
+episodes_standard_tout:
+  title: 'Episodes - Standard 16:9 - Tout'
+  link:
+    uri: 'internal:/vmi/standard/episodes/tout'
+  menu_name: 'main'
+  weight: 122
+  parent: episodes_standard
+episodes_standard_vertical_media:
+  title: 'Episodes - Standard 16:9 - Vertical Media'
+  link:
+    uri: 'internal:/vmi/standard/episodes/vertical_media'
+  menu_name: 'main'
+  weight: 123
+  parent: episodes_standard
+episodes_standard_horizontal_media:
+  title: 'Episodes - Standard 16:9 - Horizontal Media'
+  link:
+    uri: 'internal:/vmi/standard/episodes/horizontal_media'
+  menu_name: 'main'
+  weight: 124
+  parent: episodes_standard
+episodes_standard_text:
+  title: 'Episodes - Standard 16:9 - Text'
+  link:
+    uri: 'internal:/vmi/standard/episodes/text'
+  menu_name: 'main'
+  weight: 125
+  parent: episodes_standar

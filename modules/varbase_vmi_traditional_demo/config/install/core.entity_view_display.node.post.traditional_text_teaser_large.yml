@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.traditional_text_teaser_large
+    - field.field.node.post.body
+    - field.field.node.post.field_image
+    - node.type.post
+  module:
+    - ds
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.post.traditional_text_teaser_large
+targetEntityType: node
+bundle: post
+mode: traditional_text_teaser_large
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  links: true

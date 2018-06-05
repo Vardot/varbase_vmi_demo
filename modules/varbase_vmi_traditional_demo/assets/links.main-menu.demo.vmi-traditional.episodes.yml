@@ -1,0 +1,42 @@
+episodes_traditional:
+  title: 'Episodes - Traditional 4:3'
+  link:
+    uri: 'internal:/vmi/traditional/episodes'
+  menu_name: 'main'
+  weight: 220
+  parent: null
+episodes_traditional_hero:
+  title: 'Episodes - Traditional 4:3 - Hero'
+  link:
+    uri: 'internal:/vmi/traditional/episodes/hero'
+  menu_name: 'main'
+  weight: 221
+  parent: episodes_traditional
+episodes_traditional_tout:
+  title: 'Episodes - Traditional 4:3 - Tout'
+  link:
+    uri: 'internal:/vmi/traditional/episodes/tout'
+  menu_name: 'main'
+  weight: 222
+  parent: episodes_traditional
+episodes_traditional_vertical_media:
+  title: 'Episodes - Traditional 4:3 - Vertical Media'
+  link:
+    uri: 'internal:/vmi/traditional/episodes/vertical_media'
+  menu_name: 'main'
+  weight: 223
+  parent: episodes_traditional
+episodes_traditional_horizontal_media:
+  title: 'Episodes - Traditional 4:3 - Horizontal Media'
+  link:
+    uri: 'internal:/vmi/traditional/episodes/horizontal_media'
+  menu_name: 'main'
+  weight: 224
+  parent: episodes_traditional
+episodes_traditional_text:
+  title: 'Episodes - Traditional 4:3 - Text'
+  link:
+    uri: 'internal:/vmi/traditional/episodes/text'
+  menu_name: 'main'
+  weight: 225
+  parent: episodes_traditional

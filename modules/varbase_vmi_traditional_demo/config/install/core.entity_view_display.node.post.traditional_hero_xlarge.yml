@@ -1,0 +1,50 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.traditional_hero_xlarge
+    - field.field.node.post.body
+    - field.field.node.post.field_image
+    - node.type.post
+  module:
+    - ds
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.post.traditional_hero_xlarge
+targetEntityType: node
+bundle: post
+mode: traditional_hero_xlarge
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: se2e_traditional
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true
+  links: true

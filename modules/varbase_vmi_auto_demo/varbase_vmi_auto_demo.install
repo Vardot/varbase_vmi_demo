@@ -11,14 +11,14 @@ use Symfony\Component\Yaml\Yaml;
 /**
  * Implements hook_install().
  */
-function varbase_vmi_demo_install() {
+function varbase_vmi_auto_demo_install() {
   $module_path = Drupal::service('module_handler')
-                 ->getModule('varbase_vmi_demo')
+                 ->getModule('varbase_vmi_auto_demo')
                  ->getPath();
   
   $links_to_menus = [
-    'links.main-menu.demo.vmi.posts.yml',
-    'links.main-menu.demo.vmi.episodes.yml',
+    'links.main-menu.demo.vmi-auto.posts.yml',
+    'links.main-menu.demo.vmi-auto.episodes.yml',
   ];
 
   foreach ($links_to_menus as $links_to_menu) {

@@ -1,0 +1,42 @@
+episodes_auto:
+  title: 'Episodes - Auto'
+  link:
+    uri: 'internal:/vmi/auto/episodes'
+  menu_name: 'main'
+  weight: 420
+  parent: null
+episodes_auto_hero:
+  title: 'Episodes - Square 1:1 - Hero'
+  link:
+    uri: 'internal:/vmi/auto/episodes/hero'
+  menu_name: 'main'
+  weight: 421
+  parent: episodes_auto
+episodes_auto_tout:
+  title: 'Episodes - Square 1:1 - Tout'
+  link:
+    uri: 'internal:/vmi/auto/episodes/tout'
+  menu_name: 'main'
+  weight: 422
+  parent: episodes_auto
+episodes_auto_vertical_media:
+  title: 'Episodes - Auto - Vertical Media'
+  link:
+    uri: 'internal:/vmi/auto/episodes/vertical_media'
+  menu_name: 'main'
+  weight: 423
+  parent: episodes_auto
+episodes_auto_horizontal_media:
+  title: 'Episodes - Auto - Horizontal Media'
+  link:
+    uri: 'internal:/vmi/auto/episodes/horizontal_media'
+  menu_name: 'main'
+  weight: 424
+  parent: episodes_auto
+episodes_auto_text:
+  title: 'Episodes - Auto - Text'
+  link:
+    uri: 'internal:/vmi/auto/episodes/text'
+  menu_name: 'main'
+  weight: 425
+  parent: episodes_auto

@@ -1,0 +1,42 @@
+posts_squar:
+  title: 'Posts - Squar 1:1'
+  link:
+    uri: 'internal:/vmi/square/posts'
+  menu_name: 'main'
+  weight: 310
+  parent: null
+posts_square_hero:
+  title: 'Posts - Square 1:1 - Hero'
+  link:
+    uri: 'internal:/vmi/square/posts/hero'
+  menu_name: 'main'
+  weight: 311
+  parent: posts_square
+posts_square_tout:
+  title: 'Posts - Square 1:1 - Tout'
+  link:
+    uri: 'internal:/vmi/square/posts/tout'
+  menu_name: 'main'
+  weight: 312
+  parent: posts_square
+posts_square_vertical_media:
+  title: 'Posts - Square 1:1 - Vertical Media'
+  link:
+    uri: 'internal:/vmi/square/posts/vertical_media'
+  menu_name: 'main'
+  weight: 313
+  parent: posts_square
+posts_square_horizontal_media:
+  title: 'Posts - Square 1:1 - Horizontal Media'
+  link:
+    uri: 'internal:/vmi/square/posts/horizontal_media'
+  menu_name: 'main'
+  weight: 314
+  parent: posts_square
+posts_square_text:
+  title: 'Posts - Square 1:1 - Text'
+  link:
+    uri: 'internal:/vmi/square/posts/text'
+  menu_name: 'main'
+  weight: 315
+  parent: posts_square

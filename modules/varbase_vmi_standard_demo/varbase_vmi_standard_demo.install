@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the varbase_vmi_standard_demo module.
+ */
+
+use Drupal\menu_link_content\Entity\MenuLinkContent;
+use Symfony\Component\Yaml\Yaml;
+
+/**
+ * Implements hook_install().
+ */
+function varbase_vmi_standard_demo_install() {
+  $module_path = Drupal::service('module_handler')
+                 ->getModule('varbase_vmi_standard_demo')
+                 ->getPath();
+  
+  $links_to_menus = [
+    'links.main-menu.demo.vmi-standard.posts.yml',
+    'links.main-menu.demo.vmi-standard.episodes.yml',
+  ];
+
+  foreach ($links_to_menus as $links_to_menu) {
+    $assets_demo_links_path = $module_path . '/assets/' . $links_to_menu;
+    $assets_demo_links_content = file_get_contents($assets_demo_links_path);
+    $assets_demo_links_data = (array) Yaml::parse($assets_demo_links_content);
+
+    if (is_array($assets_demo_links_data) && count($assets_demo_links_data) > 0) {
+      foreach ($assets_demo_links_data as $assets_demo_link) {
+        MenuLinkContent::create($assets_demo_link)->save();
+      }
+    }
+  }
+}
