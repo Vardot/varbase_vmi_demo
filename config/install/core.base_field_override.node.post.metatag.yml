@@ -2,20 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.body
     - node.type.post
-  module:
-    - text
-id: node.post.body
-field_name: body
+id: node.post.metatag
+field_name: metatag
 entity_type: node
 bundle: post
-label: Body
-description: ''
+label: Metatags
+description: 'The meta tags for the entity.'
 required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
-settings:
-  display_summary: false
-field_type: text_with_summary
+settings: {  }
+field_type: map
