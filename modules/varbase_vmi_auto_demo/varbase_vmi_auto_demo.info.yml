@@ -1,9 +1,9 @@
 name: 'Varbase VMI Auto Demo'
 description: 'Have a VMI Auto demo work for how to use View Modes Inventory (VMI) module in Varbase.'
 type: module
-core: 8.x
+package: 'Varbase VMI Demos'
 version: 8.x-5.x-dev
-package: Varbase
+core: 8.x
 dependencies:
   - varbase_core
   - varbase_media
