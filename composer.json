@@ -1,6 +1,6 @@
 {
   "name": "vardot/varbase_vmi_demo",
-  "description": "Have a demo work for how to use View Modes Inventory (VMI) module in Varbase.",
+  "description": "Have a VMI demo content types work for how to use View Modes Inventory (VMI) module in Varbase. you will need to enable any of the VMI Standard, Traditional, Square, or Auto demo modules.",
   "type": "drupal-module",
   "homepage": "https://github.com/Vardot/varbase_vmi_demo",
   "license": "GPL-2.0-or-later",

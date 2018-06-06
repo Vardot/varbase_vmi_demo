@@ -1,5 +1,5 @@
 name: 'Varbase VMI Demo'
-description: 'Have a VMI demo content types work for how to use View Modes Inventory (VMI) module in Varbase. you will need to enable any of the VMI Standard, Traditional, Square, or Auto demo modules.'
+description: 'Have a VMI demo content types work for how to use View Modes Inventory (VMI) module in Varbase.'
 type: module
 package: 'Varbase Demos'
 version: 8.x-5.x-dev
