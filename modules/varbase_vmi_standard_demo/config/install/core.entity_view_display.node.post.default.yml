@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.episode.body
-    - field.field.node.episode.field_video
-    - node.type.episode
+    - field.field.node.post.body
+    - field.field.node.post.field_image
+    - node.type.post
   module:
     - ds
     - panelizer
@@ -16,28 +16,9 @@ third_party_settings:
     custom: false
     allow: false
     default: default
-  ds:
-    layout:
-      id: ds_1col
-      library: null
-      disable_css: false
-      entity_classes: all_classes
-      settings:
-        classes: {  }
-        wrappers:
-          ds_content: div
-        outer_wrapper: div
-        attributes: ''
-        link_attribute: ''
-        link_custom: ''
-    regions:
-      ds_content:
-        - field_video
-        - langcode
-        - body
-id: node.episode.default
+id: node.post.default
 targetEntityType: node
-bundle: episode
+bundle: post
 mode: default
 content:
   body:
@@ -47,11 +28,11 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_video:
+  field_image:
     weight: 0
     label: hidden
     settings:
-      view_mode: se2e_standard
+      view_mode: s12_standard
       link: false
     third_party_settings:
       ds:

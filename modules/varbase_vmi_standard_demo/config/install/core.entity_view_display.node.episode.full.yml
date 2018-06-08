@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.episode.body
     - field.field.node.episode.field_video
     - node.type.episode
@@ -16,29 +17,10 @@ third_party_settings:
     custom: false
     allow: false
     default: default
-  ds:
-    layout:
-      id: ds_1col
-      library: null
-      disable_css: false
-      entity_classes: all_classes
-      settings:
-        classes: {  }
-        wrappers:
-          ds_content: div
-        outer_wrapper: div
-        attributes: ''
-        link_attribute: ''
-        link_custom: ''
-    regions:
-      ds_content:
-        - field_video
-        - langcode
-        - body
-id: node.episode.default
+id: node.episode.full
 targetEntityType: node
 bundle: episode
-mode: default
+mode: full
 content:
   body:
     label: hidden
