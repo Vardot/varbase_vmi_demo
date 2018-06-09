@@ -1,0 +1,142 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_standard_hero
+    - views.view.posts_standard
+  module:
+    - panels
+    - views
+id: posts_standard_hero-panels_variant-0
+label: 'VMI - Standard 16:9 - Posts - hero'
+variant: panels_variant
+variant_settings:
+  blocks:
+    12c7c51a-67d7-4b60-9a73-e4695253281e:
+      id: 'views_block:posts_standard-hero_xlarge_block'
+      label: 'Posts - Standard: Hero - xlarge - Block in container with column 12'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Hero - xlarge - Block in container with column 12'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 12c7c51a-67d7-4b60-9a73-e4695253281e
+      weight: 1
+    bab71f07-f45d-424a-8ca1-24f131df2b80:
+      id: 'views_block:posts_standard-hero_xlarge_block'
+      label: 'Posts - Standard: Hero - xlarge - Block in container with column 11'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Hero - xlarge - Block in container with column 11'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 1
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: bab71f07-f45d-424a-8ca1-24f131df2b80
+      weight: 1
+    6c32c6ae-d199-4a21-807e-9aa7fc5d4518:
+      id: 'views_block:posts_standard-hero_xlarge_block'
+      label: ' Posts - Standard: Hero - xlarge - Block in container with column 10 '
+      provider: views
+      label_display: visible
+      views_label: ' Posts - Standard: Hero - xlarge - Block in container with column 10 '
+      items_per_page: '1'
+      pager: some
+      pager_offset: 2
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: 6c32c6ae-d199-4a21-807e-9aa7fc5d4518
+      weight: 1
+    f78612bd-aa48-4cb1-b807-3a9a04394f93:
+      id: 'views_block:posts_standard-hero_xlarge_block'
+      label: 'Posts - Standard: Hero - xlarge - Block in container with column 9'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Hero - xlarge - Block in container with column 9'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 4
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom
+      uuid: f78612bd-aa48-4cb1-b807-3a9a04394f93
+      weight: 1
+  id: panels_variant
+  uuid: 25f0efa7-9080-416e-ab35-2f954003577b
+  label: null
+  weight: 0
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      attributes: ''
+      add_layout_class: 1
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-11: col-sm-11
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-1: col-sm-1
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-10: col-sm-10
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-2: col-sm-2
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-9: col-sm-9
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'VMI - Standard 16:9 - Posts - Hero'
+  storage_type: page_manager
+  storage_id: posts_standard_hero-panels_variant-0
+  builder: ipe
+page: posts_standard_hero
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

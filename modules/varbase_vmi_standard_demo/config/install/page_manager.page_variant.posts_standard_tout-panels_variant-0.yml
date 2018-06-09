@@ -1,0 +1,206 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_standard_tout
+    - views.view.posts_standard
+  module:
+    - panels
+    - views
+id: posts_standard_tout-panels_variant-0
+label: 'VMI - Standard 16:9 - Posts - Tout'
+variant: panels_variant
+variant_settings:
+  blocks:
+    9b312cdf-6fa3-4a02-abe1-898aaaa04caf:
+      id: 'views_block:posts_standard-tout_xlarge_block'
+      label: 'Posts - Standard: Tout - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Tout - xlarge - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 9b312cdf-6fa3-4a02-abe1-898aaaa04caf
+      weight: 1
+    c6e8734f-4d2f-4e04-aa5b-79d056d41c96:
+      id: 'views_block:posts_standard-tout_large_2_in_row_block'
+      label: 'Posts - Standard: Tout - large - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Tout - large - 2 in row Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: c6e8734f-4d2f-4e04-aa5b-79d056d41c96
+      weight: 2
+    a57e2501-8baa-44e4-9766-252ecf448c13:
+      id: 'views_block:posts_standard-tout_medium_3_in_row_block'
+      label: 'POSTS - STANDARD: TOUT - MEDIUM - 3 IN ROW BLOCK'
+      provider: views
+      label_display: visible
+      views_label: 'POSTS - STANDARD: TOUT - MEDIUM - 3 IN ROW BLOCK'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: a57e2501-8baa-44e4-9766-252ecf448c13
+      weight: 3
+    313c6194-79cd-4be0-a20e-38a56dc3bbf5:
+      id: 'views_block:posts_standard-tout_medium_2_in_row_block'
+      label: 'Posts - Standard: Tout - medium - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Tout - medium - 2 in row Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 313c6194-79cd-4be0-a20e-38a56dc3bbf5
+      weight: 2
+    eb947cb0-4fa8-4e54-a43e-dac2e51c0312:
+      id: 'views_block:posts_standard-tout_medium_1_in_row_block'
+      label: 'Posts - Standard: Tout - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Tout - medium - 1 in row - Block'
+      items_per_page: '5'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_right
+      uuid: eb947cb0-4fa8-4e54-a43e-dac2e51c0312
+      weight: 1
+    4e2b4a89-3b4a-4051-8aa0-28c978a8f0d7:
+      id: 'views_block:posts_standard-tout_xlarge_block'
+      label: 'Posts - Standard: Tout - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Tout - xlarge - Block'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 4e2b4a89-3b4a-4051-8aa0-28c978a8f0d7
+      weight: 1
+    84092ebd-b660-4712-b326-e687623787be:
+      id: 'views_block:posts_standard-tout_large_1_in_row_block'
+      label: 'Posts - Standard: Tout - large - 1 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Tout - large - 1 in row Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: 84092ebd-b660-4712-b326-e687623787be
+      weight: 1
+    b44ecc64-e3b8-4f1a-80e4-d854d4300c69:
+      id: 'views_block:posts_standard-tout_medium_2_in_row_block'
+      label: 'Posts - Standard: Tout - medium - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Tout - medium - 2 in row Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_right
+      uuid: b44ecc64-e3b8-4f1a-80e4-d854d4300c69
+      weight: 1
+  id: panels_variant
+  uuid: 9d49432b-84f8-462f-ab34-657bd1a03112
+  label: null
+  weight: 0
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      attributes: ''
+      add_layout_class: 1
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'VMI - Standard 16:9 - Posts - Tout'
+  storage_type: page_manager
+  storage_id: posts_standard_tout-panels_variant-0
+  builder: ipe
+page: posts_standard_tout
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

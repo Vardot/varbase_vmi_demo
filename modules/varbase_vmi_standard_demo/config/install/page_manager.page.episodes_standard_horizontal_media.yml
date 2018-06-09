@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_standard_horizontal_media
+label: 'VMI - Standard 16:9 - Episodes - Horizontal Media'
+description: ''
+use_admin_theme: false
+path: /vmi/standard/episodes/horizontal_media
+access_logic: and
+access_conditions: {  }
+parameters: {  }

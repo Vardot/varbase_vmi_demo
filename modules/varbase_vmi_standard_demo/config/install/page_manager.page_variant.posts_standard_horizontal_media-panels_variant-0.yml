@@ -1,0 +1,268 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_standard_horizontal_media
+    - views.view.posts_standard
+  module:
+    - panels
+    - views
+id: posts_standard_horizontal_media-panels_variant-0
+label: 'VMI - Standard 16:9 - Posts - Horizontal Media'
+variant: panels_variant
+variant_settings:
+  blocks:
+    dc908c23-ffa7-4ca8-9b5a-4f869da0c7f8:
+      id: 'views_block:posts_standard-horizontal_media_teaser_xlarge_block'
+      label: 'Posts - Standard: Horizontal media teaser - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - xlarge - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: dc908c23-ffa7-4ca8-9b5a-4f869da0c7f8
+      weight: 1
+    f059b996-1582-4fb3-8848-f6ee5370299e:
+      id: 'views_block:posts_standard-horizontal_media_teaser_large_block'
+      label: 'Posts - Standard: Horizontal media teaser - large - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - large - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 2
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: f059b996-1582-4fb3-8848-f6ee5370299e
+      weight: 2
+    aa71ea6b-9c2a-4f2b-ad17-a1d3e36293e5:
+      id: 'views_block:posts_standard-horizontal_media_teaser_medium_2_in_row_block'
+      label: 'Posts - Standard: Horizontal media teaser - medium - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - medium - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: aa71ea6b-9c2a-4f2b-ad17-a1d3e36293e5
+      weight: 3
+    c51fa625-0941-4087-8daa-61ddadd23c99:
+      id: 'views_block:posts_standard-horizontal_media_teaser_large_block'
+      label: 'Posts - Standard: Horizontal media teaser - large - Block ( Do not use )'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - large - Block ( Do not use )'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: left
+      uuid: c51fa625-0941-4087-8daa-61ddadd23c99
+      weight: 1
+    7334394a-df24-48d5-bf3d-172d0c11e15f:
+      id: 'views_block:posts_standard-horizontal_media_teaser_medium_1_in_row_block'
+      label: 'Posts - Standard: Horizontal media teaser - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - medium - 1 in row - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: left
+      uuid: 7334394a-df24-48d5-bf3d-172d0c11e15f
+      weight: 2
+    f87ef2c8-6d21-41c6-9799-103d4b421ea7:
+      id: 'views_block:posts_standard-horizontal_media_teaser_medium_2_in_row_block'
+      label: 'Posts - Standard: Horizontal media teaser - medium - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - medium - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: left
+      uuid: f87ef2c8-6d21-41c6-9799-103d4b421ea7
+      weight: 3
+    f1ed66e4-ff37-40b7-ab75-e7e5cc47d2d5:
+      id: 'views_block:posts_standard-horizontal_media_teaser_small_2_in_row_block'
+      label: 'Posts - Standard: Horizontal media teaser - small - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - small - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: left
+      uuid: f1ed66e4-ff37-40b7-ab75-e7e5cc47d2d5
+      weight: 4
+    8be89b71-4b06-4d4b-9010-cf54e5fbd68d:
+      id: 'views_block:posts_standard-horizontal_media_teaser_small_3_in_row_block'
+      label: 'Posts - Standard: Horizontal media teaser - small - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - small - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom
+      uuid: 8be89b71-4b06-4d4b-9010-cf54e5fbd68d
+      weight: 1
+    ace2b863-2665-4c84-b1b3-de6aa686fe80:
+      id: 'views_block:posts_standard-horizontal_media_teaser_small_4_in_row_block'
+      label: 'Posts - Standard: Horizontal media teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom
+      uuid: ace2b863-2665-4c84-b1b3-de6aa686fe80
+      weight: 2
+    0942e50f-4279-42bd-87f0-35ec0c98564f:
+      id: 'views_block:posts_standard-horizontal_media_teaser_xsmall_block'
+      label: 'Posts - Standard: Horizontal media teaser - xsmall - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - xsmall - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: right
+      uuid: 0942e50f-4279-42bd-87f0-35ec0c98564f
+      weight: 1
+    20822e82-f142-4b40-8bf4-d66e65c6a7cd:
+      id: 'views_block:posts_standard-horizontal_media_teaser_small_1_in_row_block'
+      label: 'Posts - Standard: Horizontal media teaser - small - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - small - 1 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: right
+      uuid: 20822e82-f142-4b40-8bf4-d66e65c6a7cd
+      weight: 2
+    3aa89692-20b4-4b3c-9706-158557d6979b:
+      id: 'views_block:posts_standard-horizontal_media_teaser_small_2_in_row_block'
+      label: 'Posts - Standard: Horizontal media teaser - small - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - small - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: right
+      uuid: 3aa89692-20b4-4b3c-9706-158557d6979b
+      weight: 3
+    d858af06-5ef0-41cc-8ed8-37ca2080db44:
+      id: 'views_block:posts_standard-horizontal_media_teaser_medium_1_in_row_block'
+      label: 'Posts - Standard: Horizontal media teaser - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Standard: Horizontal media teaser - medium - 1 in row - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: right
+      uuid: d858af06-5ef0-41cc-8ed8-37ca2080db44
+      weight: 4
+  id: panels_variant
+  uuid: 8be6a15e-2e75-4ddb-affa-20f1a4a26aaf
+  label: null
+  weight: 0
+  layout: bs_2col_stacked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      attributes: ''
+      add_layout_class: 1
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'VMI - Standard 16:9 - Posts - Horizontal Media'
+  storage_type: page_manager
+  storage_id: posts_standard_horizontal_media-panels_variant-0
+  builder: ipe
+page: posts_standard_horizontal_media
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: posts_standard
+label: 'VMI - Standard 16:9 - Postes'
+description: ''
+use_admin_theme: false
+path: /vmi/standard/posts
+access_logic: and
+access_conditions: {  }
+parameters: {  }

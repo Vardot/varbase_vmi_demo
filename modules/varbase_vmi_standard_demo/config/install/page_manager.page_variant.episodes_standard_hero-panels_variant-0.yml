@@ -1,0 +1,142 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_standard_hero
+    - views.view.episodes_standard
+  module:
+    - panels
+    - views
+id: episodes_standard_hero-panels_variant-0
+label: 'VMI - Standard 16:9 - Episode - Hero'
+variant: panels_variant
+variant_settings:
+  blocks:
+    05454836-b37b-4eb6-af82-d0f89adc38d2:
+      id: 'views_block:episodes_standard-hero_xlarge_block'
+      label: 'Episodes - Standard: Hero - xlarge - Block in container with column 12'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Hero - xlarge - Block in container with column 12'
+      items_per_page: '1'
+      region: top
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      uuid: 05454836-b37b-4eb6-af82-d0f89adc38d2
+      weight: 1
+    4cc9f1ae-1e9e-48fa-93e9-dd50deded053:
+      id: 'views_block:episodes_standard-hero_xlarge_block'
+      label: 'Episodes - Standard: Hero - xlarge - Block in container with column 11'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Hero - xlarge - Block in container with column 11'
+      items_per_page: '1'
+      region: top_left
+      pager: some
+      pager_offset: 2
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      uuid: 4cc9f1ae-1e9e-48fa-93e9-dd50deded053
+      weight: 1
+    c777b57d-eb21-4130-9a31-0d71d496b9cc:
+      id: 'views_block:episodes_standard-hero_xlarge_block'
+      label: 'Episodes - Standard: Hero - xlarge - Block in container with column 10'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Hero - xlarge - Block in container with column 10'
+      items_per_page: '1'
+      region: bottom_left
+      pager: some
+      pager_offset: 3
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      uuid: c777b57d-eb21-4130-9a31-0d71d496b9cc
+      weight: 1
+    249c9bbd-d73e-4155-ada4-33f23283ca4c:
+      id: 'views_block:episodes_standard-hero_xlarge_block'
+      label: 'Episodes - Standard: Hero - xlarge - Block in container with column 9'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Hero - xlarge - Block in container with column 9'
+      items_per_page: '1'
+      region: bottom
+      pager: some
+      pager_offset: 4
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      uuid: 249c9bbd-d73e-4155-ada4-33f23283ca4c
+      weight: 1
+  id: panels_variant
+  uuid: 2ed2aa74-a0b1-45cc-965a-fc9c9bc91f12
+  label: null
+  weight: 0
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-11: col-sm-11
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-1: col-sm-1
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-10: col-sm-10
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-2: col-sm-2
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-9: col-sm-9
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'VMI - Standard 16:9 - Episode - Hero'
+  storage_type: page_manager
+  storage_id: episodes_standard_hero-panels_variant-0
+  builder: ipe
+page: episodes_standard_hero
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

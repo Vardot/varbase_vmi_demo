@@ -1,0 +1,156 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_standard_text
+    - views.view.episodes_standard
+  module:
+    - panels
+    - views
+id: episodes_standard_text-panels_variant-0
+label: 'VMI - Standard 16:9 - Episode - Text'
+variant: panels_variant
+variant_settings:
+  blocks:
+    5a25c01b-daf2-49b3-afa5-f1b406645362:
+      id: 'views_block:episodes_standard-text_teaser_small_4_in_row_block'
+      label: 'Episodes - Standard: Text teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Text teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 5a25c01b-daf2-49b3-afa5-f1b406645362
+      weight: 1
+    b3019a4a-5994-4cf9-8447-5eebc649d4c6:
+      id: 'views_block:episodes_standard-text_teaser_medium_2_in_row_block'
+      label: 'Episodes - Standard: Text teaser - medium - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Text teaser - medium - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: left
+      uuid: b3019a4a-5994-4cf9-8447-5eebc649d4c6
+      weight: 1
+    6dff8ab7-1606-49d7-9a86-2c9880e4fe73:
+      id: 'views_block:episodes_standard-text_teaser_medium_1_in_row_block'
+      label: 'Episodes - Standard: Text teaser - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Text teaser - medium - 1 in row - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: right
+      uuid: 6dff8ab7-1606-49d7-9a86-2c9880e4fe73
+      weight: 1
+    ad512335-6d13-4fb7-9eec-36264fd44e3e:
+      id: 'views_block:episodes_standard-text_teaser_small_3_in_row_block'
+      label: 'Episodes - Standard: Text teaser - small - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Text teaser - small - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: left
+      uuid: ad512335-6d13-4fb7-9eec-36264fd44e3e
+      weight: 2
+    938d2fbd-e522-4525-a895-37079e471bdf:
+      id: 'views_block:episodes_standard-text_teaser_large_2_in_row_block'
+      label: 'Episodes - Standard: Text teaser - large - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Text teaser - large - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom
+      uuid: 938d2fbd-e522-4525-a895-37079e471bdf
+      weight: 1
+    bd918879-1a42-433c-afbf-4ed622775b77:
+      id: 'views_block:episodes_standard-text_teaser_medium_3_in_row_block'
+      label: 'Episodes - Standard: Text teaser - medium - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Standard: Text teaser - medium - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom
+      uuid: bd918879-1a42-433c-afbf-4ed622775b77
+      weight: 2
+  id: panels_variant
+  uuid: 4916aae2-d1ce-4094-bb22-e37c526b76df
+  label: null
+  weight: 0
+  layout: bs_2col_stacked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'VMI - Standard 16:9 - Episode - Text'
+  storage_type: page_manager
+  storage_id: episodes_standard_text-panels_variant-0
+  builder: ipe
+page: episodes_standard_text
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
