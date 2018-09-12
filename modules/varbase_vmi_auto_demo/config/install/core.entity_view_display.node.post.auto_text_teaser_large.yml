@@ -8,15 +8,9 @@ dependencies:
     - node.type.post
   module:
     - ds
-    - panelizer
     - text
     - user
 third_party_settings:
-  panelizer:
-    enable: false
-    custom: false
-    allow: false
-    default: default
 id: node.post.auto_text_teaser_large
 targetEntityType: node
 bundle: post

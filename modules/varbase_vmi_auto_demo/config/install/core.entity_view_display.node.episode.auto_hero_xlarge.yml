@@ -8,15 +8,9 @@ dependencies:
     - node.type.episode
   module:
     - ds
-    - panelizer
     - text
     - user
 third_party_settings:
-  panelizer:
-    enable: false
-    custom: false
-    allow: false
-    default: default
 id: node.episode.auto_hero_xlarge
 targetEntityType: node
 bundle: episode
