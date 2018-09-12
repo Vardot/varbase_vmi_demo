@@ -27,53 +27,53 @@ Have a demo work for how to use
 
 * Go to your home page you will see the following links in the Main menu:
 
-** Posts - Standard 16:9 - Hero
-** Posts - Standard 16:9 - Tout
-** Posts - Standard 16:9 - Vertical Media
-** Posts - Standard 16:9 - Horizontal Media
-** Posts - Standard 16:9 - Text
+* ** Posts - Standard 16:9 - Hero
+* ** Posts - Standard 16:9 - Tout
+* ** Posts - Standard 16:9 - Vertical Media
+* ** Posts - Standard 16:9 - Horizontal Media
+* ** Posts - Standard 16:9 - Text
 
-** Episodes - Standard 16:9 - Hero
-** Episodes - Standard 16:9 - Tout
-** Episodes - Standard 16:9 - Vertical Media
-** Episodes - Standard 16:9 - Horizontal Media
-** Episodes - Standard 16:9 - Text
+* ** Episodes - Standard 16:9 - Hero
+* ** Episodes - Standard 16:9 - Tout
+* ** Episodes - Standard 16:9 - Vertical Media
+* ** Episodes - Standard 16:9 - Horizontal Media
+* ** Episodes - Standard 16:9 - Text
 
-** Posts - Traditional 4:3 - Hero
-** Posts - Traditional 4:3 - Tout
-** Posts - Traditional 4:3 - Vertical Media
-** Posts - Traditional 4:3 - Horizontal Media
-** Posts - Traditional 4:3 - Text
+* ** Posts - Traditional 4:3 - Hero
+* ** Posts - Traditional 4:3 - Tout
+* ** Posts - Traditional 4:3 - Vertical Media
+* ** Posts - Traditional 4:3 - Horizontal Media
+* ** Posts - Traditional 4:3 - Text
 
-** Episodes - Traditional 4:3 - Hero
-** Episodes - Traditional 4:3 - Tout
-** Episodes - Traditional 4:3 - Vertical Media
-** Episodes - Traditional 4:3 - Horizontal Media
-** Episodes - Traditional 4:3 - Text
+* ** Episodes - Traditional 4:3 - Hero
+* ** Episodes - Traditional 4:3 - Tout
+* ** Episodes - Traditional 4:3 - Vertical Media
+* ** Episodes - Traditional 4:3 - Horizontal Media
+* ** Episodes - Traditional 4:3 - Text
 
-** Posts - Square 1:1 - Hero
-** Posts - Square 1:1 - Tout
-** Posts - Square 1:1 - Vertical Media
-** Posts - Square 1:1 - Horizontal Media
-** Posts - Square 1:1 - Text
+* ** Posts - Square 1:1 - Hero
+* ** Posts - Square 1:1 - Tout
+* ** Posts - Square 1:1 - Vertical Media
+* ** Posts - Square 1:1 - Horizontal Media
+* ** Posts - Square 1:1 - Text
 
-** Episodes - Square 1:1 - Hero
-** Episodes - Square 1:1 - Tout
-** Episodes - Square 1:1 - Vertical Media
-** Episodes - Square 1:1 - Horizontal Media
-** Episodes - Square 1:1 - Text
+* ** Episodes - Square 1:1 - Hero
+* ** Episodes - Square 1:1 - Tout
+* ** Episodes - Square 1:1 - Vertical Media
+* ** Episodes - Square 1:1 - Horizontal Media
+* ** Episodes - Square 1:1 - Text
 
-** Posts - Auto - Hero
-** Posts - Auto - Tout
-** Posts - Auto - Vertical Media
-** Posts - Auto - Horizontal Media
-** Posts - Auto - Text
+* ** Posts - Auto - Hero
+* ** Posts - Auto - Tout
+* ** Posts - Auto - Vertical Media
+* ** Posts - Auto - Horizontal Media
+* ** Posts - Auto - Text
 
-** Episodes - Auto - Hero
-** Episodes - Auto - Tout
-** Episodes - Auto - Vertical Media
-** Episodes - Auto - Horizontal Media
-** Episodes - Auto - Text
+* ** Episodes - Auto - Hero
+* ** Episodes - Auto - Tout
+* ** Episodes - Auto - Vertical Media
+* ** Episodes - Auto - Horizontal Media
+* ** Episodes - Auto - Text
 
 ### Install Varbase VMI demo latest stable release.
 ```
