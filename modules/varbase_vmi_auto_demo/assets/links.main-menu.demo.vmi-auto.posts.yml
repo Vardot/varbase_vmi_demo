@@ -3,7 +3,7 @@ posts_auto:
   link:
     uri: 'internal:/vmi/auto/posts'
   menu_name: 'main'
-  weight: 414
+  weight: 410
   parent: null
 posts_auto_hero:
   title: 'Posts - Auto - Hero'

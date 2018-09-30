@@ -7,16 +7,8 @@ dependencies:
     - field.field.node.post.field_image
     - node.type.post
   module:
-    - ds
-    - panelizer
     - text
     - user
-third_party_settings:
-  panelizer:
-    enable: false
-    custom: false
-    allow: false
-    default: default
 id: node.post.traditional_text_teaser_large
 targetEntityType: node
 bundle: post
@@ -30,5 +22,6 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_image: true
   langcode: true
   links: true

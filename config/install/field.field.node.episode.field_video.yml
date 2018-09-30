@@ -3,8 +3,8 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_video
+    - media.type.remote_video
     - media.type.video
-    - media.type.video_embed
     - node.type.episode
 id: node.episode.field_video
 field_name: field_video
@@ -20,10 +20,10 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
-      video_embed: video_embed
+      remote_video: remote_video
       video: video
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: video_embed
+    auto_create_bundle: remote_video
 field_type: entity_reference

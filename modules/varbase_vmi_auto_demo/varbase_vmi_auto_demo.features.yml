@@ -1,2 +1,31 @@
 bundle: varbase
+excluded:
+  - core.entity_view_display.node.post.traditional_hero_xlarge
+  - core.entity_view_display.node.post.traditional_horizontal_media_teaser_large
+  - core.entity_view_display.node.post.traditional_horizontal_media_teaser_medium
+  - core.entity_view_display.node.post.traditional_horizontal_media_teaser_small
+  - core.entity_view_display.node.post.traditional_horizontal_media_teaser_xlarge
+  - core.entity_view_display.node.post.traditional_horizontal_media_teaser_xsmall
+  - core.entity_view_display.node.post.traditional_text_teaser_large
+  - core.entity_view_display.node.post.traditional_text_teaser_medium
+  - core.entity_view_display.node.post.traditional_text_teaser_small
+  - core.entity_view_display.node.post.traditional_tout_large
+  - core.entity_view_display.node.post.traditional_tout_medium
+  - core.entity_view_display.node.post.traditional_tout_xlarge
+  - core.entity_view_display.node.post.traditional_vertical_media_teaser_large
+  - core.entity_view_display.node.post.traditional_vertical_media_teaser_medium
+  - core.entity_view_display.node.post.traditional_vertical_media_teaser_small
+  - core.entity_view_display.node.post.traditional_vertical_media_teaser_xlarge
+  - core.entity_view_display.node.post.traditional_vertical_media_teaser_xsmall
+  - core.entity_view_display.node.post.text_teaser_large
+  - core.entity_view_display.node.post.text_teaser_medium
+  - core.entity_view_display.node.post.text_teaser_small
+  - core.entity_view_display.node.post.tout_large
+  - core.entity_view_display.node.post.tout_medium
+  - core.entity_view_display.node.post.tout_xlarge
+  - core.entity_view_display.node.post.vertical_media_teaser_large
+  - core.entity_view_display.node.post.vertical_media_teaser_medium
+  - core.entity_view_display.node.post.vertical_media_teaser_small
+  - core.entity_view_display.node.post.vertical_media_teaser_xlarge
+  - core.entity_view_display.node.post.vertical_media_teaser_xsmall
 required: true

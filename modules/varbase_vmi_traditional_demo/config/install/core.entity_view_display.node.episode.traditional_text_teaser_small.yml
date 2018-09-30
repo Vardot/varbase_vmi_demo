@@ -7,16 +7,8 @@ dependencies:
     - field.field.node.episode.field_video
     - node.type.episode
   module:
-    - ds
-    - panelizer
     - text
     - user
-third_party_settings:
-  panelizer:
-    enable: false
-    custom: false
-    allow: false
-    default: default
 id: node.episode.traditional_text_teaser_small
 targetEntityType: node
 bundle: episode
@@ -30,5 +22,6 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_video: true
   langcode: true
   links: true

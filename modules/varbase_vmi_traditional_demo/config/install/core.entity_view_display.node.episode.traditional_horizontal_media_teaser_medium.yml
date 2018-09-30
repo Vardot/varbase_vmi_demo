@@ -3,23 +3,16 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.traditional_horizontal_media_teaser_medium
-    - field.field.node.post.body
-    - field.field.node.post.field_video
-    - node.type.post
+    - field.field.node.episode.body
+    - field.field.node.episode.field_video
+    - node.type.episode
   module:
     - ds
-    - panelizer
     - text
     - user
-third_party_settings:
-  panelizer:
-    enable: false
-    custom: false
-    allow: false
-    default: default
 id: node.episode.traditional_horizontal_media_teaser_medium
 targetEntityType: node
-bundle: post
+bundle: episode
 mode: traditional_horizontal_media_teaser_medium
 content:
   body:

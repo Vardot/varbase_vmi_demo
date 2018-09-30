@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Install, update and uninstall functions for the varbase_vmi_demo module.
+ * Install, update and uninstall functions for the varbase_vmi_auto_demo module.
  */
 
 use Drupal\menu_link_content\Entity\MenuLinkContent;
