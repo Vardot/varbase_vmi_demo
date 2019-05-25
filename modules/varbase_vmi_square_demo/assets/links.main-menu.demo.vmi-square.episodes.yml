@@ -5,38 +5,40 @@ episodes_squar:
   menu_name: 'main'
   weight: 320
   parent: null
+  uuid: '9ad34bc5-d34d-4852-8c00-9a7b42ae9f2e'
+  expanded: true
 episodes_square_hero:
   title: 'Episodes - Square 1:1 - Hero'
   link:
     uri: 'internal:/vmi/square/episodes/hero'
   menu_name: 'main'
   weight: 321
-  parent: episodes_square
+  parent: 'menu_link_content:9ad34bc5-d34d-4852-8c00-9a7b42ae9f2e'
 episodes_square_tout:
   title: 'Episodes - Square 1:1 - Tout'
   link:
     uri: 'internal:/vmi/square/episodes/tout'
   menu_name: 'main'
   weight: 322
-  parent: episodes_square
+  parent: 'menu_link_content:9ad34bc5-d34d-4852-8c00-9a7b42ae9f2e'
 episodes_square_vertical_media:
   title: 'Episodes - Square 1:1 - Vertical Media'
   link:
     uri: 'internal:/vmi/square/episodes/vertical_media'
   menu_name: 'main'
   weight: 323
-  parent: episodes_square
+  parent: 'menu_link_content:9ad34bc5-d34d-4852-8c00-9a7b42ae9f2e'
 episodes_square_horizontal_media:
   title: 'Episodes - Square 1:1 - Horizontal Media'
   link:
     uri: 'internal:/vmi/square/episodes/horizontal_media'
   menu_name: 'main'
   weight: 324
-  parent: episodes_square
+  parent: 'menu_link_content:9ad34bc5-d34d-4852-8c00-9a7b42ae9f2e'
 episodes_square_text:
   title: 'Episodes - Square 1:1 - Text'
   link:
     uri: 'internal:/vmi/square/episodes/text'
   menu_name: 'main'
   weight: 325
-  parent: episodes_square
+  parent: 'menu_link_content:9ad34bc5-d34d-4852-8c00-9a7b42ae9f2e'

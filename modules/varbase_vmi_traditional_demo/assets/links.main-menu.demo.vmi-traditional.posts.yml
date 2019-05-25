@@ -5,38 +5,40 @@ posts_traditional:
   menu_name: 'main'
   weight: 210
   parent: null
+  uuid: '4985657e-0a70-4b0d-9505-39a60c7fe668'
+  expanded: true
 posts_traditional_hero:
   title: 'Posts - Traditional 4:3 - Hero'
   link:
     uri: 'internal:/vmi/traditional/posts/hero'
   menu_name: 'main'
   weight: 211
-  parent: posts_traditional
+  parent: 'menu_link_content:4985657e-0a70-4b0d-9505-39a60c7fe668'
 posts_traditional_tout:
   title: 'Posts - Traditional 4:3 - Tout'
   link:
     uri: 'internal:/vmi/traditional/posts/tout'
   menu_name: 'main'
   weight: 212
-  parent: posts_traditional
+  parent: 'menu_link_content:4985657e-0a70-4b0d-9505-39a60c7fe668'
 posts_traditional_vertical_media:
   title: 'Posts - Traditional 4:3 - Vertical Media'
   link:
     uri: 'internal:/vmi/traditional/posts/vertical_media'
   menu_name: 'main'
   weight: 213
-  parent: posts_traditional
+  parent: 'menu_link_content:4985657e-0a70-4b0d-9505-39a60c7fe668'
 posts_traditional_horizontal_media:
   title: 'Posts - Traditional 4:3 - Horizontal Media'
   link:
     uri: 'internal:/vmi/traditional/posts/horizontal_media'
   menu_name: 'main'
   weight: 214
-  parent: posts_traditional
+  parent: 'menu_link_content:4985657e-0a70-4b0d-9505-39a60c7fe668'
 posts_traditional_text:
   title: 'Posts - Traditional 4:3 - Text'
   link:
     uri: 'internal:/vmi/traditional/posts/text'
   menu_name: 'main'
   weight: 215
-  parent: posts_traditional
+  parent: 'menu_link_content:4985657e-0a70-4b0d-9505-39a60c7fe668'
