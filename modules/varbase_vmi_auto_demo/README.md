@@ -40,5 +40,5 @@ composer require vardot/varbase_vmi_demo:8.5.0-alpha4
 
 ### Install Varbasee VMI Demo the progress Development.
 ```
-composer require vardot/varbase_vmi_demo:dev-8.x-5.x
+composer require vardot/varbase_vmi_demo:dev-8.x-7.x
 ```
