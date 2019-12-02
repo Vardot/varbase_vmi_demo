@@ -3,19 +3,212 @@ status: true
 dependencies:
   config:
     - page_manager.page.episodes_traditional_horizontal_media
+    - views.view.episodes_traditional
   module:
     - panels
+    - views
 id: episodes_traditional_horizontal_media-panels_variant-0
 label: 'VMI - Traditional 4:3 - Episode - Horizontal Media'
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    9d1e42c0-def4-4fd5-ad2f-7fcf67d7f933:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_xlarge_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - xlarge - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 9d1e42c0-def4-4fd5-ad2f-7fcf67d7f933
+      weight: 1
+    132e287d-9768-4b15-a462-3a85847dd632:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_large_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - large - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - large - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 132e287d-9768-4b15-a462-3a85847dd632
+      weight: 2
+    da5417e8-97c3-4284-8347-2d5b4221451b:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_medium_2_in_row_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - medium - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - medium - 2 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: da5417e8-97c3-4284-8347-2d5b4221451b
+      weight: 3
+    ab7430e3-ba54-4c1f-b5a1-b43de8ef6c57:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_large_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - large - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - large - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: left
+      uuid: ab7430e3-ba54-4c1f-b5a1-b43de8ef6c57
+      weight: 1
+    a1ac20b9-9f99-4eb1-99d4-c9ceeb25913f:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_small_1_in_row_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - small - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - small - 1 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: right
+      uuid: a1ac20b9-9f99-4eb1-99d4-c9ceeb25913f
+      weight: 1
+    98f6c878-923f-4513-9cee-e38d26d3f24b:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_medium_1_in_row_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - medium - 1 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: right
+      uuid: 98f6c878-923f-4513-9cee-e38d26d3f24b
+      weight: 2
+    6ff487ec-eb92-46af-b01d-a7c4125f226a:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_medium_2_in_row_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - medium - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - medium - 2 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: left
+      uuid: 6ff487ec-eb92-46af-b01d-a7c4125f226a
+      weight: 2
+    cd6e170b-fdf9-4940-afe6-f0a88ffd7dc3:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_small_2_in_row_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - small - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - small - 2 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: left
+      uuid: cd6e170b-fdf9-4940-afe6-f0a88ffd7dc3
+      weight: 3
+    665bd70a-c38c-40ee-8bb9-b902ea3ce3f5:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_small_3_in_row_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - small - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - small - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom
+      uuid: 665bd70a-c38c-40ee-8bb9-b902ea3ce3f5
+      weight: 1
+    24450b49-61d8-4f0f-b70a-70288b1c50b7:
+      id: 'views_block:episodes_traditional-horizontal_media_teaser_small_4_in_row_block'
+      label: 'Episodes - Traditional: Horizontal media teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Traditional: Horizontal media teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom
+      uuid: 24450b49-61d8-4f0f-b70a-70288b1c50b7
+      weight: 2
   id: panels_variant
   uuid: 9f1a4d16-14b7-4a93-a44b-c6b04adf59ac
   label: null
   weight: 0
-  layout: layout_twocol_bricks
-  layout_settings: {  }
+  layout: bs_2col_stacked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
   page_title: 'VMI - Traditional 4:3 - Episode - Horizontal Media'
   storage_type: page_manager
   storage_id: episodes_traditional_horizontal_media-panels_variant-0

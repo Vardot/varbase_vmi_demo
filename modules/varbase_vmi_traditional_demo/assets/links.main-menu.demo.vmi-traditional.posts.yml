@@ -35,10 +35,3 @@ posts_traditional_horizontal_media:
   menu_name: 'main'
   weight: 214
   parent: 'menu_link_content:4985657e-0a70-4b0d-9505-39a60c7fe668'
-posts_traditional_text:
-  title: 'Posts - Traditional 4:3 - Text'
-  link:
-    uri: 'internal:/vmi/traditional/posts/text'
-  menu_name: 'main'
-  weight: 215
-  parent: 'menu_link_content:4985657e-0a70-4b0d-9505-39a60c7fe668'

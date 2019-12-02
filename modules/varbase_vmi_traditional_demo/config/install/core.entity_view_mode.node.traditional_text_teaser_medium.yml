@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - node
-id: node.traditional_text_teaser_medium
-label: 'Traditional - Text teaser - medium'
-targetEntityType: node
-cache: true

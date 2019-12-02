@@ -3,19 +3,134 @@ status: true
 dependencies:
   config:
     - page_manager.page.posts_traditional_hero
+    - views.view.posts_traditional
   module:
     - panels
+    - views
 id: posts_traditional_hero-panels_variant-0
 label: 'VMI - Traditional 4:3 - Posts - Hero'
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    fa3047e9-f7dc-4819-ab1c-61668e988b80:
+      id: 'views_block:posts_traditional-hero_xlarge_block'
+      label: 'Posts - Traditional: Hero - xlarge - Block in container with column 12'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Traditional: Hero - xlarge - Block in container with column 12'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: fa3047e9-f7dc-4819-ab1c-61668e988b80
+      weight: 1
+    465c71a1-d132-4f7c-bffc-e2be58622254:
+      id: 'views_block:posts_traditional-hero_xlarge_block'
+      label: 'Traditional: Hero - xlarge - Block in container with column 11'
+      provider: views
+      label_display: visible
+      views_label: 'Traditional: Hero - xlarge - Block in container with column 11'
+      items_per_page: '1'
+      pager: view
+      pager_offset: 1
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 465c71a1-d132-4f7c-bffc-e2be58622254
+      weight: 1
+    3a717e8a-787c-415b-a6c6-f902f0d38224:
+      id: 'views_block:posts_traditional-hero_xlarge_block'
+      label: 'Posts - Traditional: Hero - xlarge - Block in container with column 10'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Traditional: Hero - xlarge - Block in container with column 10'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 2
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: middle
+      uuid: 3a717e8a-787c-415b-a6c6-f902f0d38224
+      weight: 1
+    304bb1e5-feda-4184-88b2-3a3b33fab1d5:
+      id: 'views_block:posts_traditional-hero_xlarge_block'
+      label: 'Posts - Traditional: Hero - xlarge - Block in container with column 9'
+      provider: views
+      label_display: visible
+      views_label: 'Posts - Traditional: Hero - xlarge - Block in container with column 9'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 3
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: 304bb1e5-feda-4184-88b2-3a3b33fab1d5
+      weight: 1
   id: panels_variant
   uuid: 054f64fd-95fd-4ba5-b908-54c1ea70d556
   label: null
   weight: 0
-  layout: layout_twocol_bricks
-  layout_settings: {  }
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-11: col-sm-11
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-1: col-sm-1
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-10: col-sm-10
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-9: col-sm-9
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-3: col-sm-3
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
   page_title: 'VMI - Traditional 4:3 - Posts - Hero'
   storage_type: page_manager
   storage_id: posts_traditional_hero-panels_variant-0

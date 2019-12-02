@@ -35,10 +35,3 @@ episodes_traditional_horizontal_media:
   menu_name: 'main'
   weight: 224
   parent: 'menu_link_content:fafa5e44-d2fa-468a-8df9-962bf4409494'
-episodes_traditional_text:
-  title: 'Episodes - Traditional 4:3 - Text'
-  link:
-    uri: 'internal:/vmi/traditional/episodes/text'
-  menu_name: 'main'
-  weight: 225
-  parent: 'menu_link_content:fafa5e44-d2fa-468a-8df9-962bf4409494'

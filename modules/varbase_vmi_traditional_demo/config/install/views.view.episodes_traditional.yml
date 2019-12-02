@@ -2,23 +2,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.hero_xlarge
-    - core.entity_view_mode.node.horizontal_media_teaser_large
-    - core.entity_view_mode.node.horizontal_media_teaser_medium
-    - core.entity_view_mode.node.horizontal_media_teaser_small
-    - core.entity_view_mode.node.horizontal_media_teaser_xlarge
-    - core.entity_view_mode.node.horizontal_media_teaser_xsmall
-    - core.entity_view_mode.node.text_teaser_large
-    - core.entity_view_mode.node.text_teaser_medium
-    - core.entity_view_mode.node.text_teaser_small
-    - core.entity_view_mode.node.tout_large
-    - core.entity_view_mode.node.tout_medium
-    - core.entity_view_mode.node.tout_xlarge
+    - core.entity_view_mode.node.traditional_hero_xlarge
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_large
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_medium
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_small
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_xlarge
+    - core.entity_view_mode.node.traditional_horizontal_media_teaser_xsmall
+    - core.entity_view_mode.node.traditional_tout_large
+    - core.entity_view_mode.node.traditional_tout_medium
+    - core.entity_view_mode.node.traditional_tout_xlarge
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_large
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_medium
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_small
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_xlarge
+    - core.entity_view_mode.node.traditional_vertical_media_teaser_xsmall
     - core.entity_view_mode.node.vertical_media_teaser_large
-    - core.entity_view_mode.node.vertical_media_teaser_medium
-    - core.entity_view_mode.node.vertical_media_teaser_small
-    - core.entity_view_mode.node.vertical_media_teaser_xlarge
-    - core.entity_view_mode.node.vertical_media_teaser_xsmall
     - node.type.episode
   module:
     - ds
@@ -325,7 +323,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: hero_xlarge
+          view_mode: traditional_hero_xlarge
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -378,7 +376,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: horizontal_media_teaser_large
+          view_mode: traditional_horizontal_media_teaser_large
       title: ''
       allow:
         items_per_page: true
@@ -448,7 +446,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: horizontal_media_teaser_medium
+          view_mode: traditional_horizontal_media_teaser_medium
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -516,7 +514,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: horizontal_media_teaser_medium
+          view_mode: traditional_horizontal_media_teaser_medium
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -584,7 +582,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: horizontal_media_teaser_small
+          view_mode: traditional_horizontal_media_teaser_small
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -652,7 +650,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: horizontal_media_teaser_small
+          view_mode: traditional_horizontal_media_teaser_small
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -720,7 +718,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: horizontal_media_teaser_small
+          view_mode: traditional_horizontal_media_teaser_small
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -788,7 +786,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: horizontal_media_teaser_small
+          view_mode: traditional_horizontal_media_teaser_small
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -856,7 +854,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: horizontal_media_teaser_xlarge
+          view_mode: traditional_horizontal_media_teaser_xlarge
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -924,7 +922,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: horizontal_media_teaser_xsmall
+          view_mode: traditional_horizontal_media_teaser_xsmall
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -963,686 +961,6 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  text_teaser_large_1_in_row_block:
-    display_plugin: block
-    id: text_teaser_large_1_in_row_block
-    display_title: 'Text teaser - large - 1 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - large - 1 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '1'
-          col_xs: col-xs-12
-          col_sm: col-sm-12
-          col_md: col-md-12
-          col_lg: col-lg-12
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_large
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  text_teaser_large_2_in_row_block:
-    display_plugin: block
-    id: text_teaser_large_2_in_row_block
-    display_title: 'Text teaser - large - 2 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - large - 2 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '2'
-          col_xs: col-xs-12
-          col_sm: col-sm-6
-          col_md: col-md-6
-          col_lg: col-lg-6
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_large
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  text_teaser_medium_1_in_row_block:
-    display_plugin: block
-    id: text_teaser_medium_1_in_row_block
-    display_title: 'Text teaser - medium - 1 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - medium - 1 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '1'
-          col_xs: col-xs-12
-          col_sm: col-sm-12
-          col_md: col-md-12
-          col_lg: col-lg-12
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_medium
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  text_teaser_medium_2_in_row_block:
-    display_plugin: block
-    id: text_teaser_medium_2_in_row_block
-    display_title: 'Text teaser - medium - 2 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - medium - 2 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '2'
-          col_xs: col-xs-12
-          col_sm: col-sm-6
-          col_md: col-md-6
-          col_lg: col-lg-6
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_medium
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  text_teaser_medium_3_in_row_block:
-    display_plugin: block
-    id: text_teaser_medium_3_in_row_block
-    display_title: 'Text teaser - medium - 3 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - medium - 3 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '3'
-          col_xs: col-xs-12
-          col_sm: col-sm-4
-          col_md: col-md-4
-          col_lg: col-lg-4
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_medium
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  text_teaser_medium_4_in_row_block:
-    display_plugin: block
-    id: text_teaser_medium_4_in_row_block
-    display_title: 'Text teaser - medium - 4 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - medium - 4 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '4'
-          col_xs: col-xs-12
-          col_sm: col-sm-3
-          col_md: col-md-3
-          col_lg: col-lg-4
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_medium
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  text_teaser_small_1_in_row_block:
-    display_plugin: block
-    id: text_teaser_small_1_in_row_block
-    display_title: 'Text teaser - small - 1 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - small - 1 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '1'
-          col_xs: col-xs-12
-          col_sm: col-sm-12
-          col_md: col-md-12
-          col_lg: col-lg-12
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_small
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  text_teaser_small_2_in_row_block:
-    display_plugin: block
-    id: text_teaser_small_2_in_row_block
-    display_title: 'Text teaser - small - 2 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - small - 2 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '2'
-          col_xs: col-xs-6
-          col_sm: col-sm-6
-          col_md: col-md-6
-          col_lg: col-lg-6
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_small
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  text_teaser_small_3_in_row_block:
-    display_plugin: block
-    id: text_teaser_small_3_in_row_block
-    display_title: 'Text teaser - small - 3 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - small - 3 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '3'
-          col_xs: col-xs-12
-          col_sm: col-sm-4
-          col_md: col-md-4
-          col_lg: col-lg-4
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_small
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  text_teaser_small_4_in_row_block:
-    display_plugin: block
-    id: text_teaser_small_4_in_row_block
-    display_title: 'Text teaser - small - 4 in row - Block'
-    position: 1
-    display_options:
-      display_extenders:
-        metatag_display_extender: {  }
-      display_description: 'Text teaser - small - 4 in row - Block'
-      style:
-        type: views_bootstrap_grid
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          alignment: horizontal
-          columns: '4'
-          col_xs: col-xs-12
-          col_sm: col-sm-6
-          col_md: col-md-3
-          col_lg: col-lg-3
-      defaults:
-        style: false
-        row: false
-        title: false
-      row:
-        type: 'ds_entity:node'
-        options:
-          relationship: none
-          view_mode: text_teaser_small
-          alternating_fieldset:
-            alternating: false
-            allpages: false
-            item_0: teaser
-            item_1: teaser
-            item_2: teaser
-            item_3: teaser
-            item_4: teaser
-            item_5: teaser
-            item_6: teaser
-            item_7: teaser
-            item_8: teaser
-            item_9: teaser
-          grouping_fieldset:
-            group: false
-            group_field: node_field_data|created
-            group_field_function: ''
-          advanced_fieldset:
-            advanced: false
-      title: ''
-      allow:
-        items_per_page: true
-        offset: offset
-        pager: pager
-        sort_fields: sort_fields
-        disable_filters: disable_filters
-        configure_sorts: configure_sorts
-        hide_fields: '0'
-      block_category: 'Episodes - Traditional - Text teaser'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
   tout_large_1_in_row_block:
     display_plugin: block
     id: tout_large_1_in_row_block
@@ -1672,7 +990,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: tout_large
+          view_mode: traditional_tout_large
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -1740,7 +1058,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: tout_large
+          view_mode: traditional_tout_large
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -1808,7 +1126,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: tout_medium
+          view_mode: traditional_tout_medium
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -1876,7 +1194,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: tout_medium
+          view_mode: traditional_tout_medium
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -1944,7 +1262,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: tout_medium
+          view_mode: traditional_tout_medium
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2012,7 +1330,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: tout_xlarge
+          view_mode: traditional_tout_xlarge
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2081,7 +1399,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_large
+          view_mode: traditional_vertical_media_teaser_large
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2171,7 +1489,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_large
+          view_mode: traditional_vertical_media_teaser_large
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2260,7 +1578,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_medium
+          view_mode: traditional_vertical_media_teaser_medium
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2328,7 +1646,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_medium
+          view_mode: traditional_vertical_media_teaser_medium
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2396,7 +1714,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_medium
+          view_mode: traditional_vertical_media_teaser_medium
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2464,7 +1782,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_small
+          view_mode: traditional_vertical_media_teaser_small
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2532,7 +1850,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_small
+          view_mode: traditional_vertical_media_teaser_small
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2600,7 +1918,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_small
+          view_mode: traditional_vertical_media_teaser_small
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2668,7 +1986,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_small
+          view_mode: traditional_vertical_media_teaser_small
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2736,7 +2054,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_xlarge
+          view_mode: traditional_vertical_media_teaser_xlarge
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2804,7 +2122,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_xsmall
+          view_mode: traditional_vertical_media_teaser_xsmall
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2872,7 +2190,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_xsmall
+          view_mode: traditional_vertical_media_teaser_xsmall
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -2940,7 +2258,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_xsmall
+          view_mode: traditional_vertical_media_teaser_xsmall
           alternating_fieldset:
             alternating: false
             allpages: false
@@ -3008,7 +2326,7 @@ display:
         type: 'ds_entity:node'
         options:
           relationship: none
-          view_mode: vertical_media_teaser_xsmall
+          view_mode: traditional_vertical_media_teaser_xsmall
           alternating_fieldset:
             alternating: false
             allpages: false

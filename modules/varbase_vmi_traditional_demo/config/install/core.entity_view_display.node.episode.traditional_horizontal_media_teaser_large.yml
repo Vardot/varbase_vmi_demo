@@ -8,22 +8,72 @@ dependencies:
     - node.type.episode
   module:
     - ds
-    - text
+    - layout_builder
+    - smart_trim
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: horizontal_media_teaser_large
+      library: vmi/horizontal_media_teaser_large
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: article
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_video
+      right:
+        - node_title
+        - body
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: ''
+  layout_builder:
+    allow_custom: false
+    enabled: false
 id: node.episode.traditional_horizontal_media_teaser_large
 targetEntityType: node
 bundle: episode
 mode: traditional_horizontal_media_teaser_large
 content:
   body:
+    type: smart_trim
+    weight: 2
     label: hidden
-    type: text_default
-    weight: 1
-    settings: {  }
+    settings:
+      trim_length: 90
+      trim_type: words
+      trim_suffix: ' ...'
+      more_link: false
+      more_text: More
+      summary_handler: full
+      trim_options:
+        text: true
+      more_class: more-link
+      wrap_output: false
+      wrap_class: trimmed
     third_party_settings: {  }
-    region: content
+    region: right
   field_video:
+    type: entity_reference_entity_view
     weight: 0
+    region: left
     label: hidden
     settings:
       view_mode: s06_traditional
@@ -36,8 +86,7 @@ content:
             lb: ''
             lb-col: false
             classes: {  }
-    type: entity_reference_entity_view
-    region: content
 hidden:
   langcode: true
   links: true
+  search_api_excerpt: true
