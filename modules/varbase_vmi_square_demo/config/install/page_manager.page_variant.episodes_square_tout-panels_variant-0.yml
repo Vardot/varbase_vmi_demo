@@ -3,19 +3,198 @@ status: true
 dependencies:
   config:
     - page_manager.page.episodes_square_tout
+    - views.view.episodes_square
   module:
     - panels
+    - views
 id: episodes_square_tout-panels_variant-0
 label: 'VMI - Square 1:1 - Episode - Tout'
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    4ec8cbb8-76b9-4ad0-8451-cfd366acd8d2:
+      id: 'views_block:episodes_square-tout_xlarge_block'
+      label: 'Episodes - Square: Tout - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Tout - xlarge - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 4ec8cbb8-76b9-4ad0-8451-cfd366acd8d2
+      weight: 1
+    f95c0924-0a1c-407c-9438-226c12777151:
+      id: 'views_block:episodes_square-tout_large_2_in_row_block'
+      label: 'Episodes - Square: Tout - large - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Tout - large - 2 in row Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: f95c0924-0a1c-407c-9438-226c12777151
+      weight: 2
+    242ea720-db14-4a0d-b0eb-2d7c49d3eed0:
+      id: 'views_block:episodes_square-tout_medium_3_in_row_block'
+      label: 'Episodes - Square: Tout - medium - 3 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Tout - medium - 3 in row Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 242ea720-db14-4a0d-b0eb-2d7c49d3eed0
+      weight: 3
+    910fce95-2262-4caf-ad83-84538425c8eb:
+      id: 'views_block:episodes_square-tout_xlarge_block'
+      label: 'Episodes - Square: Tout - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Tout - xlarge - Block'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 910fce95-2262-4caf-ad83-84538425c8eb
+      weight: 1
+    5074f07c-19ed-461d-be49-7dc7a3a39ae3:
+      id: 'views_block:episodes_square-tout_medium_2_in_row_block'
+      label: 'Episodes - Square: Tout - medium - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Tout - medium - 2 in row Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 5074f07c-19ed-461d-be49-7dc7a3a39ae3
+      weight: 2
+    2a18cf3f-d1b3-4450-8411-1f0cb2f4c943:
+      id: 'views_block:episodes_square-tout_medium_1_in_row_block'
+      label: 'Episodes - Square: Tout - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Tout - medium - 1 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_right
+      uuid: 2a18cf3f-d1b3-4450-8411-1f0cb2f4c943
+      weight: 1
+    092e974a-b256-4c16-8b37-3e6e09afa9e9:
+      id: 'views_block:episodes_square-tout_large_1_in_row_block'
+      label: 'Episodes - Square: Tout - large - 1 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Tout - large - 1 in row Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: 092e974a-b256-4c16-8b37-3e6e09afa9e9
+      weight: 1
+    153de911-8846-4add-804f-545527f8c4a5:
+      id: 'views_block:episodes_square-tout_medium_2_in_row_block'
+      label: 'Episodes - Square: Tout - medium - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Tout - medium - 2 in row Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_right
+      uuid: 153de911-8846-4add-804f-545527f8c4a5
+      weight: 1
   id: panels_variant
   uuid: fb220fc9-41dd-49d3-b892-7c18aff2d471
   label: null
   weight: 0
-  layout: layout_twocol_bricks
-  layout_settings: {  }
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
   page_title: 'VMI - Square 1:1 - Episode - Tout'
   storage_type: page_manager
   storage_id: episodes_square_tout-panels_variant-0

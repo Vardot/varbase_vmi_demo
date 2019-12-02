@@ -8,22 +8,50 @@ dependencies:
     - node.type.episode
   module:
     - ds
-    - text
+    - layout_builder
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: vertical_media_teaser_xsmall
+      library: vmi/vertical_media_teaser_xsmall
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          main: div
+        outer_wrapper: article
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      main:
+        - field_video
+        - node_title
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: ''
+  layout_builder:
+    allow_custom: false
+    enabled: false
 id: node.episode.square_vertical_media_teaser_xsmall
 targetEntityType: node
 bundle: episode
 mode: square_vertical_media_teaser_xsmall
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 1
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   field_video:
+    type: entity_reference_entity_view
     weight: 0
+    region: main
     label: hidden
     settings:
       view_mode: s02_square
@@ -36,8 +64,8 @@ content:
             lb: ''
             lb-col: false
             classes: {  }
-    type: entity_reference_entity_view
-    region: content
 hidden:
+  body: true
   langcode: true
   links: true
+  search_api_excerpt: true

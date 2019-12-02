@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - node
-id: node.square_text_teaser_large
-label: 'Square - Text teaser - large'
-targetEntityType: node
-cache: true

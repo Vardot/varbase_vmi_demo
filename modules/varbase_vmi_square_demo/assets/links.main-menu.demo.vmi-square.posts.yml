@@ -35,10 +35,3 @@ posts_square_horizontal_media:
   menu_name: 'main'
   weight: 314
   parent: 'menu_link_content:ae80ce23-1b61-4382-802e-106b5e3c4120'
-posts_square_text:
-  title: 'Posts - Square 1:1 - Text'
-  link:
-    uri: 'internal:/vmi/square/posts/text'
-  menu_name: 'main'
-  weight: 315
-  parent: 'menu_link_content:ae80ce23-1b61-4382-802e-106b5e3c4120'

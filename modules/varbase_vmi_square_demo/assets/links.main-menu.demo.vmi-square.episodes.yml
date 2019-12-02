@@ -35,10 +35,3 @@ episodes_square_horizontal_media:
   menu_name: 'main'
   weight: 324
   parent: 'menu_link_content:9ad34bc5-d34d-4852-8c00-9a7b42ae9f2e'
-episodes_square_text:
-  title: 'Episodes - Square 1:1 - Text'
-  link:
-    uri: 'internal:/vmi/square/episodes/text'
-  menu_name: 'main'
-  weight: 325
-  parent: 'menu_link_content:9ad34bc5-d34d-4852-8c00-9a7b42ae9f2e'

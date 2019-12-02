@@ -3,19 +3,326 @@ status: true
 dependencies:
   config:
     - page_manager.page.episodes_square_vertical_media
+    - views.view.episodes_square
   module:
     - panels
+    - views
 id: episodes_square_vertical_media-panels_variant-0
 label: 'VMI - Square 1:1 - Episode - Vertical Media'
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    4354ae70-beb4-49bd-8c2d-5d18feb43a5c:
+      id: 'views_block:episodes_square-vertical_media_teaser_small_4_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 4354ae70-beb4-49bd-8c2d-5d18feb43a5c
+      weight: 1
+    57c4a209-f8c5-46a7-8105-6666e2eeda7c:
+      id: 'views_block:episodes_square-vertical_media_teaser_medium_3_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - medium - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - medium - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 57c4a209-f8c5-46a7-8105-6666e2eeda7c
+      weight: 2
+    7d9ce94c-c11a-4238-a916-1bc6afec47e7:
+      id: 'views_block:episodes_square-vertical_media_teaser_small_4_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 7d9ce94c-c11a-4238-a916-1bc6afec47e7
+      weight: 3
+    085375a9-1315-40a3-b84f-c1201d6c92ab:
+      id: 'views_block:episodes_square-vertical_media_teaser_xsmall_6_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - xsmall - 6 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - xsmall - 6 in row Block'
+      items_per_page: '12'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 085375a9-1315-40a3-b84f-c1201d6c92ab
+      weight: 4
+    574087be-5509-49a5-a965-a4da2ce3b52b:
+      id: 'views_block:episodes_square-vertical_media_teaser_xlarge_block'
+      label: 'Episodes - Square: Vertical media teaser - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - xlarge - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 574087be-5509-49a5-a965-a4da2ce3b52b
+      weight: 1
+    66d57cf3-7a67-4aa2-83e7-01c6921a3798:
+      id: 'views_block:episodes_square-vertical_media_teaser_medium_1_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - medium - 1 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_right
+      uuid: 66d57cf3-7a67-4aa2-83e7-01c6921a3798
+      weight: 1
+    89cfa3e5-16ab-4d19-927e-84262123475d:
+      id: 'views_block:episodes_square-vertical_media_teaser_medium_2_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - medium - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - medium - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 89cfa3e5-16ab-4d19-927e-84262123475d
+      weight: 2
+    c88b3ba6-134e-4d72-b9f0-beb3858b498f:
+      id: 'views_block:episodes_square-vertical_media_teaser_small_2_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - small - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - small - 2 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_right
+      uuid: c88b3ba6-134e-4d72-b9f0-beb3858b498f
+      weight: 2
+    64538523-ab3a-4bd9-bf1a-aee74f86b4a9:
+      id: 'views_block:episodes_square-vertical_media_teaser_small_3_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - small - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - small - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 64538523-ab3a-4bd9-bf1a-aee74f86b4a9
+      weight: 3
+    2b7ca798-59cb-4cc2-9c94-ad4dabd0c9a3:
+      id: 'views_block:episodes_square-vertical_media_teaser_xsmall_2_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - xsmall - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - xsmall - 2 in row Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_right
+      uuid: 2b7ca798-59cb-4cc2-9c94-ad4dabd0c9a3
+      weight: 3
+    ae9d9ce0-2b03-46d8-9e7e-571984033caa:
+      id: 'views_block:episodes_square-vertical_media_teaser_xsmall_4_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - xsmall - 4 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - xsmall - 4 in row Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: ae9d9ce0-2b03-46d8-9e7e-571984033caa
+      weight: 4
+    6c47239c-1f65-4cf4-a299-68128ef484a3:
+      id: 'views_block:episodes_square-vertical_media_teaser_large_2_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - large - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - large - 2 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: middle
+      uuid: 6c47239c-1f65-4cf4-a299-68128ef484a3
+      weight: 1
+    292a67b6-c690-47ae-b931-c106e25bffd7:
+      id: 'views_block:episodes_square-vertical_media_teaser_small_1_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - small - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - small - 1 in row - Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: 292a67b6-c690-47ae-b931-c106e25bffd7
+      weight: 1
+    02a6ef61-c30a-4bd2-b35b-4889a851f81e:
+      id: 'views_block:episodes_square-vertical_media_teaser_small_4_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_right
+      uuid: 02a6ef61-c30a-4bd2-b35b-4889a851f81e
+      weight: 1
+    7cf88fe4-3296-43b3-b673-68b9527aca66:
+      id: 'views_block:episodes_square-vertical_media_teaser_xsmall_4_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - xsmall - 4 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - xsmall - 4 in row Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_right
+      uuid: 7cf88fe4-3296-43b3-b673-68b9527aca66
+      weight: 2
+    7d8983ac-ecc2-4a7a-9deb-cd9f6e21a5a6:
+      id: 'views_block:episodes_square-vertical_media_teaser_xsmall_6_in_row_block'
+      label: 'Episodes - Square: Vertical media teaser - xsmall - 6 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Vertical media teaser - xsmall - 6 in row Block'
+      items_per_page: '12'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_right
+      uuid: 7d8983ac-ecc2-4a7a-9deb-cd9f6e21a5a6
+      weight: 3
   id: panels_variant
   uuid: 87375792-4608-466c-bb89-35b3575fbcd6
   label: null
   weight: 0
-  layout: layout_twocol_bricks
-  layout_settings: {  }
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-3: col-sm-3
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-9: col-sm-9
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
   page_title: 'VMI - Square 1:1 - Episode - Vertical Media'
   storage_type: page_manager
   storage_id: episodes_square_vertical_media-panels_variant-0

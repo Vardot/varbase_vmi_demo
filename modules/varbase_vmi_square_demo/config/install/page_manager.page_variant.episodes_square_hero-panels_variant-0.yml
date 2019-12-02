@@ -3,19 +3,134 @@ status: true
 dependencies:
   config:
     - page_manager.page.episodes_square_hero
+    - views.view.episodes_square
   module:
     - panels
+    - views
 id: episodes_square_hero-panels_variant-0
 label: 'VMI - Square 1:1 - Episode - Hero'
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    4bc75972-52e2-4724-aea9-0b9631f9995b:
+      id: 'views_block:episodes_square-hero_xlarge_block'
+      label: 'Episodes - Square: Hero - xlarge - Block in container with column 12'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Hero - xlarge - Block in container with column 12'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 4bc75972-52e2-4724-aea9-0b9631f9995b
+      weight: 1
+    3049c94e-4823-47c8-bfbe-770c81678efc:
+      id: 'views_block:episodes_square-hero_xlarge_block'
+      label: 'Episodes - Square: Hero - xlarge - Block in container with column 11'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Hero - xlarge - Block in container with column 11'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 1
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 3049c94e-4823-47c8-bfbe-770c81678efc
+      weight: 1
+    4fea48bc-fe46-4f3c-b3ba-1863300e2aa9:
+      id: 'views_block:episodes_square-hero_xlarge_block'
+      label: 'Episodes - Square: Hero - xlarge - Block in container with column 10'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Square: Hero - xlarge - Block in container with column 10'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 2
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: middle
+      uuid: 4fea48bc-fe46-4f3c-b3ba-1863300e2aa9
+      weight: 1
+    0224692c-f69d-483f-ab58-f2926c2a2cd1:
+      id: 'views_block:episodes_square-hero_xlarge_block'
+      label: ' Episodes - Square: Hero - xlarge - Block in container with column 9'
+      provider: views
+      label_display: visible
+      views_label: ' Episodes - Square: Hero - xlarge - Block in container with column 9'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 4
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: 0224692c-f69d-483f-ab58-f2926c2a2cd1
+      weight: 1
   id: panels_variant
   uuid: 4460c690-3909-4a9d-963d-8238bcbed13e
   label: null
   weight: 0
-  layout: layout_twocol_bricks
-  layout_settings: {  }
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-11: col-sm-11
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-1: col-sm-1
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-10: col-sm-10
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-9: col-sm-9
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-2: col-sm-2
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-9: col-sm-9
+        add_region_classes: 1
+        attributes: ''
   page_title: 'VMI - Square 1:1 - Episode - Hero'
   storage_type: page_manager
   storage_id: episodes_square_hero-panels_variant-0
