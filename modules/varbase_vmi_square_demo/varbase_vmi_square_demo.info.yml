@@ -2,7 +2,7 @@ name: 'Varbase VMI Square 1:1 Demo'
 description: 'Have a VMI square 1:1 demo work for how to use View Modes Inventory (VMI) module in Varbase.'
 type: module
 package: 'Varbase VMI Demos'
-version: 8.x-8.0
+version: 8.x-8.x-dev
 core: 8.x
 dependencies:
   - varbase_core:varbase_core
