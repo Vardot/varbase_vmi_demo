@@ -23,7 +23,7 @@
     }
   ],
   "require": {
-    "drupal/varbase_core": "7.*",
+    "drupal/varbase_core": "8.*",
     "drupal/varbase_media": "7.*",
     "drupal/vmi": "2.*"
   }
