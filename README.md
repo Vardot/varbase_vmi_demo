@@ -90,5 +90,5 @@ Have a demo work for how to use
 
 ### Install Varbasee VMI Demo the progress Development.
 ```
-composer require vardot/varbase_vmi_demo:dev-8.x-7.x
+composer require vardot/varbase_vmi_demo:dev-8.x-8.x
 ```
