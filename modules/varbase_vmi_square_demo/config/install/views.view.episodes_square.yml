@@ -8,9 +8,6 @@ dependencies:
     - core.entity_view_mode.node.square_horizontal_media_teaser_small
     - core.entity_view_mode.node.square_horizontal_media_teaser_xlarge
     - core.entity_view_mode.node.square_horizontal_media_teaser_xsmall
-    - core.entity_view_mode.node.square_text_teaser_large
-    - core.entity_view_mode.node.square_text_teaser_medium
-    - core.entity_view_mode.node.square_text_teaser_small
     - core.entity_view_mode.node.square_tout_large
     - core.entity_view_mode.node.square_tout_medium
     - core.entity_view_mode.node.square_tout_xlarge
