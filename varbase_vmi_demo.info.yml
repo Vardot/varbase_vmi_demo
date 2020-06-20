@@ -3,7 +3,7 @@ description: 'Have a VMI demo content types work for how to use View Modes Inven
 type: module
 package: 'Varbase Demos'
 version: 8.x-8.x-dev
-core: 8.x
+core_version_requirement: ^8 || ^9
 dependencies:
   - varbase_core:varbase_core
   - varbase_media:varbase_media
