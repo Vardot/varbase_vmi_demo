@@ -7,13 +7,13 @@ Have a demo work for how to use
 
 ### Install Varbasee VMI Demo the progress Development.
 ```
-composer require vardot/varbase_vmi_demo:~8.0
+composer require vardot/varbase_vmi_demo:~9.0
 ```
 
 ## Requirements
 * [Varbase](https://www.drupal.org/project/varbase) profile.
 ```
-composer create-project vardot/varbase-project PROJECT_DIR_NAME --no-dev --no-interaction
+composer create-project vardot/varbase-project:~9 PROJECT_DIR_NAME --no-dev --no-interaction
 ```
 * [Bootstrap Barrio](https://www.drupal.org/project/bootstrap_barrio) theme.
 * [Vartheme BS4](https://www.drupal.org/project/vartheme_bs4) theme.
