@@ -10,6 +10,12 @@ Have a demo work for how to use
 composer require vardot/varbase_vmi_demo:~9.0
 ```
 
+### Install Varbasee VMI Demo the progress Development.
+
+```
+composer require vardot/varbase_vmi_demo:9.0.x-dev
+```
+
 ## Requirements
 * [Varbase](https://www.drupal.org/project/varbase) profile.
 ```
