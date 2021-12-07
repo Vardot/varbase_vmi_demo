@@ -2,7 +2,7 @@ name: 'Varbase VMI Traditional 4:3 Demo'
 description: 'Have a VMI Traditional 4:3 demo work for how to use View Modes Inventory (VMI) module in Varbase.'
 type: module
 package: 'Varbase VMI Demos'
-version: 9.0.x-dev
+version: 9.1.x-dev
 core_version_requirement: ^9
 dependencies:
   - varbase_core:varbase_core
