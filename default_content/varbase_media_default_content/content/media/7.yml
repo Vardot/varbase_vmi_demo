@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4029e145-a5ed-4bbc-90b9-a6bf997a1684
+  bundle: image
+  default_langcode: en
+  depends:
+    044fd323-87ee-46a4-b30a-97f38f1fcd63: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Updated the Name and Image fields'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'App 3'
+  created:
+    -
+      value: 1642682146
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 044fd323-87ee-46a4-b30a-97f38f1fcd63
+      alt: 'App 3'
+      title: 'App 3'
+      width: 725
+      height: 1467
+  field_media_in_library:
+    -
+      value: true

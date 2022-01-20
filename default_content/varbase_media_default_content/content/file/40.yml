@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c316455a-ec9c-4e26-bb94-8fd4423c3c74
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: product-5.jpg
+  uri:
+    -
+      value: 'public://2022-01/product-5.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 61856
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642685096

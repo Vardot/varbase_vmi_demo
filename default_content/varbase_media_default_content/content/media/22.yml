@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 92e2f43f-03e7-4c09-b641-e88cebd3ee45
+  bundle: image
+  default_langcode: en
+  depends:
+    e6217c4d-2940-4732-aa43-19f04fcc2f9e: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Updated the Name and Image fields'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Startup 5'
+  created:
+    -
+      value: 1642682146
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: e6217c4d-2940-4732-aa43-19f04fcc2f9e
+      alt: 'Startup 5'
+      title: 'Startup 5'
+      width: 600
+      height: 900
+  field_media_in_library:
+    -
+      value: true

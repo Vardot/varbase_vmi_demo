@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0e08c2ad-e23f-405b-9fbd-5bf32f23817c
+  bundle: image
+  default_langcode: en
+  depends:
+    6ffa989f-1f18-450d-b6f2-fc39431b8291: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Updated the Name and Image fields'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Startup 3'
+  created:
+    -
+      value: 1642682146
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 6ffa989f-1f18-450d-b6f2-fc39431b8291
+      alt: 'Startup 3'
+      title: 'Startup 3'
+      width: 900
+      height: 600
+  field_media_in_library:
+    -
+      value: true

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8d4e18f7-dea8-46dc-836d-9b287a39dcfd
+  bundle: image
+  default_langcode: en
+  depends:
+    8c86981a-b0d6-4ef1-bb11-dc338ebe2800: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Image'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Blog 1'
+  created:
+    -
+      value: 1642684997
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 8c86981a-b0d6-4ef1-bb11-dc338ebe2800
+      alt: 'Blog 1'
+      title: 'Blog 1'
+      width: 1200
+      height: 800
+  field_media_in_library:
+    -
+      value: true

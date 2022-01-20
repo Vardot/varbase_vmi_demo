@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 40779017-b955-490a-a0ab-3fc62953b47e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: startup-4_0.jpg
+  uri:
+    -
+      value: 'public://2022-01/startup-4_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 64289
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642682200

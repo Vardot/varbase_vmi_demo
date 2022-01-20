@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7f3ff6e7-51fe-419b-802b-1b12c8aab4e5
+  bundle: remote_video
+  default_langcode: und
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Remote video'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Remote Vimeo Video No Cover Image'
+  created:
+    -
+      value: 1642684728
+  revision_translation_affected:
+    -
+      value: true
+  field_media_in_library:
+    -
+      value: true
+  field_media_oembed_video:
+    -
+      value: 'https://vimeo.com/76979871'
+  field_provider:
+    -
+      value: vimeo

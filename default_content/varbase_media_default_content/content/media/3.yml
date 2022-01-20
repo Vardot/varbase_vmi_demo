@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 44bb5114-8ab7-46ef-8278-33659e77bf3f
+  bundle: image
+  default_langcode: en
+  depends:
+    dc21ec79-9feb-4e65-81dc-6da03c9a6f42: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Updated the Name and Image fields'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Avatar 1'
+  created:
+    -
+      value: 1642682146
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: dc21ec79-9feb-4e65-81dc-6da03c9a6f42
+      alt: 'Avatar 1'
+      title: 'Avatar 1'
+      width: 500
+      height: 500
+  field_media_in_library:
+    -
+      value: true

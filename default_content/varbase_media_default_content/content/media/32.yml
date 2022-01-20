@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e24ae49c-7ebb-4710-b985-5ef37aa07882
+  bundle: remote_video
+  default_langcode: und
+  depends:
+    68477768-dba2-4238-8a0d-2f4605cc2c6c: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Updated the Cover Image field'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Remote Youtube Video With Cover Image'
+  created:
+    -
+      value: 1642684771
+  revision_translation_affected:
+    -
+      value: true
+  field_media_cover_image:
+    -
+      entity: 68477768-dba2-4238-8a0d-2f4605cc2c6c
+      alt: ''
+      title: ''
+      width: 1864
+      height: 1171
+  field_media_in_library:
+    -
+      value: true
+  field_media_oembed_video:
+    -
+      value: 'https://www.youtube.com/watch?v=bTqVqk7FSmY'
+  field_provider:
+    -
+      value: youtube

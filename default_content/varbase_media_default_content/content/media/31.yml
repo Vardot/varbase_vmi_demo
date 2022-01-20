@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 781b83a4-14bb-4359-8107-c011bb039721
+  bundle: remote_video
+  default_langcode: und
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Remote video'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Remote Youtube Video No Cover Image'
+  created:
+    -
+      value: 1642684740
+  revision_translation_affected:
+    -
+      value: true
+  field_media_in_library:
+    -
+      value: true
+  field_media_oembed_video:
+    -
+      value: 'https://www.youtube.com/watch?v=bTqVqk7FSmY'
+  field_provider:
+    -
+      value: youtube

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 10a5e841-dcfe-4875-ac3f-deaa801d59f5
+  bundle: image
+  default_langcode: en
+  depends:
+    0f856c9c-7e84-4d5b-b0a4-dce34930c196: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Updated the Name and Image fields'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Figure 12'
+  created:
+    -
+      value: 1642682146
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 0f856c9c-7e84-4d5b-b0a4-dce34930c196
+      alt: 'Figure 12'
+      title: 'Figure 12'
+      width: 2400
+      height: 2646
+  field_media_in_library:
+    -
+      value: true

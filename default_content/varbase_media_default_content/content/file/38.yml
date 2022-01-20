@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8c86981a-b0d6-4ef1-bb11-dc338ebe2800
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: blog-1_0.jpg
+  uri:
+    -
+      value: 'public://2022-01/blog-1_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 85598
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642684997
