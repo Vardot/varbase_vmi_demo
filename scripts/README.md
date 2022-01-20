@@ -9,6 +9,7 @@ After changes on Varbase code and logic
 composer create-project vardot/varbase-project:9.1.x-dev PROJECT_DIR_NAME --no-interaction
 ```
 And Install Varbase
+And add and install all Varbase Extra components
 
 2. Install Varbase VMI Demo
 ```
