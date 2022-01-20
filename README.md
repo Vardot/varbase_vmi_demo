@@ -19,7 +19,7 @@ composer require vardot/varbase_vmi_demo:9.1.x-dev
 ## Requirements
 * [Varbase](https://www.drupal.org/project/varbase) profile.
 ```
-composer create-project vardot/varbase-project:9.1.x PROJECT_DIR_NAME --no-dev --no-interaction
+composer create-project vardot/varbase-project:9.1.x-dev PROJECT_DIR_NAME --no-interaction
 ```
 * [Bootstrap Barrio](https://www.drupal.org/project/bootstrap_barrio) theme ( 5.5.x Bootstrap 5)
 * [Vartheme BS5](https://www.drupal.org/project/vartheme_bs5) theme.

@@ -6,7 +6,7 @@ After changes on Varbase code and logic
 
 1. Install Varbase with development tools
 ```
-composer create-project vardot/varbase-project:9.1.x PROJECT_DIR_NAME --no-interaction
+composer create-project vardot/varbase-project:9.1.x-dev PROJECT_DIR_NAME --no-interaction
 ```
 And Install Varbase
 
