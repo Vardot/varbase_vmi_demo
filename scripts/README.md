@@ -8,6 +8,7 @@ After changes on Varbase code and logic
 ```
 composer create-project vardot/varbase-project:9.1.x PROJECT_DIR_NAME --no-interaction
 ```
+And Install Varbase
 
 2. Install Varbase VMI Demo
 ```
@@ -25,7 +26,7 @@ cd PROJECT_DIR_NAME/docroot
 ```
 
 4. Generate Media and Content for VMI
-Content and media can be added manually, But a list commands
+Content and media can be added manually, But a of list commands
  which would speed up the work
 ```
 cd PROJECT_DIR_NAME/docroot/modules/contrib/varbase_vmi_demo/scripts/
