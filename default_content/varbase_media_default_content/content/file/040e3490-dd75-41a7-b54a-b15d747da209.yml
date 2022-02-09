@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 040e3490-dd75-41a7-b54a-b15d747da209
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: figure-14.png
+  uri:
+    -
+      value: 'public://2022-01/figure-14.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 15167
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642682146

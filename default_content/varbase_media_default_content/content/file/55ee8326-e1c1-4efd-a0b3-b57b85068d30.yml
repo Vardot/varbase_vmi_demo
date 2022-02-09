@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 55ee8326-e1c1-4efd-a0b3-b57b85068d30
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: coworking-2.jpg
+  uri:
+    -
+      value: 'public://2022-01/coworking-2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 65002
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642682146

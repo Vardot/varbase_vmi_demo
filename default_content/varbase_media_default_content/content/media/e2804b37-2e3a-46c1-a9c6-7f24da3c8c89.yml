@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e2804b37-2e3a-46c1-a9c6-7f24da3c8c89
+  bundle: image
+  default_langcode: en
+  depends:
+    c4f3f6ef-ec67-4327-9eb8-87591cdef9f3: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Updated the Name and Image fields'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Team 1'
+  created:
+    -
+      value: 1642682146
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: c4f3f6ef-ec67-4327-9eb8-87591cdef9f3
+      alt: 'Team 1'
+      title: 'Team 1'
+      width: 600
+      height: 800
+  field_media_in_library:
+    -
+      value: true

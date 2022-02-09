@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d9d6ab04-0d6b-4a67-a120-a6e38dd88359
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: business-meeting.mp4
+  uri:
+    -
+      value: 'public://2022-01/business-meeting.mp4'
+  filemime:
+    -
+      value: video/mp4
+  filesize:
+    -
+      value: 3832530
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642682146

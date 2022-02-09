@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 97ff4e8c-3ab3-4bc0-8839-73602058dcea
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: saas-1.jpg
+  uri:
+    -
+      value: 'public://2022-01/saas-1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 117544
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642682146

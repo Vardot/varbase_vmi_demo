@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 2553035a-6758-480e-86bb-0c587eca4da6
+  bundle: image
+  default_langcode: en
+  depends:
+    191d6abf-9728-4ae5-b4c9-4254a01cf1b7: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Updated the Name and Image fields'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Coworking 6'
+  created:
+    -
+      value: 1642682146
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 191d6abf-9728-4ae5-b4c9-4254a01cf1b7
+      alt: 'Coworking 6'
+      title: 'Coworking 6'
+      width: 800
+      height: 1200
+  field_media_in_library:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 990bc575-5eb1-40bd-8a04-c3f655b38f47
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vimeo-cover-image.jpg
+  uri:
+    -
+      value: 'public://2022-01/vimeo-cover-image.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 14726
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642682146
