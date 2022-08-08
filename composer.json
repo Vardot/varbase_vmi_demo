@@ -23,9 +23,9 @@
     }
   ],
   "require": {
-    "drupal/core": "^9 || ^10",
+    "drupal/core": "~9.0 || ~10.0",
     "drupal/varbase_core": "~10.0 || 10.0.x-dev",
-    "drupal/varbase_media": "~10.0.0 || 10.0.x-dev",
+    "drupal/varbase_media": "~10.0 || 10.0.x-dev",
     "drupal/vmi": "~3.0 || 3.0.x-dev",
     "drupal/default_content": "2.0.x-dev",
     "drupal/devel": "~4.0",
