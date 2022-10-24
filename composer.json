@@ -28,7 +28,7 @@
     "drupal/varbase_media": "~10.0 || 10.0.x-dev",
     "drupal/vmi": "~3.0 || 3.0.x-dev",
     "drupal/default_content": "2.0.x-dev",
-    "drupal/devel": "~4.0",
+    "drupal/devel": "~4.0 || ~5.0",
     "drush/drush": "~10.0 || ~11.0"
   }
 }
