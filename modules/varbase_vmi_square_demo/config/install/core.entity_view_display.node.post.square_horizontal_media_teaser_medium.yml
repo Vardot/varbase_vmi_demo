@@ -19,6 +19,8 @@ third_party_settings:
       disable_css: false
       entity_classes: all_classes
       settings:
+        classes:
+          layout_class: {  }
         wrappers:
           left: div
           right: div
@@ -26,18 +28,18 @@ third_party_settings:
         attributes: ''
         link_attribute: ''
         link_custom: ''
-        classes:
-          layout_class: {  }
+        label: ''
     regions:
       left:
         - field_image
       right:
+        - content_moderation_control
         - node_title
         - body
     fields:
       node_title:
         plugin_id: node_title
-        weight: 1
+        weight: 2
         label: hidden
         formatter: default
         settings:
@@ -45,8 +47,8 @@ third_party_settings:
           wrapper: h3
           class: ''
   layout_builder:
-    allow_custom: false
     enabled: false
+    allow_custom: false
 id: node.post.square_horizontal_media_teaser_medium
 targetEntityType: node
 bundle: post
@@ -54,28 +56,33 @@ mode: square_horizontal_media_teaser_medium
 content:
   body:
     type: smart_trim
-    weight: 2
     label: hidden
     settings:
       trim_length: 30
       trim_type: words
       trim_suffix: ' ...'
+      wrap_output: false
+      wrap_class: trimmed
       more_link: false
+      more_class: more-link
       more_text: More
+      more_aria_label: 'Read more about [node:title]'
       summary_handler: full
       trim_options:
         text: true
-      more_class: more-link
-      wrap_output: false
-      wrap_class: trimmed
     third_party_settings: {  }
+    weight: 3
+    region: right
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
     region: right
   field_image:
     type: entity_reference_entity_view
-    weight: 0
     label: hidden
     settings:
-      view_mode: s04_square
+      view_mode: media_01_01
       link: false
     third_party_settings:
       ds:
@@ -83,29 +90,30 @@ content:
           id: expert
           settings:
             lb: ''
-            prefix: ''
+            lbw: false
             lbw-el: ''
             lbw-cl: ''
             lbw-at: ''
+            lb-col: false
             ow: true
             ow-el: a
             ow-cl: ''
             ow-at: 'href="[node:url]"'
             ow-def-at: true
             ow-def-cl: true
+            fis: false
             fis-el: ''
             fis-cl: ''
             fis-at: ''
             fis-def-at: true
+            fi: false
             fi-el: ''
             fi-cl: ''
             fi-at: ''
             fi-def-at: true
+            prefix: ''
             suffix: ''
-            lbw: false
-            lb-col: false
-            fis: false
-            fi: false
+    weight: 0
     region: left
 hidden:
   langcode: true

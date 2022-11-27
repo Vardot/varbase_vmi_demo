@@ -18,6 +18,8 @@ third_party_settings:
       disable_css: false
       entity_classes: all_classes
       settings:
+        classes:
+          layout_class: {  }
         wrappers:
           left: div
           right: div
@@ -25,10 +27,10 @@ third_party_settings:
         attributes: ''
         link_attribute: ''
         link_custom: ''
-        classes:
-          layout_class: {  }
+        label: ''
     regions:
       left:
+        - content_moderation_control
         - field_image
       right:
         - node_title
@@ -50,26 +52,33 @@ mode: horizontal_media_teaser_medium
 content:
   body:
     type: smart_trim
-    weight: 2
     label: hidden
     settings:
-      trim_length: '30'
+      trim_length: 30
       trim_type: words
       trim_suffix: ' ...'
-      more_link: '0'
+      wrap_output: false
+      wrap_class: trimmed
+      more_link: false
+      more_class: more-link
       more_text: More
+      more_aria_label: 'Read more about [node:title]'
       summary_handler: full
       trim_options:
-        text: text
-      more_class: more-link
+        text: true
     third_party_settings: {  }
+    weight: 2
     region: right
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: left
   field_image:
     type: entity_reference_entity_view
-    weight: 0
     label: hidden
     settings:
-      view_mode: s04_standard
+      view_mode: media_16_09
       link: false
     third_party_settings:
       ds:
@@ -77,30 +86,32 @@ content:
           id: expert
           settings:
             lb: ''
-            prefix: ''
+            lbw: false
             lbw-el: ''
             lbw-cl: ''
             lbw-at: ''
+            lb-col: false
             ow: true
             ow-el: a
             ow-cl: ''
             ow-at: 'href="[node:url]"'
             ow-def-at: true
             ow-def-cl: true
+            fis: false
             fis-el: ''
             fis-cl: ''
             fis-at: ''
             fis-def-at: true
+            fi: false
             fi-el: ''
             fi-cl: ''
             fi-at: ''
             fi-def-at: true
+            prefix: ''
             suffix: ''
-            lbw: false
-            lb-col: false
-            fis: false
-            fi: false
+    weight: 0
     region: left
 hidden:
   langcode: true
   links: true
+  search_api_excerpt: true

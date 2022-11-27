@@ -1,3 +1,4 @@
+uuid: 4468c2b2-5479-4f32-971b-4080f144b822
 langcode: en
 status: true
 dependencies:
@@ -10,23 +11,30 @@ dependencies:
     - ds
     - text
     - user
+_core:
+  default_config_hash: 4Q80TxkMyYEZ2-2IVcXhVfz3zwRFodUOm67owp3rzUo
 id: node.post.full
 targetEntityType: node
 bundle: post
 mode: full
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 1
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
     region: content
   field_image:
-    weight: 0
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      view_mode: s12_standard
+      view_mode: media_16_09
       link: false
     third_party_settings:
       ds:
@@ -36,8 +44,9 @@ content:
             lb: ''
             lb-col: false
             classes: {  }
-    type: entity_reference_entity_view
+    weight: 0
     region: content
 hidden:
   langcode: true
   links: true
+  search_api_excerpt: true

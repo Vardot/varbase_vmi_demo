@@ -16,17 +16,17 @@ bundle: episode
 mode: full
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 1
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 1
     region: content
   field_video:
-    weight: 0
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      view_mode: se2e_standard
+      view_mode: media_video_16_09
       link: false
     third_party_settings:
       ds:
@@ -36,8 +36,10 @@ content:
             lb: ''
             lb-col: false
             classes: {  }
-    type: entity_reference_entity_view
+    weight: 0
     region: content
 hidden:
+  content_moderation_control: true
   langcode: true
   links: true
+  search_api_excerpt: true

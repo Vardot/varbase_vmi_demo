@@ -19,14 +19,15 @@ third_party_settings:
       disable_css: false
       entity_classes: all_classes
       settings:
+        classes:
+          layout_class: {  }
         wrappers:
           main: div
         outer_wrapper: article
         attributes: ''
         link_attribute: ''
         link_custom: ''
-        classes:
-          layout_class: {  }
+        label: ''
     regions:
       main:
         - field_video
@@ -46,23 +47,23 @@ third_party_settings:
     group_hero_content:
       children:
         - node_title
+      label: 'Hero content'
       parent_name: ''
+      region: main
       weight: 1
       format_type: html_element
       format_settings:
-        id: ''
         classes: hero-content
+        id: ''
         element: div
         show_label: false
         label_element: h3
         attributes: ''
         effect: none
         speed: fast
-      label: 'Hero content'
-      region: main
   layout_builder:
-    allow_custom: false
     enabled: false
+    allow_custom: false
 id: node.episode.square_hero_xlarge
 targetEntityType: node
 bundle: episode
@@ -70,11 +71,9 @@ mode: square_hero_xlarge
 content:
   field_video:
     type: entity_reference_entity_view
-    weight: 0
-    region: main
     label: hidden
     settings:
-      view_mode: se2e_square
+      view_mode: media_video_01_01
       link: false
     third_party_settings:
       ds:
@@ -84,8 +83,11 @@ content:
             lb: ''
             lb-col: false
             classes: {  }
+    weight: 0
+    region: main
 hidden:
   body: true
+  content_moderation_control: true
   langcode: true
   links: true
   search_api_excerpt: true

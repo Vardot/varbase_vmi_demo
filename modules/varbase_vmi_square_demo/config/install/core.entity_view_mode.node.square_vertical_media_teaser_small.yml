@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - node
-id: node.square_vertical_media_teaser_small
-label: 'Square - Vertical media teaser - small'
-targetEntityType: node
-cache: true
