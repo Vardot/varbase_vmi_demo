@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: posts_auto_tout
-label: 'VMI - Auto - Postes - Tout'
+label: 'VMI - Auto scal - Postes - Tout'
 description: ''
 use_admin_theme: false
 path: /vmi/auto/posts/tout

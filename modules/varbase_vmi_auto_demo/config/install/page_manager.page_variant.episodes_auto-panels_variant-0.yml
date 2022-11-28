@@ -6,17 +6,17 @@ dependencies:
   module:
     - panels
 id: episodes_auto-panels_variant-0
-label: 'VMI - Auto - Episode'
+label: 'VMI - Auto scal - Episode'
 variant: panels_variant
 variant_settings:
   blocks: {  }
   id: panels_variant
-  uuid: 223b4d16-ae9d-4a1d-aa54-d820e169a039
+  uuid: fd8f4e16-228f-4671-a0b5-4ec8139b89c1
   label: null
   weight: 0
   layout: layout_twocol_bricks
   layout_settings: {  }
-  page_title: 'VMI - Auto - Episode'
+  page_title: 'VMI - Auto scal - Episode'
   storage_type: page_manager
   storage_id: episodes_auto-panels_variant-0
   builder: ipe

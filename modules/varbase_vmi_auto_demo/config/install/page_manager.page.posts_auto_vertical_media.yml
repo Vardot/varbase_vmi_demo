@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: posts_auto_vertical_media
-label: 'VMI - Auto - Postes - Vertical Media'
+label: 'VMI - Auto scal - Postes - Vertical Media'
 description: ''
 use_admin_theme: false
 path: /vmi/auto/posts/vertical_media

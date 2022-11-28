@@ -5,7 +5,7 @@ posts_auto:
   menu_name: 'main'
   weight: 410
   parent: null
-  uuid: '98584dfa-7819-4ab2-a79d-5a701693a697'
+  uuid: '616f6121-93a9-4d32-ad39-1636580e8666'
   expanded: true
 posts_auto_hero:
   title: 'Posts - Auto - Hero'
@@ -13,32 +13,32 @@ posts_auto_hero:
     uri: 'internal:/vmi/auto/posts/hero'
   menu_name: 'main'
   weight: 411
-  parent: 'menu_link_content:98584dfa-7819-4ab2-a79d-5a701693a697'
+  parent: 'menu_link_content:616f6121-93a9-4d32-ad39-1636580e8666'
 posts_auto_tout:
   title: 'Posts - Auto - Tout'
   link:
     uri: 'internal:/vmi/auto/posts/tout'
   menu_name: 'main'
   weight: 412
-  parent: 'menu_link_content:98584dfa-7819-4ab2-a79d-5a701693a697'
+  parent: 'menu_link_content:616f6121-93a9-4d32-ad39-1636580e8666'
 posts_auto_vertical_media:
   title: 'Posts - Auto - Vertical Media'
   link:
     uri: 'internal:/vmi/auto/posts/vertical_media'
   menu_name: 'main'
   weight: 413
-  parent: 'menu_link_content:98584dfa-7819-4ab2-a79d-5a701693a697'
+  parent: 'menu_link_content:616f6121-93a9-4d32-ad39-1636580e8666'
 posts_auto_horizontal_media:
   title: 'Posts - Auto - Horizontal Media'
   link:
     uri: 'internal:/vmi/auto/posts/horizontal_media'
   menu_name: 'main'
   weight: 414
-  parent: 'menu_link_content:98584dfa-7819-4ab2-a79d-5a701693a697'
+  parent: 'menu_link_content:616f6121-93a9-4d32-ad39-1636580e8666'
 posts_auto_text:
   title: 'Posts - Auto - Text'
   link:
     uri: 'internal:/vmi/auto/posts/text'
   menu_name: 'main'
   weight: 415
-  parent: 'menu_link_content:98584dfa-7819-4ab2-a79d-5a701693a697'
+  parent: 'menu_link_content:616f6121-93a9-4d32-ad39-1636580e8666'

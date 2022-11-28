@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: episodes_auto_vertical_media
-label: 'VMI - Auto - Episodes - Vertical Media'
+label: 'VMI - Auto scal - Episodes - Vertical Media'
 description: ''
 use_admin_theme: false
 path: /vmi/auto/episodes/vertical_media

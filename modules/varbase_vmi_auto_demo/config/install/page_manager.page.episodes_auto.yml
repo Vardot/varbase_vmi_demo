@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: episodes_auto
-label: 'VMI - Auto - Episodes'
+label: 'VMI - Auto scal - Episodes'
 description: ''
 use_admin_theme: false
 path: /vmi/auto/episodes
