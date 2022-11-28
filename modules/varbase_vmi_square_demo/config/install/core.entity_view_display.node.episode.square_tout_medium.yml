@@ -73,7 +73,7 @@ content:
     type: entity_reference_entity_view
     label: hidden
     settings:
-      view_mode: media_video_01_01
+      view_mode: media_01_01
       link: false
     third_party_settings:
       ds:

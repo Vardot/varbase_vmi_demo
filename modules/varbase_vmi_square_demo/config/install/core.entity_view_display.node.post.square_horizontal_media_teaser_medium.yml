@@ -33,13 +33,12 @@ third_party_settings:
       left:
         - field_image
       right:
-        - content_moderation_control
         - node_title
         - body
     fields:
       node_title:
         plugin_id: node_title
-        weight: 2
+        weight: 1
         label: hidden
         formatter: default
         settings:
@@ -71,12 +70,7 @@ content:
       trim_options:
         text: true
     third_party_settings: {  }
-    weight: 3
-    region: right
-  content_moderation_control:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: right
   field_image:
     type: entity_reference_entity_view
@@ -116,6 +110,7 @@ content:
     weight: 0
     region: left
 hidden:
+  content_moderation_control: true
   langcode: true
   links: true
   search_api_excerpt: true

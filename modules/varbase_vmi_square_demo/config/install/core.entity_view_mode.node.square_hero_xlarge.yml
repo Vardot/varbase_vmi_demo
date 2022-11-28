@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.square_hero_xlarge
+label: 'Square - Hero - xlarge'
+targetEntityType: node
+cache: true
