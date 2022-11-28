@@ -1,4 +1,3 @@
-uuid: 4468c2b2-5479-4f32-971b-4080f144b822
 langcode: en
 status: true
 dependencies:
@@ -11,8 +10,6 @@ dependencies:
     - ds
     - text
     - user
-_core:
-  default_config_hash: 4Q80TxkMyYEZ2-2IVcXhVfz3zwRFodUOm67owp3rzUo
 id: node.post.full
 targetEntityType: node
 bundle: post
