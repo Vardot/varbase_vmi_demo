@@ -5,7 +5,7 @@ posts_ultrawide:
   menu_name: 'main'
   weight: 510
   parent: null
-  uuid: 'ec3f0ee8-784e-42ba-8fa0-0beaa8788d7a'
+  uuid: 'd85c8835-c3df-42e8-81a6-4e65030a6f9c'
   expanded: true
 posts_ultrawide_hero:
   title: 'Posts - Ultrawide 21:9 - Hero'
@@ -13,25 +13,25 @@ posts_ultrawide_hero:
     uri: 'internal:/vmi/ultrawide/posts/hero'
   menu_name: 'main'
   weight: 511
-  parent: 'menu_link_content:ec3f0ee8-784e-42ba-8fa0-0beaa8788d7a'
+  parent: 'menu_link_content:d85c8835-c3df-42e8-81a6-4e65030a6f9c'
 posts_ultrawide_tout:
   title: 'Posts - Ultrawide 21:9 - Tout'
   link:
     uri: 'internal:/vmi/ultrawide/posts/tout'
   menu_name: 'main'
   weight: 512
-  parent: 'menu_link_content:ec3f0ee8-784e-42ba-8fa0-0beaa8788d7a'
+  parent: 'menu_link_content:d85c8835-c3df-42e8-81a6-4e65030a6f9c'
 posts_ultrawide_vertical_media:
   title: 'Posts - Ultrawide 21:9 - Vertical Media'
   link:
     uri: 'internal:/vmi/ultrawide/posts/vertical_media'
   menu_name: 'main'
   weight: 513
-  parent: 'menu_link_content:ec3f0ee8-784e-42ba-8fa0-0beaa8788d7a'
+  parent: 'menu_link_content:d85c8835-c3df-42e8-81a6-4e65030a6f9c'
 posts_ultrawide_horizontal_media:
   title: 'Posts - Ultrawide 21:9 - Horizontal Media'
   link:
     uri: 'internal:/vmi/ultrawide/posts/horizontal_media'
   menu_name: 'main'
   weight: 514
-  parent: 'menu_link_content:ec3f0ee8-784e-42ba-8fa0-0beaa8788d7a'
+  parent: 'menu_link_content:d85c8835-c3df-42e8-81a6-4e65030a6f9c'

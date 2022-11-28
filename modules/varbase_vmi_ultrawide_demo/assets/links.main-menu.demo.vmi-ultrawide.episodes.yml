@@ -5,7 +5,7 @@ episodes_ultrawide:
   menu_name: 'main'
   weight: 520
   parent: null
-  uuid: 'c2548938-a410-4e65-b14a-fae62abda91d'
+  uuid: 'a1465449-101d-4107-9de2-ce21364e6c24'
   expanded: true
 episodes_ultrawide_hero:
   title: 'Episodes - Ultrawide 21:9 - Hero'
@@ -13,25 +13,25 @@ episodes_ultrawide_hero:
     uri: 'internal:/vmi/ultrawide/episodes/hero'
   menu_name: 'main'
   weight: 521
-  parent: 'menu_link_content:c2548938-a410-4e65-b14a-fae62abda91d'
+  parent: 'menu_link_content:a1465449-101d-4107-9de2-ce21364e6c24'
 episodes_ultrawide_tout:
   title: 'Episodes - Ultrawide 21:9 - Tout'
   link:
     uri: 'internal:/vmi/ultrawide/episodes/tout'
   menu_name: 'main'
   weight: 522
-  parent: 'menu_link_content:c2548938-a410-4e65-b14a-fae62abda91d'
+  parent: 'menu_link_content:a1465449-101d-4107-9de2-ce21364e6c24'
 episodes_ultrawide_vertical_media:
   title: 'Episodes - Ultrawide 21:9 - Vertical Media'
   link:
     uri: 'internal:/vmi/ultrawide/episodes/vertical_media'
   menu_name: 'main'
   weight: 523
-  parent: 'menu_link_content:c2548938-a410-4e65-b14a-fae62abda91d'
+  parent: 'menu_link_content:a1465449-101d-4107-9de2-ce21364e6c24'
 episodes_ultrawide_horizontal_media:
   title: 'Episodes - Ultrawide 21:9 - Horizontal Media'
   link:
     uri: 'internal:/vmi/ultrawide/episodes/horizontal_media'
   menu_name: 'main'
   weight: 524
-  parent: 'menu_link_content:c2548938-a410-4e65-b14a-fae62abda91d'
+  parent: 'menu_link_content:a1465449-101d-4107-9de2-ce21364e6c24'
