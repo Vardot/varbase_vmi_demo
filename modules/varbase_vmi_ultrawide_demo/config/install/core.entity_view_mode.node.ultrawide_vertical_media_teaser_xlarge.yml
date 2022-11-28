@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.ultrawide_vertical_media_teaser_xlarge
+label: 'Ultrawide - Vertical media teaser - xlarge'
+targetEntityType: node
+cache: true

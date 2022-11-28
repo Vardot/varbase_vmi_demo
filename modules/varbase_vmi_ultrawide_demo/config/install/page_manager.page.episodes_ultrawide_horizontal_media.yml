@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_ultrawide_horizontal_media
+label: 'VMI - Ultrawide 21:9 - Episodes - Horizontal Media'
+description: ''
+use_admin_theme: false
+path: /vmi/ultrawide/episodes/horizontal_media
+access_logic: and
+access_conditions: {  }
+parameters: {  }

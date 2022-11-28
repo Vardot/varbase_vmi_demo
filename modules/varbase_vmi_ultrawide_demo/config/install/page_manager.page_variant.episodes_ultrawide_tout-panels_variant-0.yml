@@ -1,0 +1,206 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_ultrawide_tout
+    - views.view.episodes_ultrawide
+  module:
+    - panels
+    - views
+id: episodes_ultrawide_tout-panels_variant-0
+label: 'VMI - Ultrawide 21:9 - Episode - Tout'
+variant: panels_variant
+variant_settings:
+  blocks:
+    9bbd5c15-826f-4076-aaa8-46ac6c863b3f:
+      id: 'views_block:episodes_ultrawide-tout_xlarge_block'
+      label: 'Episodes - Ultrawide: Tout - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Tout - xlarge - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 9bbd5c15-826f-4076-aaa8-46ac6c863b3f
+      weight: 1
+    55554330-1d17-49c1-983f-3e3c16ff8232:
+      id: 'views_block:episodes_ultrawide-tout_large_2_in_row_block'
+      label: 'Episodes - Ultrawide: Tout - large - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Tout - large - 2 in row Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 55554330-1d17-49c1-983f-3e3c16ff8232
+      weight: 2
+    79d74b9a-9470-4296-b68a-df866f0dfac9:
+      id: 'views_block:episodes_ultrawide-tout_medium_3_in_row_block'
+      label: 'Episodes - Ultrawide: Tout - medium - 3 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Tout - medium - 3 in row Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 79d74b9a-9470-4296-b68a-df866f0dfac9
+      weight: 3
+    34bd2822-069f-46f6-8f7d-35ddb3a3a977:
+      id: 'views_block:episodes_ultrawide-tout_xlarge_block'
+      label: 'Episodes - Ultrawide: Tout - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Tout - xlarge - Block'
+      items_per_page: '3'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 34bd2822-069f-46f6-8f7d-35ddb3a3a977
+      weight: 1
+    bcb97354-096a-40bc-9eb6-41a1641edb16:
+      id: 'views_block:episodes_ultrawide-tout_medium_1_in_row_block'
+      label: 'Episodes - Ultrawide: Tout - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Tout - medium - 1 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_right
+      uuid: bcb97354-096a-40bc-9eb6-41a1641edb16
+      weight: 1
+    85082776-d989-41e8-969a-d9f2406b4d84:
+      id: 'views_block:episodes_ultrawide-tout_medium_2_in_row_block'
+      label: 'Episodes - Ultrawide: Tout - medium - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Tout - medium - 2 in row Block'
+      items_per_page: '4'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 85082776-d989-41e8-969a-d9f2406b4d84
+      weight: 2
+    431426d7-6923-46fa-b755-bc390e96c58f:
+      id: 'views_block:episodes_ultrawide-tout_large_1_in_row_block'
+      label: 'Episodes - Ultrawide: Tout - large - 1 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Tout - large - 1 in row Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: 431426d7-6923-46fa-b755-bc390e96c58f
+      weight: 1
+    a1313e91-7964-4a27-9d5c-ae488c177e18:
+      id: 'views_block:episodes_ultrawide-tout_medium_2_in_row_block'
+      label: 'Episodes - Ultrawide: Tout - medium - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Tout - medium - 2 in row Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_right
+      uuid: a1313e91-7964-4a27-9d5c-ae488c177e18
+      weight: 1
+  id: panels_variant
+  uuid: 6b1b6fc8-6b81-41c5-bce4-5b25aa5fe4f3
+  label: null
+  weight: 0
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'VMI - Ultrawide 21:9 - Episode - Tout'
+  storage_type: page_manager
+  storage_id: episodes_ultrawide_tout-panels_variant-0
+  builder: ipe
+page: episodes_ultrawide_tout
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

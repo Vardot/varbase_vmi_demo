@@ -1,0 +1,142 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_ultrawide_hero
+    - views.view.episodes_ultrawide
+  module:
+    - panels
+    - views
+id: episodes_ultrawide_hero-panels_variant-0
+label: 'VMI - Ultrawide 21:9 - Episode - Hero'
+variant: panels_variant
+variant_settings:
+  blocks:
+    18b21031-d181-4e52-9cd0-5db067ab2e22:
+      id: 'views_block:episodes_ultrawide-hero_xlarge_block'
+      label: 'Episodes - Ultrawide: Hero - xlarge - Block in container with column 12'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Hero - xlarge - Block in container with column 12'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 18b21031-d181-4e52-9cd0-5db067ab2e22
+      weight: 1
+    b1f98359-f046-4708-95de-6d9580f687e1:
+      id: 'views_block:episodes_ultrawide-hero_xlarge_block'
+      label: 'Episodes - Ultrawide: Hero - xlarge - Block in container with column 11'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Hero - xlarge - Block in container with column 11'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 1
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: b1f98359-f046-4708-95de-6d9580f687e1
+      weight: 1
+    072789e0-dc80-4a6e-96a0-89bfd80c54ce:
+      id: 'views_block:episodes_ultrawide-hero_xlarge_block'
+      label: 'Episodes - Ultrawide: Hero - xlarge - Block in container with column 10'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Hero - xlarge - Block in container with column 10'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 2
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: middle
+      uuid: 072789e0-dc80-4a6e-96a0-89bfd80c54ce
+      weight: 1
+    a8af2b01-5c3d-4ad5-899c-2aed8d74713e:
+      id: 'views_block:episodes_ultrawide-hero_xlarge_block'
+      label: 'Episodes - Ultrawide: Hero - xlarge - Block in container with column 9'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Hero - xlarge - Block in container with column 9'
+      items_per_page: '1'
+      pager: some
+      pager_offset: 3
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: a8af2b01-5c3d-4ad5-899c-2aed8d74713e
+      weight: 1
+  id: panels_variant
+  uuid: 0764ed47-08b3-409c-ae9e-ce03001a96d8
+  label: null
+  weight: 0
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-11: col-sm-11
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-1: col-sm-1
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-10: col-sm-10
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-9: col-sm-9
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-3: col-sm-3
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'VMI - Ultrawide 21:9 - Episode - Hero'
+  storage_type: page_manager
+  storage_id: episodes_ultrawide_hero-panels_variant-0
+  builder: ipe
+page: episodes_ultrawide_hero
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

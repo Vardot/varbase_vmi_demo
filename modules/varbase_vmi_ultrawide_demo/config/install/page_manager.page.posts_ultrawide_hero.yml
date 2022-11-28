@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: posts_ultrawide_hero
+label: 'VMI - Ultrawide 21:9 - Postes - Hero'
+description: ''
+use_admin_theme: false
+path: /vmi/ultrawide/posts/hero
+access_logic: and
+access_conditions: {  }
+parameters: {  }

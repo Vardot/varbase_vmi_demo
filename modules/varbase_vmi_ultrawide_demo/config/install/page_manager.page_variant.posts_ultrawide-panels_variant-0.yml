@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_ultrawide
+  module:
+    - panels
+id: posts_ultrawide-panels_variant-0
+label: 'VMI - Ultrawide 21:9 - Posts'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 4a939f18-e5ab-46b8-8b6e-688fabc25f09
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Ultrawide 21:9 - Posts'
+  storage_type: page_manager
+  storage_id: posts_ultrawide-panels_variant-0
+  builder: ipe
+page: posts_ultrawide
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

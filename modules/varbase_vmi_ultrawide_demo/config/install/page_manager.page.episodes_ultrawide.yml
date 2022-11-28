@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: episodes_ultrawide
+label: 'VMI - Ultrawide 21:9 - Episodes'
+description: ''
+use_admin_theme: false
+path: /vmi/ultrawide/episodes
+access_logic: and
+access_conditions: {  }
+parameters: {  }

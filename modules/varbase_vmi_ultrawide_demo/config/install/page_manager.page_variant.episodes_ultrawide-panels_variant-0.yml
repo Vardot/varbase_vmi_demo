@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_ultrawide
+  module:
+    - panels
+id: episodes_ultrawide-panels_variant-0
+label: 'VMI - Ultrawide 21:9 - Episode'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: fd8f4e16-228f-4671-a0b5-4ec8139b89c1
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Ultrawide 21:9 - Episode'
+  storage_type: page_manager
+  storage_id: episodes_ultrawide-panels_variant-0
+  builder: ipe
+page: episodes_ultrawide
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

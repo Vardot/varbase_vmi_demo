@@ -1,0 +1,334 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.episodes_ultrawide_vertical_media
+    - views.view.episodes_ultrawide
+  module:
+    - panels
+    - views
+id: episodes_ultrawide_vertical_media-panels_variant-0
+label: 'VMI - Ultrawide 21:9 - Episode - Vertical Media'
+variant: panels_variant
+variant_settings:
+  blocks:
+    71a15457-f132-4a54-a1ab-04e02520c940:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_small_4_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 71a15457-f132-4a54-a1ab-04e02520c940
+      weight: 1
+    163769f7-2ca7-46c7-ae01-8ee699302369:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_medium_3_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - medium - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - medium - 3 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 163769f7-2ca7-46c7-ae01-8ee699302369
+      weight: 2
+    7031240b-9e64-4ca0-9b8a-319e06c5be93:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_small_4_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 7031240b-9e64-4ca0-9b8a-319e06c5be93
+      weight: 3
+    85f17619-1ac6-4c15-ad63-d7ca8d5caf7d:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_xsmall_6_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 6 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 6 in row Block'
+      items_per_page: '12'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top
+      uuid: 85f17619-1ac6-4c15-ad63-d7ca8d5caf7d
+      weight: 4
+    53c29fb9-3153-49a8-8c33-e4c72e200d80:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_xlarge_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - xlarge - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - xlarge - Block'
+      items_per_page: '2'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 53c29fb9-3153-49a8-8c33-e4c72e200d80
+      weight: 1
+    82b5bfff-19fe-450e-91f9-9926c56b7099:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_medium_1_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - medium - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - medium - 1 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_right
+      uuid: 82b5bfff-19fe-450e-91f9-9926c56b7099
+      weight: 1
+    93310fd7-a8b8-468e-83bd-c1a1f9d43f48:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_medium_2_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - medium - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - medium - 2 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 93310fd7-a8b8-468e-83bd-c1a1f9d43f48
+      weight: 2
+    bcc2d956-19fa-4acd-9049-15e60dd660e4:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_small_2_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - small - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - small - 2 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_right
+      uuid: bcc2d956-19fa-4acd-9049-15e60dd660e4
+      weight: 2
+    047729ce-f3c1-48df-bad1-fcd8b06f0cf2:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_small_3_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - small - 3 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - small - 3 in row - Block'
+      items_per_page: '9'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 047729ce-f3c1-48df-bad1-fcd8b06f0cf2
+      weight: 3
+    2c8c54ed-5e05-442b-96e4-9d0774a7396a:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_xsmall_4_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 4 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 4 in row Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_left
+      uuid: 2c8c54ed-5e05-442b-96e4-9d0774a7396a
+      weight: 4
+    a98f1bc2-a724-4f5d-8467-b8d7287a4e83:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_xsmall_2_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 2 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 2 in row Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: top_right
+      uuid: a98f1bc2-a724-4f5d-8467-b8d7287a4e83
+      weight: 3
+    decbfeb8-cd1f-490a-ba16-2c8e3017f767:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_large_2_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - large - 2 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - large - 2 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: middle
+      uuid: decbfeb8-cd1f-490a-ba16-2c8e3017f767
+      weight: 1
+    eb5e1639-2724-4c73-90bc-6b32b91380d9:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_small_1_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - small - 1 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - small - 1 in row - Block'
+      items_per_page: '6'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_left
+      uuid: eb5e1639-2724-4c73-90bc-6b32b91380d9
+      weight: 1
+    379bd501-681b-4981-9cef-42a5856c3dce:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_small_4_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - small - 4 in row - Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - small - 4 in row - Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_right
+      uuid: 379bd501-681b-4981-9cef-42a5856c3dce
+      weight: 1
+    0e52cc40-0520-434e-badd-c9ca744c87db:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_xsmall_4_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 4 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 4 in row Block'
+      items_per_page: '8'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_right
+      uuid: 0e52cc40-0520-434e-badd-c9ca744c87db
+      weight: 2
+    de128391-8c10-4441-ac5b-ea9a9ac3c5c1:
+      id: 'views_block:episodes_ultrawide-vertical_media_teaser_xsmall_6_in_row_block'
+      label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 6 in row Block'
+      provider: views
+      label_display: visible
+      views_label: 'Episodes - Ultrawide: Vertical media teaser - xsmall - 6 in row Block'
+      items_per_page: '12'
+      pager: some
+      pager_offset: 0
+      fields:
+        title:
+          weight: 0
+      context_mapping: {  }
+      region: bottom_right
+      uuid: de128391-8c10-4441-ac5b-ea9a9ac3c5c1
+      weight: 3
+  id: panels_variant
+  uuid: f74340ee-13ba-4582-b120-a06e249f13ce
+  label: null
+  weight: 0
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-8: col-sm-8
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-3: col-sm-3
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-9: col-sm-9
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'VMI - Ultrawide 21:9 - Episode - Vertical Media'
+  storage_type: page_manager
+  storage_id: episodes_ultrawide_vertical_media-panels_variant-0
+  builder: ipe
+page: episodes_ultrawide_vertical_media
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

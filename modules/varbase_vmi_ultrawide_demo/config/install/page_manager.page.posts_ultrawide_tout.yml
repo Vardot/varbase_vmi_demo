@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: posts_ultrawide_tout
+label: 'VMI - Ultrawide 21:9 - Postes - Tout'
+description: ''
+use_admin_theme: false
+path: /vmi/ultrawide/posts/tout
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -46,7 +46,7 @@ composer create-project vardot/varbase-project:10.0.x-dev PROJECT_DIR_NAME --no-
 
 ## Standard 16:9
 
-Scall of current standard 16:9 shape for width and height on the focal point.
+Scale of current standard 16:9 aspect ratio shape for width and height on the focal point.
 
 * Posts - Standard 16:9 - Hero
 * Posts - Standard 16:9 - Tout
@@ -62,9 +62,25 @@ Scall of current standard 16:9 shape for width and height on the focal point.
 
 --------------------------------------------------------------------------------
 
+## Ultrawide 21:9
+
+Scale of current Ultrawide 21:9 aspect ratio shape for width and height on the focal point.
+
+* Posts - Ultrawide 21:9 - Hero
+* Posts - Ultrawide 21:9 - Tout
+* Posts - Ultrawide 21:9 - Vertical Media
+* Posts - Ultrawide 21:9 - Horizontal Media
+* Posts - Ultrawide 21:9 - Text
+
+* Episodes - Ultrawide 21:9 - Hero
+* Episodes - Ultrawide 21:9 - Tout
+* Episodes - Ultrawide 21:9 - Vertical Media
+* Episodes - Ultrawide 21:9 - Horizontal Media
+* Episodes - Ultrawide 21:9 - Text
+
 ## Traditional 4:3
 
-Scall of the old traditional 4:3 shape for width and height on the focal point.
+Scale of the old traditional 4:3 aspect ratio shape for width and height on the focal point.
 
 * Posts - Traditional 4:3 - Hero
 * Posts - Traditional 4:3 - Tout
@@ -80,7 +96,7 @@ Scall of the old traditional 4:3 shape for width and height on the focal point.
 
 ## Square 1:1
 
-Scall of square 1:1 shape for width and height on the focal point.
+Scale of square 1:1 aspect ratio shape for width and height on the focal point.
 
 * Posts - Square 1:1 - Hero
 * Posts - Square 1:1 - Tout

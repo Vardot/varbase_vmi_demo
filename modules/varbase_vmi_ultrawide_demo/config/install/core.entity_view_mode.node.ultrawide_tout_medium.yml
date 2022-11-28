@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.ultrawide_tout_medium
+label: 'Ultrawide - Tout - medium'
+targetEntityType: node
+cache: true
