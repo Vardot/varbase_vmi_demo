@@ -7,7 +7,7 @@
 ../../../../../vendor/drush/drush/drush pm:enable varbase_blog
 
 ../../../../../vendor/drush/drush/drush pm:enable devel_generate ;
-../../../../../vendor/drush/drush/drush pm:enable varbase_media_default_content ;
+../../../../../vendor/drush/drush/drush pm:enable varbase_media_demo ;
 
 ../../../../../vendor/drush/drush/drush devel-generate:terms tags 10;
 ../../../../../vendor/drush/drush/drush devel-generate:terms blog_categories 5 ;
