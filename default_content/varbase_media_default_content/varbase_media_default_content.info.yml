@@ -1,9 +1,0 @@
-name: Varbase Media Default Content
-description: Default Media testing entities
-type: module
-version: 10.0.x-dev
-core_version_requirement: ^9 || ^10
-package: 'Varbase Demos'
-dependencies:
-  - varbase_media:varbase_media
-  - default_content:default_content
